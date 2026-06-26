@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ukmla-info.org.uk/sitemap.xml
