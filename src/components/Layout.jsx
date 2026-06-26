@@ -168,6 +168,115 @@ export default function Layout({ children }) {
     };
   }, [currentPath]);
 
+  // Dynamic Table of Contents generation with Scroll Spy to utilize sidebar space
+  useEffect(() => {
+    // Wait for the page content to finish mounting/painting
+    const timer = setTimeout(() => {
+      const article = document.querySelector('.article-container');
+      const sidebar = document.querySelector('.sidebar-container');
+      if (!article || !sidebar) return;
+
+      // Avoid rendering TOC on index/home page or layout lists
+      const existingToc = sidebar.querySelector('.sidebar-toc-section');
+      if (existingToc) existingToc.remove();
+
+      // Find all H2 headings inside standard article
+      const headings = Array.from(article.querySelectorAll('h2')).filter(h => {
+        // Exclude headings inside widgets
+        return !h.closest('.faq-accordion') && !h.closest('.glossary-terms') && !h.closest('.related-links');
+      });
+      if (headings.length === 0) return;
+
+      // Create TOC container
+      const tocSection = document.createElement('div');
+      tocSection.className = 'sidebar-toc-section';
+      tocSection.style.marginTop = '28px';
+      tocSection.style.paddingTop = '20px';
+      tocSection.style.borderTop = '1px solid var(--border-color)';
+
+      const tocTitle = document.createElement('h3');
+      tocTitle.className = 'sidebar-title';
+      tocTitle.innerText = 'On This Page';
+      tocSection.appendChild(tocTitle);
+
+      const tocLinks = document.createElement('ul');
+      tocLinks.className = 'sidebar-links';
+      tocLinks.style.display = 'flex';
+      tocLinks.style.flexDirection = 'column';
+      tocLinks.style.gap = '8px';
+
+      headings.forEach((heading, idx) => {
+        // Set unique ID for scrolling anchors
+        if (!heading.id) {
+          heading.id = 'section-heading-' + idx;
+        }
+
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = '#' + heading.id;
+        a.className = 'sidebar-link';
+        a.innerText = heading.innerText;
+        a.style.fontSize = '14px';
+        a.style.fontWeight = '500';
+        a.style.color = 'var(--text-muted)';
+        a.style.cursor = 'pointer';
+        a.style.display = 'block';
+
+        a.onclick = (e) => {
+          e.preventDefault();
+          heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          window.history.pushState(null, '', '#' + heading.id);
+        };
+
+        li.appendChild(a);
+        tocLinks.appendChild(li);
+      });
+
+      tocSection.appendChild(tocLinks);
+      sidebar.appendChild(tocSection);
+
+      // Scroll Spy to highlight the currently active section in the sidebar
+      const handleScrollSpy = () => {
+        const scrollPosition = window.scrollY + 160;
+        let activeIdx = 0;
+
+        headings.forEach((heading, idx) => {
+          if (scrollPosition >= heading.offsetTop) {
+            activeIdx = idx;
+          }
+        });
+
+        const links = tocLinks.querySelectorAll('.sidebar-link');
+        links.forEach((link, idx) => {
+          if (idx === activeIdx) {
+            link.style.color = 'var(--brand-secondary)';
+            link.style.fontWeight = '600';
+            link.style.fontStyle = 'italic';
+          } else {
+            link.style.color = 'var(--text-muted)';
+            link.style.fontWeight = '500';
+            link.style.fontStyle = 'normal';
+          }
+        });
+      };
+
+      window.addEventListener('scroll', handleScrollSpy);
+      handleScrollSpy(); // Trigger immediately to highlight first item
+
+      // Stash callback for cleanup
+      article._scrollSpyHandler = handleScrollSpy;
+    }, 120);
+
+    return () => {
+      clearTimeout(timer);
+      const article = document.querySelector('.article-container');
+      if (article && article._scrollSpyHandler) {
+        window.removeEventListener('scroll', article._scrollSpyHandler);
+        delete article._scrollSpyHandler;
+      }
+    };
+  }, [currentPath]);
+
   // Handle Search Input Change
   const handleSearch = (e) => {
     const q = e.target.value;
