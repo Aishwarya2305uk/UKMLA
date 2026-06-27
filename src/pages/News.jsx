@@ -158,8 +158,206 @@ const posts = [
       'Whatever you choose, prioritise depth of review over breadth of resources. Working carefully through one bank, understanding every rationale, and revisiting weak areas will serve you better than skimming several. We do not endorse any specific commercial provider — choose based on alignment to the Content Map and the quality of explanations.'
     ],
     link: { to: '/preparation', label: 'Full preparation guide →' }
+  },
+  {
+    slug: 'exam-day-checklist',
+    title: 'Exam-Day Checklist: What to Expect and How to Stay Calm',
+    date: '18 June 2025',
+    tag: 'Preparation',
+    image: '/images/hero-doctors.webp',
+    summary:
+      'Knowing the logistics of test day removes a layer of avoidable stress. Here is a practical checklist for the AKT and CPSA.',
+    body: [
+      'Much of exam-day anxiety comes from uncertainty about logistics rather than the questions themselves. Confirm your test centre, arrival time, and the identification you need well in advance — the requirements are set out in your booking confirmation and should be checked carefully.',
+      'For the computer-based AKT, plan to arrive early, bring acceptable photo ID, and familiarise yourself with the on-screen interface beforehand so navigation does not eat into your time. For the CPSA, dress as you would for a clinical placement and be ready to perform hand hygiene and follow infection-control steps as part of the assessment.',
+      'On the day, a short routine — a light meal, water, and a few minutes of slow breathing before you start — does more for performance than last-minute cramming. Trust the preparation you have already done.'
+    ],
+    link: { to: '/preparation', label: 'Full preparation guide →' }
+  },
+  {
+    slug: 'prescribing-safely-pharmacology-akt',
+    title: 'Prescribing Safely: Pharmacology Focus for the AKT',
+    date: '2 June 2025',
+    tag: 'Preparation',
+    image: '/images/study-materials.webp',
+    summary:
+      'Safe prescribing is a recurring theme across the MLA. We highlight the high-yield areas and the UK resources that matter most.',
+    body: [
+      'Safe and effective prescribing is woven throughout the MLA Content Map, and pharmacology questions frequently test whether you can apply guidance rather than simply recall a drug name. Expect scenarios involving dose adjustment, contraindications, interactions, and monitoring.',
+      'Anchor your revision in UK references — the BNF (British National Formulary) is the standard source for doses and cautions, and NICE guidance frames first-line choices. Pay particular attention to high-risk areas such as anticoagulation, insulin, opioids, and antibiotics, where errors carry real patient harm.',
+      'A useful habit is to ask, for every drug you revise: why this drug, what dose and route, what to monitor, and what would make it unsafe. That four-part framing mirrors the clinical reasoning the AKT rewards.'
+    ],
+    link: { to: '/exam-pattern/akt', label: 'Full AKT guide →' }
+  },
+  {
+    slug: 'ethics-law-mla',
+    title: 'Ethics and Law in the MLA: Consent, Capacity and Confidentiality',
+    date: '15 May 2025',
+    tag: 'Exam Format',
+    image: '/images/doctor-portrait.webp',
+    summary:
+      'Professional behaviours are assessed across both components. We outline the core ethical and legal principles candidates are expected to apply.',
+    body: [
+      'Professional behaviours — including medical ethics and the law — are explicitly part of the MLA Content Map and appear in both the AKT and the CPSA. Questions tend to test application: recognising the right course of action in a realistic scenario rather than reciting a definition.',
+      'Core areas include consent and mental capacity, confidentiality and its limits, safeguarding, duty of candour, and the principles that underpin GMC guidance such as Good Medical Practice. You should be comfortable reasoning through situations where principles appear to conflict — for example, confidentiality versus a duty to protect others.',
+      'The safest approach in both written and clinical stations is to keep the patient’s best interests and safety central, communicate honestly, and escalate appropriately. Examiners are looking for sound judgement and professionalism, not memorised legal citations.'
+    ],
+    link: { to: '/syllabus', label: 'Explore the Content Map →' }
+  },
+  {
+    slug: 'communication-stations-cpsa',
+    title: 'Communication Stations: Breaking Bad News and Shared Decisions',
+    date: '28 April 2025',
+    tag: 'Exam Format',
+    image: '/gallery/images.jpg',
+    summary:
+      'Communication is one of the most heavily weighted skills in the CPSA. We look at what good looks like in the consultation stations.',
+    body: [
+      'A significant proportion of CPSA marks reward communication: how you take a history, explain a diagnosis, share difficult news, or agree a plan with a patient. These stations use trained simulated patients and assess the process closely.',
+      'Structured frameworks help under pressure. For sharing difficult news, candidates often draw on staged approaches that set the scene, check understanding, deliver information clearly, and respond to emotion. For management discussions, shared decision-making — presenting options, checking preferences, and agreeing next steps — scores well.',
+      'The most common pitfalls are using jargon, talking over the patient, and failing to check understanding. Practising consultations aloud with a partner, and seeking honest feedback, is far more effective preparation than reading about communication alone.'
+    ],
+    link: { to: '/exam-pattern/cpsa', label: 'Full CPSA guide →' }
+  },
+  {
+    slug: 'ukmla-to-fy1',
+    title: 'From UKMLA to FY1: What Comes After You Pass',
+    date: '10 April 2025',
+    tag: 'Milestone',
+    image: '/images/hero-doctors.webp',
+    summary:
+      'Passing the UKMLA is a gateway, not a finish line. Here is how it connects to registration and the Foundation Programme.',
+    body: [
+      'For UK graduates, passing the UKMLA is one of the requirements for being granted registration with a licence to practise and progressing into the Foundation Programme as a Foundation Year 1 (FY1) doctor. It confirms readiness for safe practice at the point of entry, not the end of learning.',
+      'FY1 is a supervised, structured year in which new doctors consolidate the competencies the MLA assesses, working within clinical teams and continuing to develop through workplace-based assessment. For international graduates, the equivalent route runs through PLAB and GMC registration before taking up training posts.',
+      'In other words, the assessment is best understood as a shared national threshold for safe day-one practice. The habits that get you through it — structured reasoning, safe prescribing, clear communication — are exactly the ones FY1 will build on.'
+    ],
+    link: { to: '/what-is-ukmla', label: 'What is the UKMLA? →' }
+  },
+  {
+    slug: 'managing-exam-stress-wellbeing',
+    title: 'Managing Exam Stress: A Wellbeing Guide for Candidates',
+    date: '20 March 2025',
+    tag: 'Candidate Support',
+    image: '/images/student-studying.webp',
+    summary:
+      'High-stakes exams take a toll. A sustainable revision routine and good support protect both your wellbeing and your performance.',
+    body: [
+      'Preparing for a high-stakes licensing assessment is demanding, and looking after your wellbeing is part of preparing well — not a distraction from it. Sustained, moderate study with regular breaks consistently outperforms long, exhausting sessions.',
+      'Practical steps make a measurable difference: a realistic timetable with rest days, protected sleep, physical activity, and staying connected with peers who understand the pressure. Active-recall study in shorter focused blocks also reduces the fatigue that comes from passive re-reading.',
+      'If stress becomes overwhelming, reach out early — to your medical school’s support services, your GP, or trusted colleagues. Seeking help is a sign of professionalism, and processes such as reasonable adjustments and mitigating circumstances exist precisely because candidates are human.'
+    ],
+    link: { to: '/appeals-and-resits', label: 'Support, adjustments & resits →' }
+  },
+  {
+    slug: 'img-pathway-epic-english-requirements',
+    title: 'The IMG Pathway: EPIC Verification and English Requirements',
+    date: '5 March 2025',
+    tag: 'IMG Pathway',
+    image: '/images/doctor-portrait.webp',
+    summary:
+      'Before sitting PLAB, international graduates must verify their qualification and meet English-language standards. Here is how those steps fit together.',
+    body: [
+      'For international medical graduates (IMGs), registration with the GMC involves more than passing an exam. Two foundational steps usually come first: verifying your primary medical qualification, and demonstrating the required standard of English.',
+      'Primary-source verification is commonly handled through ECFMG’s EPIC service, which confirms your medical degree directly with the issuing institution. Starting this early is wise, as verification can take time and is needed for your GMC application.',
+      'English-language competence is typically evidenced through an approved test such as IELTS (Academic) or OET at the scores the GMC specifies, or via other accepted routes. Because exact requirements and accepted evidence are periodically updated, always confirm the current criteria on the GMC website before booking anything.'
+    ],
+    link: { to: '/registration-guide', label: 'Full GMC registration guide →' }
+  },
+  {
+    slug: 'gmc-registration-step-by-step',
+    title: 'GMC Registration for IMGs: A Step-by-Step Overview',
+    date: '18 February 2025',
+    tag: 'Fees & Registration',
+    image: '/gallery/images.jpg',
+    summary:
+      'From qualification verification to your licence to practise, the IMG registration journey has several stages. We map them out at a high level.',
+    body: [
+      'The route to GMC registration for international medical graduates runs through a sequence of stages rather than a single application. While individual circumstances vary, the typical journey includes credential verification, evidence of English proficiency, the PLAB 1 and PLAB 2 assessments, and finally the application for registration with a licence to practise.',
+      'PLAB is now built around the MLA Content Map, so it assesses the same core standard of safe practice expected of UK graduates. Passing both parts is a central milestone, but it sits within the wider registration process rather than completing it on its own.',
+      'Because timelines, fees, and document requirements are set by the GMC and can change, the most reliable approach is to build your plan around the official guidance and give each stage — particularly verification — plenty of lead time.'
+    ],
+    link: { to: '/registration-guide', label: 'Step-by-step registration guide →' }
+  },
+  {
+    slug: 'practical-procedures-content-map',
+    title: 'Practical Procedures in the MLA Content Map: What You Must Be Able to Do',
+    date: '30 January 2025',
+    tag: 'Syllabus Update',
+    image: '/images/study-materials.webp',
+    summary:
+      'Alongside knowledge and behaviours, the Content Map lists practical procedures every new doctor should be able to perform safely.',
+    body: [
+      'One of the four pillars of the GMC MLA Content Map is Practical Skills and Procedures — the hands-on competencies a doctor is expected to perform safely at the point of registration. These range from venepuncture and cannulation to performing and interpreting an ECG.',
+      'In the CPSA, procedural stations assess not just technical execution but the safety steps around it: consent, hand hygiene, correct equipment, patient comfort, and appropriate disposal of sharps. A technically adequate procedure performed unsafely will not score well.',
+      'The practical implication for revision is to rehearse procedures end to end, including the communication and safety framing, rather than treating them as isolated technical tasks. The Content Map is the definitive list of what may be assessed.'
+    ],
+    link: { to: '/syllabus', label: 'Explore the Content Map →' }
+  },
+  {
+    slug: 'cpsa-borderline-regression-scoring',
+    title: 'How the CPSA is Scored: Borderline Regression Explained',
+    date: '12 December 2024',
+    tag: 'Results & Data',
+    image: '/images/study-materials.webp',
+    summary:
+      'Like the AKT, the clinical exam is not scored on a fixed percentage. We explain borderline regression and what it means for candidates.',
+    body: [
+      'The Clinical and Professional Skills Assessment (CPSA) is standard-set rather than marked against a fixed percentage. A widely used method for OSCE-style exams is borderline regression, which combines a detailed checklist score with an examiner’s global judgement of performance at each station.',
+      'In borderline regression, the relationship between checklist scores and global ratings across all candidates is used to derive the passing standard for each station. This rewards genuinely competent performance and reduces the impact of any single unusually easy or hard station.',
+      'For candidates, the takeaway mirrors the AKT: focus on demonstrating safe, structured, patient-centred practice at every station rather than chasing a particular number. Consistency across the circuit matters more than a single standout station.'
+    ],
+    link: { to: '/results-and-scoring', label: 'How UKMLA results are scored →' }
+  },
+  {
+    slug: 'akt-structure-timing',
+    title: 'Inside the AKT: Question Numbers, Timing and On-Screen Tools',
+    date: '20 November 2024',
+    tag: 'Exam Format',
+    image: '/images/study-materials.webp',
+    summary:
+      'How many questions, how long, and what tools are on screen? A practical look at the mechanics of the written paper.',
+    body: [
+      'The Applied Knowledge Test (AKT) is a computer-based exam of Single Best Answer questions delivered over timed sessions. Candidates work through clinical vignettes on screen, with navigation tools that allow you to flag items for review and move between questions.',
+      'Time management is a skill in itself: with a fixed number of questions per session, a steady pace that leaves a margin for flagged items at the end tends to work better than lingering on early questions. Familiarising yourself with the on-screen interface in advance avoids losing time to unfamiliar controls.',
+      'Exact question counts and session timings are published by the GMC, and by your medical school for the MS AKT route, so confirm the current figures for your sitting. Practising under realistic timed conditions is the best way to build the pacing the AKT demands.'
+    ],
+    link: { to: '/exam-pattern/akt', label: 'Full AKT guide →' }
+  },
+  {
+    slug: 'six-month-study-plan',
+    title: 'A Six-Month UKMLA Study Plan You Can Actually Follow',
+    date: '8 October 2024',
+    tag: 'Preparation',
+    image: '/images/student-studying.webp',
+    summary:
+      'A realistic phased plan — foundations, focused practice, and consolidation — that balances the AKT and CPSA without burnout.',
+    body: [
+      'A six-month runway is a common and realistic window for UKMLA preparation. A phased structure helps: spend the early months building broad coverage against the Content Map, the middle months on intensive question practice and clinical skills rehearsal, and the final weeks on consolidation and timed mocks.',
+      'Throughout, treat the AKT and CPSA as complementary rather than separate. The knowledge you build for the written paper underpins your clinical stations, and practising consultations reinforces the reasoning the AKT tests. Weekly review of weak areas keeps the plan honest.',
+      'Build in rest days and keep the plan flexible — placements, life, and energy levels fluctuate. A plan you can sustain for six months beats an ambitious schedule you abandon in week three.'
+    ],
+    link: { to: '/preparation', label: 'Full preparation guide →' }
+  },
+  {
+    slug: 'ukmla-rollout-history',
+    title: 'How the UKMLA Came to Be: A Short History of the Rollout',
+    date: '15 September 2024',
+    tag: 'Milestone',
+    image: '/images/hero-doctors.webp',
+    summary:
+      'The UKMLA did not appear overnight. We trace the path from proposal to a shared national licensing standard.',
+    body: [
+      'The idea of a single, shared licensing assessment for UK medical practice developed over several years, driven by a desire for a consistent national standard across the many UK medical schools and for parity with international graduates sitting PLAB.',
+      'Following consultation and a phased development of the MLA Content Map, the assessment moved through pilot and preparation stages before becoming a requirement for graduating cohorts from the 2024–25 academic year. PLAB was realigned to the same blueprint so both routes share one standard.',
+      'Understanding this history is more than trivia: it explains why the Content Map — rather than any single textbook — is the definitive reference, and why "safe day-one practice" is the consistent theme running through every part of the assessment.'
+    ],
+    link: { to: '/key-dates', label: 'Key dates & timeline →' }
   }
 ];
+
+// Unique topics for the filter bar (in first-appearance order), with "All" first.
+const topics = ['All', ...Array.from(new Set(posts.map((p) => p.tag)))];
 
 function getSlugFromHash() {
   const h = (window.location.hash || '').replace('#', '');
@@ -168,6 +366,7 @@ function getSlugFromHash() {
 
 export default function News() {
   const [activeSlug, setActiveSlug] = useState(getSlugFromHash);
+  const [activeTopic, setActiveTopic] = useState('All');
 
   // Keep the view in sync with the URL hash so the browser back button works
   // and individual posts are deep-linkable (e.g. /news#gmc-fee-revisions-2026).
@@ -254,6 +453,8 @@ export default function News() {
   }
 
   // ---- Posts index (title + summary only) ----
+  const visiblePosts = activeTopic === 'All' ? posts : posts.filter((p) => p.tag === activeTopic);
+
   return (
     <Layout>
       <div className="page-layout-grid">
@@ -265,8 +466,24 @@ export default function News() {
             </p>
           </header>
 
-          <ul className="post-list">
-            {posts.map((post) => (
+          <div className="post-filter" role="group" aria-label="Filter posts by topic">
+            {topics.map((topic) => (
+              <button
+                key={topic}
+                className={`post-filter-btn ${activeTopic === topic ? 'active' : ''}`}
+                aria-pressed={activeTopic === topic}
+                onClick={() => setActiveTopic(topic)}
+              >
+                {topic}
+              </button>
+            ))}
+          </div>
+
+          {visiblePosts.length === 0 ? (
+            <p className="post-empty">No posts in this topic yet.</p>
+          ) : (
+            <ul className="post-list">
+              {visiblePosts.map((post) => (
               <li
                 key={post.slug}
                 className="post-list-item"
@@ -287,8 +504,9 @@ export default function News() {
                 <p className="post-list-summary">{post.summary}</p>
                 <span className="post-read-more">Read post →</span>
               </li>
-            ))}
-          </ul>
+              ))}
+            </ul>
+          )}
         </article>
 
         <aside className="sidebar-container">
