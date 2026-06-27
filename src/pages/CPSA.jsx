@@ -22,6 +22,15 @@ export default function CPSA() {
             <p>
               Rather than written answers, you are tested on your actions, verbal interaction, and manual skills under direct examination.
             </p>
+
+            <figure className="content-figure">
+              <div className="figure-media">
+                <img src="/gallery/images.jpg" alt="A clinical team conducting a bedside ward round with a patient" loading="lazy" />
+              </div>
+              <figcaption>
+                <strong>Bedside clinical practice.</strong> The CPSA recreates real ward and consultation scenarios — history taking, focused examination, and clear communication with simulated patients are each marked independently.
+              </figcaption>
+            </figure>
           </section>
 
           <section>

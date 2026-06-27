@@ -130,6 +130,7 @@ export default function Layout({ children }) {
       '.glossary-term-card',
       '.table-container',
       '.contact-form-container',
+      '.content-figure',
       '.page-header'
     ].join(', ');
 
@@ -304,6 +305,15 @@ export default function Layout({ children }) {
 
   return (
     <div className="app-container">
+      {/* Abstract decorative background (kept behind every page) */}
+      <div className="bg-abstract" aria-hidden="true">
+        <span className="blob blob-1" />
+        <span className="blob blob-2" />
+        <span className="blob blob-3" />
+        <span className="blob blob-4" />
+        <span className="blob blob-5" />
+      </div>
+
       {/* Editorial notice ribbon */}
       <div className="gmc-alert-banner" role="alert">
         <strong>Important notice:</strong> Core exam dates, fees, and requirements shift. Verify details on the{' '}
@@ -330,9 +340,7 @@ export default function Layout({ children }) {
           </button>
 
           <Link to="/" className="logo-link">
-            <svg className="logo-icon" viewBox="0 0 24 24">
-              <path d="M12 2v20M2 12h20M7 8h10M7 16h10" />
-            </svg>
+            <img src="/logo.png" alt="UKMLA logo" className="logo-img" />
             <span>UKMLA</span>
           </Link>
 

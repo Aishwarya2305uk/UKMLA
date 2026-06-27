@@ -1,6 +1,30 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import Carousel from '../components/Carousel';
 import { Link } from '../router';
+
+const galleryImages = [
+  {
+    src: '/images/hero-doctors.webp',
+    alt: 'Diverse junior doctors and medical students walking through a bright hospital corridor',
+    caption: 'A common standard for every new doctor entering UK practice.'
+  },
+  {
+    src: '/images/student-studying.webp',
+    alt: 'A medical student revising with textbooks, notes and a laptop',
+    caption: 'Steady, blueprint-led revision for the AKT and CPSA.'
+  },
+  {
+    src: '/images/doctor-portrait.webp',
+    alt: 'A confident doctor in a white coat with a stethoscope and clipboard',
+    caption: 'Safe, person-centred clinical practice from day one.'
+  },
+  {
+    src: '/images/study-materials.webp',
+    alt: 'Open anatomy notes and colour-coded revision materials on a desk',
+    caption: 'Organise your notes around the GMC MLA Content Map.'
+  }
+];
 
 export default function Home() {
   return (
@@ -17,6 +41,10 @@ export default function Home() {
           <Link to="/ukmla-vs-plab" className="btn btn-secondary">
             UKMLA vs PLAB Guide
           </Link>
+        </div>
+
+        <div className="hero-media">
+          <Carousel images={galleryImages} />
         </div>
       </div>
 

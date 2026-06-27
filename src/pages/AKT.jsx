@@ -19,6 +19,15 @@ export default function AKT() {
             <p>
               The <strong>Applied Knowledge Test (AKT)</strong> is the theoretical, written part of the UK Medical Licensing Assessment. It is designed to test your ability to apply clinical science, guidelines, and diagnostic knowledge to real-world medical scenarios. The exam is computer-based, using a <strong>Single Best Answer (SBA)</strong> format.
             </p>
+
+            <figure className="content-figure">
+              <div className="figure-media">
+                <img src="/gallery/doctors%20image.png" alt="Clinicians reviewing radiology imaging on a light box" loading="lazy" />
+              </div>
+              <figcaption>
+                <strong>Interpreting investigations.</strong> Many AKT vignettes include imaging — chest X-rays, CT scans, and ECGs — so confident interpretation of radiology and diagnostics is essential to choosing the single best answer.
+              </figcaption>
+            </figure>
           </section>
 
           <section>

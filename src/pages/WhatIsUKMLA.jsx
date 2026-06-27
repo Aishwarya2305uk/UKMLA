@@ -22,6 +22,15 @@ export default function WhatIsUKMLA() {
             <p>
               Before the UKMLA, there was no centralized standard for graduates of UK medical schools; individual universities ran their own exams, leading to minor variations in core expectations. The UKMLA creates a common threshold that every entering doctor must clear, regardless of where they studied.
             </p>
+
+            <figure className="content-figure">
+              <div className="figure-media">
+                <img src="/images/doctor-portrait.webp" alt="A confident doctor in a white coat with a stethoscope and clipboard" loading="lazy" />
+              </div>
+              <figcaption>
+                <strong>One common standard.</strong> Whether you graduate from a UK medical school or qualify overseas, the UKMLA confirms every new doctor meets the same baseline of safe, person-centred practice.
+              </figcaption>
+            </figure>
           </section>
 
           <section>

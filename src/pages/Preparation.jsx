@@ -19,6 +19,15 @@ export default function Preparation() {
             <p>
               Preparing for the UKMLA requires a balanced study plan that treats the written (AKT) and practical (CPSA) components with equal importance. Since the exam is based on the <strong>GMC MLA Content Map</strong>, your revision should always map back to these core symptoms, conditions, and procedures.
             </p>
+
+            <figure className="content-figure">
+              <div className="figure-media">
+                <img src="/images/student-studying.webp" alt="A medical student revising with textbooks, notes and a laptop" loading="lazy" />
+              </div>
+              <figcaption>
+                <strong>Plan before you cram.</strong> A steady three-to-six month schedule that loops back to the Content Map — paired with active question practice — beats last-minute revision for both the AKT and CPSA.
+              </figcaption>
+            </figure>
           </section>
 
           <section>

@@ -20,12 +20,21 @@ export default function Syllabus() {
               The UKMLA does not use a list of textbooks or university courses. Instead, all questions in the AKT and all stations in the CPSA are written directly from the <strong>GMC MLA Content Map</strong>.
             </p>
             <p>
-              The Content Map is a unified framework divided into four core areas: 
-              <strong> Patient Presentations</strong>, 
-              <strong> Clinical Conditions</strong>, 
-              <strong> Professional Behaviours</strong>, and 
+              The Content Map is a unified framework divided into four core areas:
+              <strong> Patient Presentations</strong>,
+              <strong> Clinical Conditions</strong>,
+              <strong> Professional Behaviours</strong>, and
               <strong> Practical Skills and Procedures</strong>.
             </p>
+
+            <figure className="content-figure">
+              <div className="figure-media">
+                <img src="/images/study-materials.webp" alt="Open anatomy notes, colour-coded revision notes and study materials on a desk" loading="lazy" />
+              </div>
+              <figcaption>
+                <strong>Map your revision.</strong> Every AKT question and CPSA station traces back to the four areas of the Content Map — organise your notes around them rather than around textbooks.
+              </figcaption>
+            </figure>
           </section>
 
           <section>
