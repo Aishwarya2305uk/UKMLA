@@ -457,36 +457,35 @@ export default function News() {
 
   return (
     <Layout>
-      <div className="page-layout-grid">
-        <article className="article-container">
-          <header className="page-header">
-            <h1 className="page-title">Posts</h1>
-            <p className="page-summary">
-              News, regulatory updates, and analysis on the UKMLA. Select a post to read it in full.
-            </p>
-          </header>
+      <div className="posts-index">
+        <header className="page-header">
+          <h1 className="page-title">Posts</h1>
+          <p className="page-summary">
+            News, regulatory updates, and analysis on the UKMLA. Select a post to read it in full.
+          </p>
+        </header>
 
-          <div className="post-filter" role="group" aria-label="Filter posts by topic">
-            {topics.map((topic) => (
-              <button
-                key={topic}
-                className={`post-filter-btn ${activeTopic === topic ? 'active' : ''}`}
-                aria-pressed={activeTopic === topic}
-                onClick={() => setActiveTopic(topic)}
-              >
-                {topic}
-              </button>
-            ))}
-          </div>
+        <div className="post-filter" role="group" aria-label="Filter posts by topic">
+          {topics.map((topic) => (
+            <button
+              key={topic}
+              className={`post-filter-btn ${activeTopic === topic ? 'active' : ''}`}
+              aria-pressed={activeTopic === topic}
+              onClick={() => setActiveTopic(topic)}
+            >
+              {topic}
+            </button>
+          ))}
+        </div>
 
-          {visiblePosts.length === 0 ? (
-            <p className="post-empty">No posts in this topic yet.</p>
-          ) : (
-            <ul className="post-list">
-              {visiblePosts.map((post) => (
+        {visiblePosts.length === 0 ? (
+          <p className="post-empty">No posts in this topic yet.</p>
+        ) : (
+          <ul className="post-grid">
+            {visiblePosts.map((post) => (
               <li
                 key={post.slug}
-                className="post-list-item"
+                className="post-card"
                 role="button"
                 tabIndex={0}
                 onClick={() => openPost(post.slug)}
@@ -497,27 +496,20 @@ export default function News() {
                   }
                 }}
               >
-                <p className="post-meta">
-                  {post.tag} · {post.date}
-                </p>
-                <h2 className="post-list-title">{post.title}</h2>
-                <p className="post-list-summary">{post.summary}</p>
-                <span className="post-read-more">Read post →</span>
+                <div className="post-card-media">
+                  <img src={post.image} alt={post.title} loading="lazy" />
+                  <span className="post-card-tag">{post.tag}</span>
+                </div>
+                <div className="post-card-body">
+                  <p className="post-meta">{post.date}</p>
+                  <h2 className="post-card-title">{post.title}</h2>
+                  <p className="post-card-summary">{post.summary}</p>
+                  <span className="post-read-more">Read post →</span>
+                </div>
               </li>
-              ))}
-            </ul>
-          )}
-        </article>
-
-        <aside className="sidebar-container">
-          <h3 className="sidebar-title">Quick Links</h3>
-          <ul className="sidebar-links">
-            <li><Link to="/news" className="sidebar-link active">Posts</Link></li>
-            <li><Link to="/key-dates" className="sidebar-link">Key Dates</Link></li>
-            <li><Link to="/what-is-ukmla" className="sidebar-link">What is UKMLA?</Link></li>
-            <li><Link to="/official-resources" className="sidebar-link">Official Resources</Link></li>
+            ))}
           </ul>
-        </aside>
+        )}
       </div>
     </Layout>
   );
