@@ -951,6 +951,9 @@ export default function News() {
   const [activeSlug, setActiveSlug] = useState(getSlugFromHash);
   const [activeTopic, setActiveTopic] = useState('All');
   const [activeSection, setActiveSection] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const POSTS_PER_PAGE = 12;
   const contentRef = useRef(null);
 
   const activePost = posts.find((p) => p.slug === activeSlug);
@@ -1156,6 +1159,10 @@ export default function News() {
 
   // ---- Posts index (title + summary only) ----
   const visiblePosts = activeTopic === 'All' ? posts : posts.filter((p) => p.tag === activeTopic);
+  const featuredPost = visiblePosts[0] || null;
+  const remainingPosts = visiblePosts.slice(1);
+  const totalPages = Math.ceil(remainingPosts.length / POSTS_PER_PAGE);
+  const paginatedPosts = remainingPosts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE);
 
   return (
     <Layout>
@@ -1173,7 +1180,7 @@ export default function News() {
               key={topic}
               className={`post-filter-btn ${activeTopic === topic ? 'active' : ''}`}
               aria-pressed={activeTopic === topic}
-              onClick={() => setActiveTopic(topic)}
+              onClick={() => { setActiveTopic(topic); setCurrentPage(1); }}
             >
               {topic}
             </button>
@@ -1183,34 +1190,105 @@ export default function News() {
         {visiblePosts.length === 0 ? (
           <p className="post-empty">No posts in this topic yet.</p>
         ) : (
-          <ul className="post-grid">
-            {visiblePosts.map((post) => (
-              <li
-                key={post.slug}
-                className="post-card"
+          <>
+            {featuredPost && (
+              <div
+                className="post-featured"
                 role="button"
                 tabIndex={0}
-                onClick={() => openPost(post.slug)}
+                onClick={() => openPost(featuredPost.slug)}
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
-                    openPost(post.slug);
+                    openPost(featuredPost.slug);
                   }
                 }}
               >
-                <div className="post-card-media">
-                  <img src={post.image} alt={post.title} loading="lazy" />
-                  <span className="post-card-tag">{post.tag}</span>
+                <div className="post-featured-media">
+                  <img src={featuredPost.image} alt={featuredPost.title} />
+                  <span className="post-card-tag">{featuredPost.tag}</span>
                 </div>
-                <div className="post-card-body">
-                  <p className="post-meta">{post.date}</p>
-                  <h2 className="post-card-title">{post.title}</h2>
-                  <p className="post-card-summary">{post.summary}</p>
+                <div className="post-featured-body">
+                  <p className="post-featured-label">Featured Post</p>
+                  <p className="post-meta">{featuredPost.date}</p>
+                  <h2 className="post-featured-title">{featuredPost.title}</h2>
+                  <p className="post-featured-summary">{featuredPost.summary}</p>
                   <span className="post-read-more">Read post →</span>
                 </div>
-              </li>
-            ))}
-          </ul>
+              </div>
+            )}
+
+            {remainingPosts.length > 0 && (
+              <>
+                <h2 className="post-section-heading">All Posts</h2>
+                <ul className="post-grid">
+              {paginatedPosts.map((post) => (
+                <li
+                  key={post.slug}
+                  className="post-card"
+                  role="button"
+                  tabIndex={0}
+                  onClick={() => openPost(post.slug)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      openPost(post.slug);
+                    }
+                  }}
+                >
+                  <div className="post-card-media">
+                    <img src={post.image} alt={post.title} loading="lazy" />
+                    <span className="post-card-tag">{post.tag}</span>
+                  </div>
+                  <div className="post-card-body">
+                    <p className="post-meta">{post.date}</p>
+                    <h2 className="post-card-title">{post.title}</h2>
+                    <p className="post-card-summary">{post.summary}</p>
+                    <span className="post-read-more">Read post →</span>
+                  </div>
+                </li>
+              ))}
+                </ul>
+
+            {totalPages > 1 && (
+              <nav className="pagination" aria-label="Posts pagination">
+                <button
+                  className="pagination-btn pagination-prev"
+                  onClick={() => { setCurrentPage((p) => p - 1); window.scrollTo(0, 0); }}
+                  disabled={currentPage === 1}
+                  aria-label="Previous page"
+                >
+                  ← Prev
+                </button>
+
+                <ul className="pagination-pages">
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                    <li key={page}>
+                      <button
+                        className={`pagination-page ${currentPage === page ? 'active' : ''}`}
+                        onClick={() => { setCurrentPage(page); window.scrollTo(0, 0); }}
+                        aria-label={`Page ${page}`}
+                        aria-current={currentPage === page ? 'page' : undefined}
+                      >
+                        {page}
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+
+                <button
+                  className="pagination-btn pagination-next"
+                  onClick={() => { setCurrentPage((p) => p + 1); window.scrollTo(0, 0); }}
+                  disabled={currentPage === totalPages}
+                  aria-label="Next page"
+                >
+                  Next →
+                </button>
+              </nav>
+            )}
+              </>
+            )}
+          </>
         )}
       </div>
     </Layout>
