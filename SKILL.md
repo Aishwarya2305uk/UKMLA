@@ -25,6 +25,13 @@ whenever you learn something new — see [§14](#14-maintaining-this-file).
 
 ## 0. Trigger workflow — `UKMLA new create`
 
+**Standing rule:** before generating any new post, always read the latest version
+of this file (`SKILL.md`), the Post Data Sheet (`UKMLA_Posts_Registry.xlsx`), the
+Internal Linkage Sheet (`UKMLA_Internal_Linking_Map.xlsx`), and the Keyword
+Cluster Sheet (`UKMLA_Keyword_Cluster_Sheet.xlsx`) to ensure consistency in SEO,
+content quality, keyword clustering, and internal linking strategy. Never rely on
+a previous session's memory of these files — they are updated continuously.
+
 When this exact phrase appears, run the following pipeline in order. Do not skip steps.
 
 1. **Read this file end-to-end.** Never generate a post from memory of a previous
@@ -49,15 +56,26 @@ When this exact phrase appears, run the following pipeline in order. Do not skip
 4. **Generate the post** following every rule in this file — structure, word count
    (5,000–6,000 words), keyphrase placement, readability, images, FAQ, schema-ready
    content, AEO formatting, and GMC sourcing (see [§11](#11-post-requirements-checklist)).
-5. **Insert the post object** into the `posts` array in
-   `src/pages/News.jsx` using the exact schema in [§12](#12-post-data-schema-newsjsx).
+5. **Write the post content to its own HTML file, then insert the metadata-only
+   post object into `News.jsx`:**
+   - Save the full `htmlContent` body as `/posts-html/{slug}.html` — the filename
+     must exactly match the post's slug (e.g. slug `ukmla-registration-guide` →
+     `/posts-html/ukmla-registration-guide.html`). **Only the post content goes in
+     this file** — no metadata, no JSON, just the raw HTML body.
+   - Insert the post's **metadata only** (everything in the schema in
+     [§12](#12-post-data-schema-newsjsx) except `htmlContent`, which no longer
+     lives in `News.jsx`) into the `posts` array in `src/pages/News.jsx`.
+     `News.jsx` loads each post's body at build time from `/posts-html/{slug}.html`
+     via `import.meta.glob` — see [§12](#12-post-data-schema-newsjsx) for how this
+     wiring works.
    Then regenerate the registry:
    ```
    node scripts/sync_posts.cjs
    python scripts/sync_posts.py
    ```
    This recomputes word count, outgoing/incoming links, and the weaving reference
-   for every post — including the new one — in `UKMLA_Posts_Registry.xlsx`.
+   for every post — including the new one — in `UKMLA_Posts_Registry.xlsx` (both
+   scripts now read post bodies from `/posts-html/{slug}.html`, not from `News.jsx`).
 6. **Regenerate the internal linking map:**
    ```
    node scripts/analyze-internal-links.cjs
@@ -392,9 +410,12 @@ minimums, e.g. Yoast's 300-word floor):
 
 ---
 
-## 12. Post data schema (`News.jsx`)
+## 12. Post data schema (`News.jsx`) + HTML file & content management
 
-Each post is one object in the `posts` array in `src/pages/News.jsx`:
+**Content and metadata are decoupled.** The post's full HTML body lives in its
+own file, `/posts-html/{slug}.html` (filename exactly equal to the slug, content
+only — no JSON, no metadata). `News.jsx` holds only the metadata object below,
+one per post in the `posts` array:
 
 ```json
 {
@@ -404,7 +425,6 @@ Each post is one object in the `posts` array in `src/pages/News.jsx`:
   "tag": "Category label (used for 'related posts' grouping)",
   "image": "/images/{slug}-featured.webp",
   "summary": "1–2 sentence excerpt for the post list card",
-  "htmlContent": "<p>...full 5,000–6,000-word HTML body...</p>",
   "seoTitle": "Keyphrase-first title, ≤ ~60 chars",
   "seoDescription": "140–156 chars, contains exact keyphrase",
   "primaryKeyword": "unique focus keyphrase",
@@ -416,10 +436,28 @@ Each post is one object in the `posts` array in `src/pages/News.jsx`:
 }
 ```
 
+**How `News.jsx` loads the body:** at the top of `src/pages/News.jsx`,
+`import.meta.glob('../../posts-html/*.html', { eager: true, query: '?raw', import: 'default' })`
+bundles every file in `/posts-html/` as a raw string at build time, keyed by
+slug (`postHtmlBySlug`). The active post's body is looked up by
+`postHtmlBySlug[activePost.slug]` and passed to `enhancePost()` — there is no
+runtime fetch, so a new post's `.html` file must exist on disk *before*
+`vite build`/`vite dev` picks it up (a plain file save is enough; no restart
+needed in dev, Vite's glob re-evaluates on file add).
+
 `src/pages/News.jsx` reads `seoTitle`/`seoDescription` and sets `document.title`
 and the `<meta name="description">` tag per-post on load — always fill both
 fields; there is currently no per-post canonical-link or `FAQPage` schema
 injection (see the gap noted in [§7](#7-faq-and-schema-guidelines)).
+
+**Regenerating `/posts-html/` from an old-style `News.jsx` export:** if a post's
+`htmlContent` is ever hand-pasted back into `News.jsx` instead of written
+straight to `/posts-html/`, run `node scripts/extract-post-html.cjs` — it splits
+every post's `htmlContent` out into `/posts-html/{slug}.html` and rewrites
+`News.jsx` to drop the field. All three pipeline scripts
+(`sync_posts.cjs`, `analyze-internal-links.cjs`, `add-internal-links.cjs`) read
+post bodies from `/posts-html/{slug}.html`, not from `News.jsx` — keep new
+content there from the start rather than round-tripping through this script.
 
 ### Registry sheet columns (`UKMLA_Posts_Registry.xlsx`, generated by
 `scripts/sync_posts.cjs` + `scripts/sync_posts.py` — do not hand-edit, just re-run

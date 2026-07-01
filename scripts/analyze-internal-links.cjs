@@ -13,6 +13,12 @@ const path = require('path');
 
 const NEWS_PATH = path.resolve(__dirname, '../src/pages/News.jsx');
 const OUT_PATH = path.resolve(__dirname, '../scripts/linkage-data.json');
+const POSTS_HTML_DIR = path.resolve(__dirname, '../posts-html');
+
+function loadHtmlContent(slug) {
+  const htmlPath = path.join(POSTS_HTML_DIR, `${slug}.html`);
+  return fs.existsSync(htmlPath) ? fs.readFileSync(htmlPath, 'utf-8') : '';
+}
 
 // ── Static pillar pages (non-blog routes that posts link to / from) ────────
 const PILLAR_PAGES = {
@@ -135,7 +141,8 @@ for (const p of posts) {
   const from = nodes.get(p.slug);
   let m;
   HREF_RE.lastIndex = 0;
-  while ((m = HREF_RE.exec(p.htmlContent))) {
+  const html = loadHtmlContent(p.slug);
+  while ((m = HREF_RE.exec(html))) {
     const target = resolveHref(m[1]);
     if (!target || target === p.slug) continue; // ignore unresolved / self links
     from.outgoing.add(target);

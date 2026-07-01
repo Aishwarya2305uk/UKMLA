@@ -6,6 +6,7 @@ const path = require('path');
 
 const FILE = path.resolve(__dirname, '../src/pages/News.jsx');
 const src = fs.readFileSync(FILE, 'utf-8');
+const POSTS_HTML_DIR = path.resolve(__dirname, '../posts-html');
 
 // ── Extract posts array ───────────────────────────────────────────────────────
 const START_STR = 'const posts = [';
@@ -288,7 +289,12 @@ let totalAdded = 0;
 const summary = [];
 
 for (const post of posts) {
-  let html = post.htmlContent;
+  const htmlPath = path.join(POSTS_HTML_DIR, `${post.slug}.html`);
+  if (!fs.existsSync(htmlPath)) {
+    console.warn(`Skipping ${post.slug}: no posts-html/${post.slug}.html found`);
+    continue;
+  }
+  let html = fs.readFileSync(htmlPath, 'utf-8');
   const before = (html.match(/<a[\s>]/gi) || []).length;
 
   const selfHrefs = new Set(SELF_HREFS[post.slug] || []);
@@ -304,20 +310,9 @@ for (const post of posts) {
   totalAdded += added;
   summary.push({ slug: post.slug, before, after, added });
 
-  if (added > 0) post.htmlContent = html;
+  if (added > 0) fs.writeFileSync(htmlPath, html, 'utf-8');
   console.log(`[${added >= 0 ? '+' + added : added}] ${post.slug} (${before} → ${after})`);
 }
-
-// ── Write back ────────────────────────────────────────────────────────────────
-const newArr = JSON.stringify(posts, null, 2);
-const newSrc =
-  src.slice(0, startIdx) +
-  'const posts = ' +
-  newArr +
-  ';' +
-  src.slice(endIdx);  // '\nconst topics = [...]...'
-
-fs.writeFileSync(FILE, newSrc, 'utf-8');
 
 console.log(`\n✅ Done. Added ${totalAdded} links across ${posts.length} posts.\n`);
 

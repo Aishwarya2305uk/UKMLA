@@ -2,6 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
+const POSTS_HTML_DIR = path.join(__dirname, '..', 'posts-html');
+
+function loadHtmlContent(slug) {
+  const htmlPath = path.join(POSTS_HTML_DIR, `${slug}.html`);
+  return fs.existsSync(htmlPath) ? fs.readFileSync(htmlPath, 'utf8') : '';
+}
+
 function run() {
   const newsPath = path.join(__dirname, '..', 'src', 'pages', 'News.jsx');
   if (!fs.existsSync(newsPath)) {
@@ -59,7 +66,7 @@ function run() {
     const source_full_url = post.sourceFullUrl || 'https://www.gmc-uk.org/';
 
     // 3. Generate HTML content
-    let html_content = post.htmlContent || "";
+    let html_content = loadHtmlContent(post.slug);
     if (post.link) {
       const href = post.link.to ? `/news#${post.slug}` : post.link.href; // Internal link helper
       html_content += `\n<p><a href="${href}">${post.link.label}</a></p>`;
@@ -83,7 +90,7 @@ function run() {
       outgoing_links.push(post.link.to);
     }
     // Scan body text for mentions of other posts' titles or slugs
-    const plainText = (post.htmlContent || "").replace(/<[^>]+>/g, '');
+    const plainText = loadHtmlContent(post.slug).replace(/<[^>]+>/g, '');
     allSlugs.forEach(otherSlug => {
       if (otherSlug !== post.slug && plainText.toLowerCase().includes(otherSlug.replace(/-/g, ' '))) {
         if (!outgoing_links.includes(`/news#${otherSlug}`)) {
