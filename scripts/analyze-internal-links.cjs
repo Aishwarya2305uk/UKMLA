@@ -46,6 +46,7 @@ const CLUSTER_RULES = [
   [/^good-medical-practice|^safeguarding|^patient-safety/, 'Professional Practice & Safety'],
   [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months/, 'Exam Preparation'],
   [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants)/, 'Clinical Systems Revision'],
+  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors|^ukmla-vs-usmle|^ukmla-vs-neet-pg|^ukmla-question-bank|^ukmla-fees-for-img/, 'IMG Country Routes & Global Comparisons'],
 ];
 
 function clusterFor(slug) {
@@ -70,6 +71,10 @@ const PILLAR_RULES = [
   [/^ukmla-results-feedback|^angoff/, '/results-and-scoring'],
   [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months/, '/preparation'],
   [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants)/, '/syllabus'],
+  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors/, '/eligibility'],
+  [/^ukmla-vs-usmle|^ukmla-vs-neet-pg/, '/ukmla-vs-plab'],
+  [/^ukmla-question-bank/, '/preparation'],
+  [/^ukmla-fees-for-img/, '/fees'],
 ];
 
 function pillarFor(slug) {

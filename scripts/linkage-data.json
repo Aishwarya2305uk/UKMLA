@@ -6,12 +6,13 @@
     "url": "/appeals-and-resits",
     "cluster": "Results & Scoring",
     "pillarPage": "",
-    "incomingCount": 19,
+    "incomingCount": 25,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
       "disability-access-ukmla-guide",
       "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "mla-content-map-explained",
       "plab-2-preparation-guide",
@@ -21,12 +22,17 @@
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -38,18 +44,24 @@
     "url": "/eligibility",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 11,
+    "incomingCount": 17,
     "outgoingCount": 0,
     "linkedFrom": [
       "disability-access-ukmla-guide",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "what-is-ukmla-complete-guide"
     ],
@@ -62,7 +74,7 @@
     "url": "/exam-pattern/akt",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 34,
+    "incomingCount": 41,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -75,6 +87,7 @@
       "foundation-programme-after-ukmla",
       "gastroenterology-ukmla-akt-revision",
       "good-medical-practice-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-read-akt-stem",
       "how-to-register-plab-1",
       "mental-health-ukmla-revision",
@@ -95,9 +108,15 @@
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -109,13 +128,14 @@
     "url": "/exam-pattern/cpsa",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 21,
+    "incomingCount": 27,
     "outgoingCount": 0,
     "linkedFrom": [
       "disability-access-ukmla-guide",
       "ecg-interpretation-ukmla",
       "foundation-programme-after-ukmla",
       "good-medical-practice-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
       "mental-health-ukmla-revision",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
@@ -130,8 +150,13 @@
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -143,14 +168,21 @@
     "url": "/fees",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 6,
+    "incomingCount": 13,
     "outgoingCount": 0,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -162,12 +194,16 @@
     "url": "/key-dates",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 4,
+    "incomingCount": 8,
     "outgoingCount": 0,
     "linkedFrom": [
       "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-preparation-for-imgs"
     ],
     "linksTo": []
@@ -179,19 +215,24 @@
     "url": "/official-resources",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 14,
+    "incomingCount": 19,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
       "ukmla-vs-plab-difference",
@@ -206,7 +247,7 @@
     "url": "/preparation",
     "cluster": "Exam Preparation",
     "pillarPage": "",
-    "incomingCount": 42,
+    "incomingCount": 48,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -244,12 +285,18 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -261,18 +308,24 @@
     "url": "/registration-guide",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 10,
+    "incomingCount": 16,
     "outgoingCount": 0,
     "linkedFrom": [
       "disability-access-ukmla-guide",
       "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
       "plab-2-preparation-guide",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-preparation-for-imgs",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -284,7 +337,7 @@
     "url": "/results-and-scoring",
     "cluster": "Results & Scoring",
     "pillarPage": "",
-    "incomingCount": 15,
+    "incomingCount": 18,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -296,11 +349,14 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-fees-explained",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -312,7 +368,7 @@
     "url": "/syllabus",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 32,
+    "incomingCount": 38,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -341,11 +397,17 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -357,11 +419,12 @@
     "url": "/ukmla-vs-plab",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 15,
+    "incomingCount": 21,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
       "disability-access-ukmla-guide",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "mla-content-map-explained",
       "time-management-akt-ukmla",
@@ -369,11 +432,16 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -385,7 +453,7 @@
     "url": "/what-is-ukmla",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 15,
+    "incomingCount": 18,
     "outgoingCount": 0,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
@@ -399,9 +467,12 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -413,10 +484,11 @@
     "url": "/news#angoff-standard-setting-explained",
     "cluster": "Exam Format",
     "pillarPage": "/results-and-scoring",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 16,
     "linkedFrom": [
       "ukmla-results-feedback-report",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -445,7 +517,7 @@
     "url": "/news#blood-tests-data-interpretation-akt",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 11,
+    "incomingCount": 12,
     "outgoingCount": 10,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
@@ -458,7 +530,8 @@
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-graduate-entry-medical-students",
-      "ukmla-results-feedback-report"
+      "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -480,7 +553,7 @@
     "url": "/news#cardiology-ukmla-akt-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 24,
+    "incomingCount": 26,
     "outgoingCount": 9,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
@@ -504,7 +577,9 @@
       "time-management-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy"
     ],
@@ -527,7 +602,7 @@
     "url": "/news#clinical-examination-cpsa-guide",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 13,
+    "incomingCount": 15,
     "outgoingCount": 13,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -542,6 +617,8 @@
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -567,11 +644,15 @@
     "url": "/news#dermatology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 2,
+    "incomingCount": 6,
     "outgoingCount": 9,
     "linkedFrom": [
       "three-months-ukmla-akt-countdown",
-      "ukmla-akt-format-preparation"
+      "ukmla-akt-format-preparation",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
       "/preparation",
@@ -680,12 +761,14 @@
     "url": "/news#emergency-medicine-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 3,
+    "incomingCount": 5,
     "outgoingCount": 12,
     "linkedFrom": [
       "foundation-programme-after-ukmla",
       "haematology-ukmla-revision",
-      "paediatrics-ukmla-revision"
+      "paediatrics-ukmla-revision",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -709,7 +792,7 @@
     "url": "/news#endocrinology-diabetes-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 23,
+    "incomingCount": 24,
     "outgoingCount": 8,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
@@ -734,7 +817,8 @@
       "three-months-ukmla-akt-countdown",
       "time-management-akt-ukmla",
       "ukmla-akt-format-preparation",
-      "ukmla-preparation-for-imgs"
+      "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -754,18 +838,22 @@
     "url": "/news#foundation-programme-after-ukmla",
     "cluster": "Uncategorised",
     "pillarPage": "",
-    "incomingCount": 10,
+    "incomingCount": 14,
     "outgoingCount": 20,
     "linkedFrom": [
       "angoff-standard-setting-explained",
       "mla-content-map-explained",
       "ukmla-akt-format-preparation",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -909,13 +997,54 @@
     ]
   },
   {
+    "key": "how-to-become-a-doctor-in-uk-from-india",
+    "type": "post",
+    "title": "How to Become a Doctor in the UK from India: The Complete UKMLA Route",
+    "url": "/news#how-to-become-a-doctor-in-uk-from-india",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 6,
+    "outgoingCount": 21,
+    "linkedFrom": [
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/key-dates",
+      "/official-resources",
+      "/registration-guide",
+      "/ukmla-vs-plab",
+      "how-to-register-plab-1",
+      "plab-2-preparation-guide",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-akt-format-preparation",
+      "ukmla-eligibility-who-can-sit",
+      "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-key-dates-sitting-schedule",
+      "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ]
+  },
+  {
     "key": "how-to-read-akt-stem",
     "type": "post",
     "title": "How to Read an AKT Stem: Avoiding Common Traps",
     "url": "/news#how-to-read-akt-stem",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/akt",
-    "incomingCount": 12,
+    "incomingCount": 13,
     "outgoingCount": 17,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -928,6 +1057,7 @@
       "ukmla-akt-format-preparation",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-vs-plab-difference"
     ],
@@ -958,9 +1088,11 @@
     "url": "/news#how-to-register-plab-1",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/registration-guide",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 12,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-for-pakistani-doctors",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-vs-plab-difference"
     ],
@@ -986,7 +1118,7 @@
     "url": "/news#infection-microbiology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 25,
+    "incomingCount": 26,
     "outgoingCount": 7,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
@@ -1013,7 +1145,8 @@
       "social-determinants-health-ukmla",
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
-      "ukmla-graduate-entry-medical-students"
+      "ukmla-graduate-entry-medical-students",
+      "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
       "/preparation",
@@ -1072,11 +1205,13 @@
     "url": "/news#mla-content-map-explained",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/syllabus",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 27,
     "linkedFrom": [
       "mental-health-ukmla-revision",
-      "paediatrics-ukmla-revision"
+      "paediatrics-ukmla-revision",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-vs-neet-pg"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -1115,7 +1250,7 @@
     "url": "/news#mock-exams-ukmla-preparation",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 8,
+    "incomingCount": 11,
     "outgoingCount": 22,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
@@ -1124,6 +1259,9 @@
       "how-to-register-plab-1",
       "plab-2-preparation-guide",
       "time-management-akt-ukmla",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-vs-plab-difference"
     ],
@@ -1223,7 +1361,7 @@
     "url": "/news#nice-guidelines-akt-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 10,
+    "incomingCount": 11,
     "outgoingCount": 9,
     "linkedFrom": [
       "cardiology-ukmla-akt-revision",
@@ -1233,6 +1371,7 @@
       "ophthalmology-ent-ukmla-revision",
       "safeguarding-ukmla-revision",
       "ukmla-akt-format-preparation",
+      "ukmla-for-nigerian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
       "ukmla-revision-notes-strategy"
@@ -1256,7 +1395,7 @@
     "url": "/news#obstetrics-gynaecology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 10,
+    "incomingCount": 11,
     "outgoingCount": 11,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1268,7 +1407,8 @@
       "radiology-imaging-akt-ukmla",
       "ukmla-akt-format-preparation",
       "ukmla-graduate-entry-medical-students",
-      "ukmla-results-feedback-report"
+      "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg"
     ],
     "linksTo": [
       "/preparation",
@@ -1291,7 +1431,7 @@
     "url": "/news#ophthalmology-ent-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 10,
+    "incomingCount": 11,
     "outgoingCount": 11,
     "linkedFrom": [
       "dermatology-ukmla-revision",
@@ -1303,7 +1443,8 @@
       "safeguarding-ukmla-revision",
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
-      "ukmla-akt-format-preparation"
+      "ukmla-akt-format-preparation",
+      "ukmla-question-bank-and-mock-tests"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -1326,7 +1467,7 @@
     "url": "/news#paediatrics-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 27,
+    "incomingCount": 28,
     "outgoingCount": 12,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1355,7 +1496,8 @@
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
       "ukmla-graduate-entry-medical-students",
-      "ukmla-results-feedback-report"
+      "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg"
     ],
     "linksTo": [
       "/exam-pattern/cpsa",
@@ -1399,7 +1541,7 @@
     "url": "/news#patient-safety-ukmla-prescribing-errors",
     "cluster": "Professional Practice & Safety",
     "pillarPage": "",
-    "incomingCount": 24,
+    "incomingCount": 25,
     "outgoingCount": 11,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1421,6 +1563,7 @@
       "surgical-presentations-ukmla-revision",
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-nigerian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
@@ -1448,10 +1591,12 @@
     "url": "/news#plab-2-preparation-guide",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 20,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-pakistani-doctors",
       "ukmla-resits-rules-limits"
     ],
     "linksTo": [
@@ -1484,7 +1629,7 @@
     "url": "/news#psychiatry-communication-cpsa-stations",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 14,
+    "incomingCount": 16,
     "outgoingCount": 13,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1498,8 +1643,10 @@
       "plab-2-preparation-guide",
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-nigerian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report"
     ],
     "linksTo": [
@@ -1525,7 +1672,7 @@
     "url": "/news#radiology-imaging-akt-ukmla",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 16,
+    "incomingCount": 17,
     "outgoingCount": 11,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
@@ -1543,7 +1690,8 @@
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report",
-      "ukmla-revision-notes-strategy"
+      "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -1566,7 +1714,7 @@
     "url": "/news#respiratory-medicine-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 30,
+    "incomingCount": 31,
     "outgoingCount": 8,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
@@ -1597,6 +1745,7 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-graduate-entry-medical-students",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy"
     ],
@@ -1618,7 +1767,7 @@
     "url": "/news#rheumatology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 6,
+    "incomingCount": 7,
     "outgoingCount": 8,
     "linkedFrom": [
       "dermatology-ukmla-revision",
@@ -1626,7 +1775,8 @@
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
       "ukmla-cpsa-what-it-tests",
-      "ukmla-graduate-entry-medical-students"
+      "ukmla-graduate-entry-medical-students",
+      "ukmla-question-bank-and-mock-tests"
     ],
     "linksTo": [
       "cardiology-ukmla-akt-revision",
@@ -1678,12 +1828,13 @@
     "url": "/news#social-determinants-health-ukmla",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 4,
+    "incomingCount": 5,
     "outgoingCount": 10,
     "linkedFrom": [
       "mla-content-map-explained",
       "three-months-ukmla-akt-countdown",
       "ukmla-fees-explained",
+      "ukmla-for-nigerian-doctors",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -1706,7 +1857,7 @@
     "url": "/news#surgical-presentations-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 31,
+    "incomingCount": 33,
     "outgoingCount": 11,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1739,7 +1890,9 @@
       "uk-medical-schools-ukmla-implementation",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
-      "ukmla-results-feedback-report"
+      "ukmla-results-feedback-report",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
       "/preparation",
@@ -1762,12 +1915,14 @@
     "url": "/news#three-months-ukmla-akt-countdown",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 3,
+    "incomingCount": 5,
     "outgoingCount": 24,
     "linkedFrom": [
       "mental-health-ukmla-revision",
       "paediatrics-ukmla-revision",
-      "ukmla-preparation-for-imgs"
+      "ukmla-for-pakistani-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -1803,7 +1958,7 @@
     "url": "/news#time-management-akt-ukmla",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 9,
+    "incomingCount": 10,
     "outgoingCount": 16,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
@@ -1813,6 +1968,7 @@
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-graduate-entry-medical-students",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report"
     ],
@@ -1842,7 +1998,7 @@
     "url": "/news#uk-medical-schools-ukmla-implementation",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/what-is-ukmla",
-    "incomingCount": 24,
+    "incomingCount": 30,
     "outgoingCount": 20,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1850,6 +2006,7 @@
       "disability-access-ukmla-guide",
       "foundation-programme-after-ukmla",
       "group-study-vs-solo-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-read-akt-stem",
       "how-to-register-plab-1",
       "mental-health-ukmla-revision",
@@ -1861,13 +2018,18 @@
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -1900,15 +2062,19 @@
     "url": "/news#ukmla-akt-format-preparation",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/akt",
-    "incomingCount": 6,
+    "incomingCount": 10,
     "outgoingCount": 31,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
       "radiology-imaging-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
-      "ukmla-revision-notes-strategy"
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-revision-notes-strategy",
+      "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -1951,12 +2117,13 @@
     "url": "/news#ukmla-cpsa-what-it-tests",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 6,
+    "incomingCount": 7,
     "outgoingCount": 21,
     "linkedFrom": [
       "mental-health-ukmla-revision",
       "neurology-ukmla-revision",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
       "what-is-ukmla-complete-guide"
@@ -1992,11 +2159,14 @@
     "url": "/news#ukmla-eligibility-who-can-sit",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 5,
     "outgoingCount": 11,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
-      "ukmla-preparation-for-imgs"
+      "ukmla-for-nigerian-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -2019,9 +2189,12 @@
     "url": "/news#ukmla-fees-explained",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/fees",
-    "incomingCount": 2,
+    "incomingCount": 5,
     "outgoingCount": 15,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report"
     ],
@@ -2041,6 +2214,134 @@
       "social-determinants-health-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-preparation-for-imgs"
+    ]
+  },
+  {
+    "key": "ukmla-fees-for-img-2026",
+    "type": "post",
+    "title": "UKMLA Exam Fees for International Medical Graduates: 2026 Cost Guide",
+    "url": "/news#ukmla-fees-for-img-2026",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/fees",
+    "incomingCount": 6,
+    "outgoingCount": 23,
+    "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/key-dates",
+      "/official-resources",
+      "/preparation",
+      "/registration-guide",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "mock-exams-ukmla-preparation",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-fees-explained",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-key-dates-sitting-schedule",
+      "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-resits-rules-limits",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ]
+  },
+  {
+    "key": "ukmla-for-nigerian-doctors",
+    "type": "post",
+    "title": "UKMLA for Nigerian Doctors: Eligibility, Fees and How to Register with the GMC",
+    "url": "/news#ukmla-for-nigerian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 24,
+    "linkedFrom": [
+      "ukmla-fees-for-img-2026",
+      "ukmla-question-bank-and-mock-tests"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/key-dates",
+      "/official-resources",
+      "/preparation",
+      "/registration-guide",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "emergency-medicine-ukmla-revision",
+      "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "mla-content-map-explained",
+      "nice-guidelines-akt-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "psychiatry-communication-cpsa-stations",
+      "social-determinants-health-ukmla",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-eligibility-who-can-sit",
+      "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
+    "key": "ukmla-for-pakistani-doctors",
+    "type": "post",
+    "title": "UKMLA for Pakistani Doctors: Eligibility, Fees and the Route to Practising in the UK",
+    "url": "/news#ukmla-for-pakistani-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 29,
+    "linkedFrom": [
+      "ukmla-fees-for-img-2026",
+      "ukmla-question-bank-and-mock-tests"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/key-dates",
+      "/official-resources",
+      "/preparation",
+      "/registration-guide",
+      "/results-and-scoring",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "/what-is-ukmla",
+      "cardiology-ukmla-akt-revision",
+      "dermatology-ukmla-revision",
+      "emergency-medicine-ukmla-revision",
+      "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-register-plab-1",
+      "mock-exams-ukmla-preparation",
+      "plab-2-preparation-guide",
+      "three-months-ukmla-akt-countdown",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-akt-format-preparation",
+      "ukmla-cpsa-what-it-tests",
+      "ukmla-fees-for-img-2026",
+      "ukmla-key-dates-sitting-schedule",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-resits-rules-limits"
     ]
   },
   {
@@ -2098,12 +2399,15 @@
     "url": "/news#ukmla-key-dates-sitting-schedule",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/key-dates",
-    "incomingCount": 3,
+    "incomingCount": 6,
     "outgoingCount": 12,
     "linkedFrom": [
       "disability-access-ukmla-guide",
       "group-study-vs-solo-ukmla",
-      "how-to-register-plab-1"
+      "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-register-plab-1",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-pakistani-doctors"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -2127,16 +2431,20 @@
     "url": "/news#ukmla-preparation-for-imgs",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 8,
+    "incomingCount": 12,
     "outgoingCount": 25,
     "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
       "time-management-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -2168,16 +2476,64 @@
     ]
   },
   {
+    "key": "ukmla-question-bank-and-mock-tests",
+    "type": "post",
+    "title": "UKMLA Question Bank and Mock Tests: The Complete Guide to Practice Resources",
+    "url": "/news#ukmla-question-bank-and-mock-tests",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/preparation",
+    "incomingCount": 5,
+    "outgoingCount": 27,
+    "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-vs-usmle-comparison"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/fees",
+      "/official-resources",
+      "/preparation",
+      "/results-and-scoring",
+      "/syllabus",
+      "cardiology-ukmla-akt-revision",
+      "dermatology-ukmla-revision",
+      "endocrinology-diabetes-ukmla-revision",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-read-akt-stem",
+      "mock-exams-ukmla-preparation",
+      "ophthalmology-ent-ukmla-revision",
+      "psychiatry-communication-cpsa-stations",
+      "respiratory-medicine-ukmla-revision",
+      "rheumatology-ukmla-revision",
+      "time-management-akt-ukmla",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-akt-format-preparation",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-revision-notes-strategy",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ]
+  },
+  {
     "key": "ukmla-resits-rules-limits",
     "type": "post",
     "title": "UKMLA Resits: Rules, Limits, and How to Bounce Back",
     "url": "/news#ukmla-resits-rules-limits",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/appeals-and-resits",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 12,
     "linkedFrom": [
       "plab-2-preparation-guide",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-pakistani-doctors",
       "ukmla-results-feedback-report"
     ],
     "linksTo": [
@@ -2252,10 +2608,11 @@
     "url": "/news#ukmla-revision-notes-strategy",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 18,
     "linkedFrom": [
       "group-study-vs-solo-ukmla",
+      "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits"
     ],
     "linksTo": [
@@ -2280,16 +2637,57 @@
     ]
   },
   {
+    "key": "ukmla-vs-neet-pg",
+    "type": "post",
+    "title": "UKMLA vs NEET PG: Which Path Should Indian Medical Graduates Choose?",
+    "url": "/news#ukmla-vs-neet-pg",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/ukmla-vs-plab",
+    "incomingCount": 3,
+    "outgoingCount": 23,
+    "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-fees-for-img-2026",
+      "ukmla-question-bank-and-mock-tests"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/preparation",
+      "/registration-guide",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "/what-is-ukmla",
+      "blood-tests-data-interpretation-akt",
+      "clinical-examination-cpsa-guide",
+      "dermatology-ukmla-revision",
+      "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "mla-content-map-explained",
+      "obstetrics-gynaecology-ukmla-revision",
+      "paediatrics-ukmla-revision",
+      "radiology-imaging-akt-ukmla",
+      "surgical-presentations-ukmla-revision",
+      "ukmla-fees-for-img-2026",
+      "ukmla-vs-plab-difference",
+      "ukmla-vs-usmle-comparison"
+    ]
+  },
+  {
     "key": "ukmla-vs-plab-difference",
     "type": "post",
     "title": "UKMLA vs PLAB: What Is the Difference?",
     "url": "/news#ukmla-vs-plab-difference",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 18,
     "linkedFrom": [
       "mla-content-map-explained",
+      "ukmla-vs-neet-pg",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -2311,6 +2709,48 @@
       "patient-safety-ukmla-prescribing-errors",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-preparation-for-imgs"
+    ]
+  },
+  {
+    "key": "ukmla-vs-usmle-comparison",
+    "type": "post",
+    "title": "UKMLA vs USMLE: Which Exam Is Easier, Cheaper and Better for Your Career?",
+    "url": "/news#ukmla-vs-usmle-comparison",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/ukmla-vs-plab",
+    "incomingCount": 4,
+    "outgoingCount": 24,
+    "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-fees-for-img-2026",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-vs-neet-pg"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/preparation",
+      "/registration-guide",
+      "/results-and-scoring",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "/what-is-ukmla",
+      "angoff-standard-setting-explained",
+      "clinical-examination-cpsa-guide",
+      "dermatology-ukmla-revision",
+      "foundation-programme-after-ukmla",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "infection-microbiology-ukmla-revision",
+      "surgical-presentations-ukmla-revision",
+      "three-months-ukmla-akt-countdown",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-akt-format-preparation",
+      "ukmla-eligibility-who-can-sit",
+      "ukmla-fees-for-img-2026",
+      "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests"
     ]
   },
   {

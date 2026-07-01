@@ -546,6 +546,37 @@ check it doesn't recreate this pattern — if a pillar page already owns a head
 term, give the supporting post a more specific long-tail variant of it instead
 of the identical phrase.
 
+### IMG Country Routes & Global Comparisons cluster (added 2026-07-01)
+
+The site's 51 original posts + 13 pillars covered every keyword in the Keyword
+Cluster Sheet — there were no gaps *within* that sheet. The real backlog of
+uncovered demand lives in `UKMLA_SEO_Keyword_Research.xlsx`'s `All Keywords
+(Final)` tab: 59 target keywords the site didn't rank for, mostly country-
+specific IMG routes (India, Pakistan, Nigeria, Bangladesh, Egypt, Gulf, Sri
+Lanka, South Africa) plus question-bank/mock-test and exam-comparison terms.
+Many of those 59 are near-duplicates of each other (three separate "UKMLA vs
+USMLE" variants, ~14 India-related terms) — writing one post per raw keyword
+would have violated the cannibalization rule above, so the first batch
+**clustered** them into 7 non-overlapping posts instead of 59 thin ones:
+`how-to-become-a-doctor-in-uk-from-india`, `ukmla-for-pakistani-doctors`,
+`ukmla-for-nigerian-doctors`, `ukmla-vs-usmle-comparison`, `ukmla-vs-neet-pg`,
+`ukmla-question-bank-and-mock-tests`, `ukmla-fees-for-img-2026`. These map to
+a new `analyze-internal-links.cjs` cluster, `IMG Country Routes & Global
+Comparisons` (pillar-mapped to `/eligibility`, `/ukmla-vs-plab`,
+`/preparation` or `/fees` depending on topic — see `PILLAR_RULES`/
+`CLUSTER_RULES` near the top of that script for the exact regexes). The
+question-bank post deliberately avoids naming any commercial question-bank
+product by name, matching the site's no-paid-service-promotion rule, and is
+framed as a buyer's-guide/evaluation-framework instead.
+
+**Remaining backlog:** roughly 30-45 keywords from the 59-item list still
+have no dedicated post after this batch (e.g. Bangladesh, Egypt, Gulf/Saudi,
+Sri Lanka, South Africa IMG routes; MBBS-in-UK; UK doctor salary for Indian
+audiences; NHS-job-after-exam; recognition/validity FAQs; test-centre
+locator pages). Re-read `UKMLA_SEO_Keyword_Research.xlsx`'s `All Keywords
+(Final)` tab and cross-check against the regenerated Keyword Cluster Sheet
+before planning the next batch, since this file's own list may have shifted.
+
 ---
 
 ## 14. Maintaining this file
