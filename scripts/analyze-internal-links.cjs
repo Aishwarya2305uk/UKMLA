@@ -39,14 +39,14 @@ const PILLAR_PAGES = {
 
 // ── Cluster assignment for blog posts, by slug keyword ──────────────────────
 const CLUSTER_RULES = [
-  [/^ukmla-fees|^ukmla-eligibility|^ukmla-key-dates|^how-to-register|^ukmla-resits|^disability-access/, 'Registration & Eligibility'],
+  [/^ukmla-fees|^ukmla-eligibility|^ukmla-key-dates|^how-to-register|^ukmla-resits|^disability-access|^ukmla-exemptions-for-specialist/, 'Registration & Eligibility'],
   [/^what-is-ukmla|^mla-content-map|^ukmla-vs-plab|^plab-2-preparation|^ukmla-preparation-for-imgs|^uk-medical-schools|^graduate-entry|^ukmla-graduate-entry/, 'Core UKMLA Overview'],
   [/^ukmla-akt-format|^ukmla-cpsa|^how-to-read-akt-stem|^angoff-standard-setting|^clinical-examination-cpsa|^psychiatry-communication-cpsa/, 'Exam Format'],
-  [/^ukmla-results-feedback|^angoff/, 'Results & Scoring'],
+  [/^ukmla-results-feedback|^angoff|^ukmla-akt-pass-mark/, 'Results & Scoring'],
   [/^good-medical-practice|^safeguarding|^patient-safety/, 'Professional Practice & Safety'],
-  [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months/, 'Exam Preparation'],
-  [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants)/, 'Clinical Systems Revision'],
-  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors|^ukmla-vs-usmle|^ukmla-vs-neet-pg|^ukmla-question-bank|^ukmla-fees-for-img/, 'IMG Country Routes & Global Comparisons'],
+  [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months|^managing-ukmla-exam-anxiety/, 'Exam Preparation'],
+  [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants|pharmacology|prescribing)/, 'Clinical Systems Revision'],
+  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors|^ukmla-vs-usmle|^ukmla-vs-neet-pg|^ukmla-question-bank|^ukmla-fees-for-img|^mbbs-in-uk-for|^uk-doctor-salary-guide|^ukmla-to-nhs-job|^is-indian-mbbs-valid-in-uk|^ukmla-akt-test-centres|^gmc-registration-and-epic|^english-language-requirement-for-ukmla|^gmc-registration-requirements-for-international|^how-to-become-a-doctor-in-the-uk-gmc|^uk-visa-guide-for-international|^ukmla-for-international-medical-graduates-country-routes|^ukmla-vs-amc/, 'IMG Country Routes & Global Comparisons'],
 ];
 
 function clusterFor(slug) {
@@ -71,10 +71,15 @@ const PILLAR_RULES = [
   [/^ukmla-results-feedback|^angoff/, '/results-and-scoring'],
   [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months/, '/preparation'],
   [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants)/, '/syllabus'],
-  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors/, '/eligibility'],
-  [/^ukmla-vs-usmle|^ukmla-vs-neet-pg/, '/ukmla-vs-plab'],
+  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors|^mbbs-in-uk-for|^uk-doctor-salary-guide|^ukmla-to-nhs-job|^is-indian-mbbs-valid-in-uk|^english-language-requirement-for-ukmla|^how-to-become-a-doctor-in-the-uk-gmc|^uk-visa-guide-for-international|^ukmla-for-international-medical-graduates-country-routes|^ukmla-exemptions-for-specialist/, '/eligibility'],
+  [/^ukmla-vs-usmle|^ukmla-vs-neet-pg|^ukmla-vs-amc/, '/ukmla-vs-plab'],
   [/^ukmla-question-bank/, '/preparation'],
   [/^ukmla-fees-for-img/, '/fees'],
+  [/^ukmla-akt-test-centres/, '/exam-pattern/akt'],
+  [/^gmc-registration-and-epic|^gmc-registration-requirements-for-international/, '/registration-guide'],
+  [/^ukmla-akt-pass-mark/, '/results-and-scoring'],
+  [/^pharmacology-prescribing-safety-ukmla/, '/syllabus'],
+  [/^managing-ukmla-exam-anxiety/, '/preparation'],
 ];
 
 function pillarFor(slug) {

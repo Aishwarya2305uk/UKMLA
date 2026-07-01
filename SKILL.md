@@ -569,13 +569,92 @@ question-bank post deliberately avoids naming any commercial question-bank
 product by name, matching the site's no-paid-service-promotion rule, and is
 framed as a buyer's-guide/evaluation-framework instead.
 
-**Remaining backlog:** roughly 30-45 keywords from the 59-item list still
-have no dedicated post after this batch (e.g. Bangladesh, Egypt, Gulf/Saudi,
-Sri Lanka, South Africa IMG routes; MBBS-in-UK; UK doctor salary for Indian
-audiences; NHS-job-after-exam; recognition/validity FAQs; test-centre
-locator pages). Re-read `UKMLA_SEO_Keyword_Research.xlsx`'s `All Keywords
-(Final)` tab and cross-check against the regenerated Keyword Cluster Sheet
-before planning the next batch, since this file's own list may have shifted.
+**Second batch (added 2026-07-01, same day):** the remaining backlog called
+out above was cleared in a follow-up run the same day, adding 12 more posts
+to the same `IMG Country Routes & Global Comparisons` cluster: 5 more
+country-route posts (`ukmla-for-bangladeshi-doctors`,
+`ukmla-for-egyptian-doctors`, `ukmla-for-gulf-doctors`,
+`ukmla-for-sri-lankan-doctors`, `ukmla-for-south-african-doctors`), plus 7
+posts covering topics that don't fit the country-route template:
+`mbbs-in-uk-for-indian-students` (studying an MBBS/MBChB in the UK as an
+undergraduate — a genuinely different search intent from the IMG route, not
+a duplicate of `how-to-become-a-doctor-in-uk-from-india`),
+`uk-doctor-salary-guide-for-indian-doctors`, `ukmla-to-nhs-job-pathway`,
+`is-indian-mbbs-valid-in-uk` (degree recognition/validity FAQ, also covers
+"which countries accept UKMLA"), `ukmla-akt-test-centres-guide` (combines
+the India/Pakistan/UK/worldwide test-centre-locator keywords into one post
+instead of four thin ones), `gmc-registration-and-epic-verification-india`,
+and `english-language-requirement-for-ukmla-india`. All 12 were added to
+`CLUSTER_RULES`/`PILLAR_RULES` in `scripts/analyze-internal-links.cjs` in
+the same run. Two slugs were deliberately renamed mid-planning from an
+initial choice to satisfy the "keyphrase in slug" Yoast rule — the final
+slugs are `is-indian-mbbs-valid-in-uk` (not `ukmla-recognition-and-validity-faq`)
+and `english-language-requirement-for-ukmla-india` (not
+`...-requirements-ukmla-ielts-oet`) — if either post needs updating later,
+use the slug as it actually exists in `News.jsx`/`posts-html/`, not the name
+that might be inferred from the keyword research sheet's suggested page
+title.
+
+**Remaining backlog (superseded, see third batch below):** none identified
+as of 2026-07-01 against the `All Keywords (Final)` tab specifically — the
+second batch closed out every keyword from `UKMLA_SEO_Keyword_Research.xlsx`'s
+`All Keywords (Final)` tab that wasn't already folded into the first batch's
+7 posts as a secondary keyword.
+
+**Third batch (added 2026-07-01, same day again):** `All Keywords (Final)`
+turned out to be a narrower list than the workbook's other tabs. A wider
+sheet, `All Keywords - Unique` (485 rows, merged from an old desktop
+spreadsheet + a workspace spreadsheet's `Medical Students Keywords`/`Doctors
+Keywords` sheets + a direct extraction of the site's own existing content),
+surfaced ~214 keywords not sourced from "Website Content" — i.e. not already
+extracted from the live site — that `All Keywords (Final)` had never
+covered. Cross-checking those 214 against the regenerated Keyword Cluster
+Sheet found most were already folded into existing posts as secondary
+keywords or pillar topics, but 11 were genuine gaps, added as:
+`ukmla-exemptions-for-specialist-and-gp-doctors` (do GPs/specialists/MRCP
+holders need the UKMLA — a real, previously uncovered eligibility question),
+`gmc-registration-requirements-for-international-doctors` (a
+nationality-agnostic version of the registration process — the highest
+combined-volume gap in this batch, deliberately generic to avoid
+cannibalizing `gmc-registration-and-epic-verification-india`),
+`how-to-become-a-doctor-in-the-uk-gmc-registration-guide` (the single
+highest-volume keyword found, "how to become a doctor in UK" at ~2,400
+est. monthly searches — a generic flagship hub post distinct from the
+India-specific `how-to-become-a-doctor-in-uk-from-india`, deliberately
+merging what could have been two near-duplicate generic posts into one to
+avoid the pattern documented in the first batch's note above),
+`ukmla-for-refugee-doctors` (a genuinely underserved audience — written
+carefully per the sensitivity/E-E-A-T rule, no fabricated fee amounts or
+named charities), `uk-visa-guide-for-international-doctors` (Health and
+Care Worker visa deep-dive, distinct from `ukmla-to-nhs-job-pathway`'s
+brief visa mention), `ukmla-for-filipino-doctors` (a country with 4
+separate keyword variants — Philippines — warranting its own post),
+`ukmla-for-international-medical-graduates-country-routes` (a combined
+round-up post for Ghana, Nepal, Malaysia, Ethiopia, Sudan, Zimbabwe, Oman
+and the Caribbean/Southeast Asia — individually too low-volume for
+dedicated posts, following the same anti-fragmentation logic as the first
+batch), `ukmla-vs-amc-and-mccqe-comparison` (Australia/Canada exam
+comparison, extending the existing vs-USMLE/vs-NEET-PG sub-cluster),
+`ukmla-akt-pass-mark-and-pass-rate-explained` (deliberately complementary
+to, not duplicative of, the existing `angoff-standard-setting-explained`
+post — that post covers the standard-setting methodology, this one covers
+the practical "what does my result mean" angle, and never states a
+fabricated specific pass-mark/pass-rate percentage), `pharmacology-prescribing-safety-ukmla`
+(a genuine Clinical Systems Revision content-map gap — the existing 22
+per-system posts never covered pharmacology directly), and
+`managing-ukmla-exam-anxiety` (a candidate-wellbeing topic, written with
+explicit non-clinical-advice framing and a recommendation to seek
+professional support for severe/persistent symptoms). All 11 were added to
+`CLUSTER_RULES`/`PILLAR_RULES` in `scripts/analyze-internal-links.cjs`.
+The site now has **81 posts** (51 original + 7 + 12 + 11).
+
+**Remaining backlog:** none identified as of 2026-07-01 against either `All
+Keywords (Final)` or `All Keywords - Unique`. Before starting a future
+batch, re-read `UKMLA_SEO_Keyword_Research.xlsx` fresh — check ALL tabs, not
+just `All Keywords (Final)`, since that tab has already proven to be a
+narrower subset than the workbook's other keyword-research tabs — and
+cross-check against the regenerated Keyword Cluster Sheet, since new
+keyword research may be added to the workbook later.
 
 ---
 
