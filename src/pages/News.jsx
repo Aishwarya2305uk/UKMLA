@@ -2654,7 +2654,7 @@ export default function News() {
   // Intercept internal links in post content to navigate via openPost
   useEffect(() => {
     const container = contentRef.current;
-    if (!container) return undefined;
+    if (!container) return;
 
     const handleLinkClick = (e) => {
       const link = e.target.closest('a');
@@ -2668,9 +2668,8 @@ export default function News() {
       const hashIndex = href.indexOf('#');
       if (hashIndex !== -1) {
         const slug = href.substring(hashIndex + 1);
-        // Check if this slug exists in our posts (without calling posts in dep array)
-        const postExists = posts.some((p) => p.slug === slug);
-        if (postExists) {
+        // Check if this slug exists in our posts
+        if (posts.some((p) => p.slug === slug)) {
           e.preventDefault();
           openPost(slug);
         }
@@ -2681,7 +2680,7 @@ export default function News() {
     return () => {
       container.removeEventListener('click', handleLinkClick);
     };
-  }, [openPost]);
+  });
 
   // Scroll-spy: highlight the section you are currently reading. We pick the
   // last <h2> whose top has scrolled above a fixed line near the top of the
