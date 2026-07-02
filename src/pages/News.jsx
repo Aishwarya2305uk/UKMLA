@@ -27,7 +27,7 @@ const posts = [
     "featuredImageUrl": "/images/ukmla-fees-explained-featured.webp",
     "featuredImageTitle": "UKMLA fees and exam costs for 2026",
     "featuredImageAltText": "UKMLA fees concept - stethoscope, calculator and British pound notes showing UKMLA exam costs",
-    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab/fees-for-plab"
+    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/fees-for-plab"
   },
   {
     "slug": "what-is-ukmla-complete-guide",
@@ -107,7 +107,7 @@ const posts = [
     "featuredImageUrl": "/images/ukmla-vs-plab-difference-featured.webp",
     "featuredImageTitle": "UKMLA vs PLAB: What Is the Difference? Featured Image",
     "featuredImageAltText": "UKMLA vs PLAB - Key Differences for International Medical Graduates",
-    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab"
+    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab"
   },
   {
     "slug": "ukmla-eligibility-who-can-sit",
@@ -155,7 +155,7 @@ const posts = [
     "featuredImageUrl": "/images/how-to-register-plab-1-featured.webp",
     "featuredImageTitle": "How to Register for PLAB 1: A Step-by-Step Guide Featured Image",
     "featuredImageAltText": "how to register for PLAB 1 - Step-by-Step Guide for International Medical Graduates",
-    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab"
+    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab"
   },
   {
     "slug": "plab-2-preparation-guide",
@@ -171,7 +171,7 @@ const posts = [
     "featuredImageUrl": "/images/plab-2-preparation-guide-featured.webp",
     "featuredImageTitle": "PLAB 2 Preparation Guide Featured Image",
     "featuredImageAltText": "PLAB 2 preparation - How to Excel in the Clinical Assessment for IMGs",
-    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab"
+    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab"
   },
   {
     "slug": "ukmla-resits-rules-limits",
@@ -715,7 +715,7 @@ const posts = [
     "featuredImageUrl": "/images/ukmla-preparation-for-imgs-featured.webp",
     "featuredImageTitle": "UKMLA Preparation for IMG Candidates: Tailored Guide Featured Image",
     "featuredImageAltText": "UKMLA preparation for IMGs - Tailored PLAB Guide for International Medical Graduates",
-    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab"
+    "sourceFullUrl": "https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab"
   },
   {
     "slug": "blood-tests-data-interpretation-akt",
@@ -2653,6 +2653,20 @@ export default function News() {
     };
   }, []);
 
+  // Framework-level scroll reset. Whenever the active post changes — via an
+  // in-content internal link, a related-post card, the browser back/forward
+  // buttons, or a deep link — jump to the top AFTER the new post has rendered.
+  // Running it here (keyed on the slug) rather than inside openPost means:
+  //   1. it fires after React commits the new (taller) DOM, not before, so the
+  //      reader always lands at the top instead of keeping the old offset;
+  //   2. it covers every navigation path, so individual posts never need their
+  //      own scroll handling.
+  // `behavior: 'instant'` overrides the global `scroll-behavior: smooth`, which
+  // would otherwise animate all the way down-to-up and look like a free scroll.
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [activeSlug]);
+
   // Intercept internal links in post content to navigate via openPost
   useEffect(() => {
     const container = contentRef.current;
@@ -2725,18 +2739,19 @@ export default function News() {
     };
   }, [activePost, enhanced]);
 
+  // Note: scroll-to-top is handled centrally by the activeSlug effect above,
+  // which runs after the new view renders — so it is intentionally not called
+  // here (calling it now would fire before the new post's DOM is committed).
   const openPost = useCallback((slug) => {
     window.history.pushState(null, '', `#${slug}`);
     setActiveSlug(slug);
     setActiveSection(null);
-    window.scrollTo(0, 0);
   }, []);
 
   const closePost = useCallback(() => {
     window.history.pushState(null, '', window.location.pathname);
     setActiveSlug(null);
     setActiveSection(null);
-    window.scrollTo(0, 0);
   }, []);
 
   const goToSection = useCallback((id) => {
