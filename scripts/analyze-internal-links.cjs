@@ -39,14 +39,14 @@ const PILLAR_PAGES = {
 
 // ── Cluster assignment for blog posts, by slug keyword ──────────────────────
 const CLUSTER_RULES = [
-  [/^ukmla-fees|^ukmla-eligibility|^ukmla-key-dates|^how-to-register|^ukmla-resits|^disability-access|^ukmla-exemptions-for-specialist/, 'Registration & Eligibility'],
-  [/^what-is-ukmla|^mla-content-map|^ukmla-vs-plab|^plab-2-preparation|^ukmla-preparation-for-imgs|^uk-medical-schools|^graduate-entry|^ukmla-graduate-entry/, 'Core UKMLA Overview'],
-  [/^ukmla-akt-format|^ukmla-cpsa|^how-to-read-akt-stem|^angoff-standard-setting|^clinical-examination-cpsa|^psychiatry-communication-cpsa/, 'Exam Format'],
-  [/^ukmla-results-feedback|^angoff|^ukmla-akt-pass-mark/, 'Results & Scoring'],
-  [/^good-medical-practice|^safeguarding|^patient-safety/, 'Professional Practice & Safety'],
-  [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months|^managing-ukmla-exam-anxiety/, 'Exam Preparation'],
-  [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants|pharmacology|prescribing)/, 'Clinical Systems Revision'],
-  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors|^ukmla-vs-usmle|^ukmla-vs-neet-pg|^ukmla-question-bank|^ukmla-fees-for-img|^mbbs-in-uk-for|^uk-doctor-salary-guide|^ukmla-to-nhs-job|^is-indian-mbbs-valid-in-uk|^ukmla-akt-test-centres|^gmc-registration-and-epic|^english-language-requirement-for-ukmla|^gmc-registration-requirements-for-international|^how-to-become-a-doctor-in-the-uk-gmc|^uk-visa-guide-for-international|^ukmla-for-international-medical-graduates-country-routes|^ukmla-vs-amc/, 'IMG Country Routes & Global Comparisons'],
+  [/^ukmla-fees|^ukmla-eligibility|^ukmla-key-dates|^how-to-register|^ukmla-resits|^disability-access|^ukmla-exemptions-for-specialist|^gmc-registration-refund-policy|^gmc-order-reform|^gmc-welcome-to-uk-practice|^oet-vs-ielts|^gmc-recognised-primary-medical-qualifications|^internship-requirement-for-gmc|^how-long-does-gmc-registration-take|^locally-employed-doctors|^ukmla-exam-booking-process|^gmc-english-language-exemption|^types-of-gmc-registration|^nhs-pension-scheme|^indemnity-insurance-for-doctors|^gmc-annual-retention-fee|^certificate-of-completion-of-training|^arcp-annual-review|^ewtd-working-hours|^nhs-eportfolio-guide|^scotland-wales-northern-ireland|^ukmla-exam-day-what-to-expect|^ukmla-special-circumstances/, 'Registration & Eligibility'],
+  [/^what-is-ukmla|^mla-content-map|^ukmla-vs-plab|^plab-2-preparation|^ukmla-preparation-for-imgs|^uk-medical-schools|^graduate-entry|^ukmla-graduate-entry|^ukmla-syllabus-2026-changes|^is-ukmla-replacing-plab|^foundation-programme-2026-recruitment-changes|^ukmla-and-academic-foundation-programme|^joining-a-royal-college|^multi-specialty-recruitment-assessment|^history-of-ukmla-plab-transition/, 'Core UKMLA Overview'],
+  [/^ukmla-akt-format|^ukmla-cpsa|^how-to-read-akt-stem|^angoff-standard-setting|^clinical-examination-cpsa|^psychiatry-communication-cpsa|^breaking-bad-news-in-the-cpsa/, 'Exam Format'],
+  [/^ukmla-results-feedback|^angoff|^ukmla-akt-pass-mark|^what-happens-if-you-fail-ukmla/, 'Results & Scoring'],
+  [/^good-medical-practice|^safeguarding|^patient-safety|^gmc-regulation-of-physician-associates|^gmc-revalidation-process|^gmc-fitness-to-practise/, 'Professional Practice & Safety'],
+  [/^ukmla-revision-notes|^mock-exams|^time-management|^group-study|^three-months|^managing-ukmla-exam-anxiety|^how-to-pass-ukmla-on-first-attempt|^ukmla-anki-deck/, 'Exam Preparation'],
+  [/(cardiology|respiratory|gastroenterology|neurology|dermatology|haematology|nephrology|rheumatology|endocrinology|palliative-care|ophthalmology|obstetrics|surgical|infection-microbiology|emergency-medicine|mental-health|paediatrics|nice-guidelines|ecg-interpretation|radiology|blood-tests|social-determinants|pharmacology|prescribing|genetics-and-genomics|sepsis-recognition|transgender-health|toxicology-and-poisoning|anaesthesia-and-perioperative|trauma-and-orthopaedics|^urology-ukmla|care-of-the-elderly|public-health-and-screening|medical-statistics|consent-and-mental-capacity|immunology-and-allergy|nutrition-and-metabolic|chronic-pain-management|critical-care-and-intensive-care|substance-misuse-and-addiction|menopause-management|contraception-counselling|early-pregnancy-complications|gynaecological-cancers|medically-unexplained-symptoms|domestic-abuse-and-safeguarding)/, 'Clinical Systems Revision'],
+  [/^how-to-become-a-doctor-in-uk-from|^ukmla-for-.*-doctors|^ukmla-vs-usmle|^ukmla-vs-neet-pg|^ukmla-question-bank|^ukmla-fees-for-img|^mbbs-in-uk-for|^uk-doctor-salary-guide|^ukmla-to-nhs-job|^is-indian-mbbs-valid-in-uk|^ukmla-akt-test-centres|^gmc-registration-and-epic|^english-language-requirement-for-ukmla|^gmc-registration-requirements-for-international|^how-to-become-a-doctor-in-the-uk-gmc|^uk-visa-guide-for-international|^ukmla-for-international-medical-graduates-country-routes|^ukmla-vs-amc|^foundation-year-vs-specialty-training-for-imgs|^ukmla-crash-course-for-doctors|^medical-training-prioritisation-act|^medical-training-initiative-scheme-closure|^uk-visa-salary-threshold-changes|^gmc-registration-for-eu-and-irish|^returning-to-practise-in-gulf-countries|^how-to-write-an-nhs-cv|^nhs-job-interview-preparation|^relocating-to-the-uk|^bringing-family-to-uk|^locum-vs-substantive|^understanding-nhs-pay-scales/, 'IMG Country Routes & Global Comparisons'],
 ];
 
 function clusterFor(slug) {
@@ -80,6 +80,22 @@ const PILLAR_RULES = [
   [/^ukmla-akt-pass-mark/, '/results-and-scoring'],
   [/^pharmacology-prescribing-safety-ukmla/, '/syllabus'],
   [/^managing-ukmla-exam-anxiety/, '/preparation'],
+  [/^how-to-pass-ukmla-on-first-attempt|^ukmla-anki-deck|^ukmla-crash-course-for-doctors/, '/preparation'],
+  [/^ukmla-syllabus-2026-changes/, '/syllabus'],
+  [/^foundation-year-vs-specialty-training-for-imgs/, '/eligibility'],
+  [/^gmc-registration-refund-policy/, '/fees'],
+  [/^medical-training-prioritisation-act|^medical-training-initiative-scheme-closure|^uk-visa-salary-threshold-changes|^gmc-recognised-primary-medical-qualifications|^internship-requirement-for-gmc|^gmc-english-language-exemption|^foundation-programme-2026-recruitment-changes|^ukmla-and-academic-foundation-programme/, '/eligibility'],
+  [/^gmc-order-reform|^gmc-regulation-of-physician-associates|^gmc-welcome-to-uk-practice|^how-long-does-gmc-registration-take|^locally-employed-doctors|^ukmla-exam-booking-process|^gmc-revalidation-process|^types-of-gmc-registration|^gmc-fitness-to-practise/, '/registration-guide'],
+  [/^oet-vs-ielts/, '/eligibility'],
+  [/^is-ukmla-replacing-plab/, '/ukmla-vs-plab'],
+  [/^what-happens-if-you-fail-ukmla/, '/appeals-and-resits'],
+  [/genetics-and-genomics|sepsis-recognition|transgender-health|toxicology-and-poisoning|anaesthesia-and-perioperative|trauma-and-orthopaedics|^urology-ukmla|care-of-the-elderly|public-health-and-screening|medical-statistics|consent-and-mental-capacity|immunology-and-allergy|nutrition-and-metabolic|chronic-pain-management|critical-care-and-intensive-care|substance-misuse-and-addiction|menopause-management|contraception-counselling|early-pregnancy-complications|gynaecological-cancers|medically-unexplained-symptoms|domestic-abuse-and-safeguarding|prescribing-in-renal-and-hepatic/, '/syllabus'],
+  [/^nhs-pension-scheme|^indemnity-insurance-for-doctors|^gmc-annual-retention-fee|^understanding-nhs-pay-scales/, '/fees'],
+  [/^how-to-write-an-nhs-cv|^nhs-job-interview-preparation|^relocating-to-the-uk|^bringing-family-to-uk|^locum-vs-substantive/, '/eligibility'],
+  [/^joining-a-royal-college|^certificate-of-completion-of-training|^multi-specialty-recruitment-assessment|^arcp-annual-review|^ewtd-working-hours|^nhs-eportfolio-guide|^scotland-wales-northern-ireland|^ukmla-exam-day-what-to-expect|^ukmla-special-circumstances/, '/registration-guide'],
+  [/^gmc-registration-for-eu-and-irish|^returning-to-practise-in-gulf-countries/, '/eligibility'],
+  [/^history-of-ukmla-plab-transition/, '/what-is-ukmla'],
+  [/^breaking-bad-news-in-the-cpsa/, '/exam-pattern/cpsa'],
 ];
 
 function pillarFor(slug) {

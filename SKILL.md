@@ -489,8 +489,8 @@ drift out of sync with each other if only one or two are refreshed.
 
 `UKMLA_Keyword_Cluster_Sheet.xlsx` (sheet `Keyword Cluster Sheet`, plus a
 `Summary` sheet) is the site's keyword-cannibalization guard and cluster map —
-one row per blog post **and** one row per pillar page (64 rows currently: 51
-posts + 13 pillars). Columns:
+one row per blog post **and** one row per pillar page (120 rows currently: 107
+posts + 13 pillars, as of the 2026-07-02 fifth batch). Columns:
 
 `Primary Keyword, Secondary Keywords, Keyword Cluster, Pillar Topic,
 Associated Post Title, Post URL, Search Intent, Post Status, Cluster Status,
@@ -648,13 +648,127 @@ professional support for severe/persistent symptoms). All 11 were added to
 `CLUSTER_RULES`/`PILLAR_RULES` in `scripts/analyze-internal-links.cjs`.
 The site now has **81 posts** (51 original + 7 + 12 + 11).
 
-**Remaining backlog:** none identified as of 2026-07-01 against either `All
-Keywords (Final)` or `All Keywords - Unique`. Before starting a future
-batch, re-read `UKMLA_SEO_Keyword_Research.xlsx` fresh — check ALL tabs, not
-just `All Keywords (Final)`, since that tab has already proven to be a
-narrower subset than the workbook's other keyword-research tabs — and
-cross-check against the regenerated Keyword Cluster Sheet, since new
-keyword research may be added to the workbook later.
+**Fourth batch (added 2026-07-02):** the user provided a refreshed keyword
+workbook, `UKMLA_SEO_Keyword_Research (1).xlsx` (a second copy exists
+alongside the original `UKMLA_SEO_Keyword_Research.xlsx` — the `(1)` file is
+the newer one and has an extra `Post Registry` sheet). Its `All Keywords -
+Unique` tab carries a note: "Cleaned on 2026-07-02: duplicates removed and
+keywords already covered by an existing post/pillar removed... Reduced from
+485 raw merged rows to 6 genuine remaining gaps" — i.e. a fresh, already-
+deduplicated audit against the (by then) 81-post site. The 6 gaps were
+covered with 6 new posts, all with real GMC-sourced facts (not just
+keyword-driven): `how-to-pass-ukmla-on-first-attempt`,
+`ukmla-syllabus-2026-changes` (grounded in the real GMC MLA content map
+update effective September 2026 — expansion from ~311 to 430 conditions,
+removal of the specialty-context grid, new topics including transgender
+health/genetics/sepsis guidance/social determinants, largest expansion in
+women's health, and PLAB/UKMLA content-map convergence — verified via live
+web search, sourced to `gmc-uk.org/education/medical-licensing-assessment/mla-content-map`),
+`foundation-year-vs-specialty-training-for-imgs` (the IMG *decision* between
+FY1/FY2 and direct specialty/core entry — distinct from the existing
+`foundation-programme-after-ukmla` post, which just explains what FY1/FY2
+involves), `gmc-registration-refund-policy` (grounded in the real GMC
+refund/scrutiny-fee rules — £110 scrutiny fee, 5-working-day refund
+turnaround, annual retention fee refund on voluntary removal, no-refund
+scenarios — verified via live web search, sourced to `gmc-uk.org`'s
+application-fee-refunds-and-fees-we-keep page), `ukmla-anki-deck-and-
+flashcard-revision-guide` and `ukmla-crash-course-for-doctors` (both framed
+as evaluation/buyer's-guide content with no named commercial products,
+following the same pattern as `ukmla-question-bank-and-mock-tests`, since
+neither an Anki deck download nor a crash course can honestly be offered/
+endorsed by the site). All 6 were added to `CLUSTER_RULES`/`PILLAR_RULES` in
+`scripts/analyze-internal-links.cjs`. Post-regeneration check: 87 posts + 13
+pillars, `Posts with 0 incoming links: none`, and the keyword-cannibalization
+check still reports only the same 2 pre-existing cases (AKT/CPSA vs their
+pillars) — no new cannibalization introduced. **Known inconsistency, not yet
+resolved:** `scripts/build-keyword-cluster-sheet.py` still reads secondary
+keywords from the *older* `UKMLA_SEO_Keyword_Research.xlsx` (485-row `All
+Keywords - Unique`), not the newer `(1)` file (reduced to 6 rows) — this is
+deliberate for now, since the older file's larger corpus is more useful for
+secondary-keyword token-overlap matching, but if the user continues
+maintaining the `(1)` file going forward, the script's file reference may
+need updating.
+
+**Remaining backlog:** none identified as of 2026-07-02 against the
+refreshed `All Keywords - Unique` tab in `UKMLA_SEO_Keyword_Research
+(1).xlsx`. Before starting a future batch, re-read whichever keyword
+workbook is newest (check file modification dates — there may be more than
+one `UKMLA_SEO_Keyword_Research*.xlsx` copy in the repo root at any given
+time) fresh, check ALL tabs, and cross-check against the regenerated Keyword
+Cluster Sheet, since new keyword research may be added later.
+
+### Fifth batch: 20 news/keyword-driven posts (added 2026-07-02, same day)
+
+With the keyword workbook's own gap list exhausted (only 6 rows, all
+covered in the fourth batch), a fifth batch of 20 posts was built from two
+sources instead: (1) manually re-mining the granular `Short-Tail`,
+`Long-Tail`, `Medical Students Keywords`, and `Doctors Keywords` tabs of
+`UKMLA_SEO_Keyword_Research (1).xlsx` for real search-intent gaps that the
+workbook's own automated dedup had folded into existing posts as secondary
+keywords rather than flagging as standalone gaps, and (2) live web research
+into genuinely current 2026 UKMLA/GMC/NHS news, per the user's explicit
+request for posts grounded in real news. Six of the 20 are directly
+news-grounded, each verified via live web search immediately before
+writing: `medical-training-prioritisation-act-2026-imgs` (the Medical
+Training (Prioritisation) Act 2026, Royal Assent 5 March 2026 — carefully
+framed to clarify it affects competition for postgraduate training posts,
+not UKMLA/GMC registration eligibility), `medical-training-initiative-scheme-closure-2026`
+(MTI scheme closed to new applicants 31 March 2026, ~1,600 current
+participants unaffected), `uk-visa-salary-threshold-changes-2026-for-doctors`
+(the 2026 Skilled Worker/Health and Care Worker visa threshold changes,
+including the 8 April 2026 pay-period compliance rule), `gmc-order-reform-2026-protected-medical-titles`
+(the live GMC Order reform consultation on protected titles, closing 21
+July 2026 — written neutrally, since the consultation was still open at
+time of writing), `gmc-regulation-of-physician-associates-what-doctors-need-to-know`
+(GMC regulation of PAs/AAs, written strictly factually per the E-E-A-T
+sensitivity rule — no incident claims, no taking a side in the scope-of-practice
+debate), and `foundation-programme-2026-recruitment-changes` (Foundation
+Priority Programmes folded into the main Preference Informed Allocation
+round for 2026, SJT/EPM removed). The other 14 are keyword-sheet-derived
+explainers deliberately scoped to avoid cannibalizing existing posts on
+similar topics — see each post's own differentiation note in its brief, but
+in short: `is-ukmla-replacing-plab-explained`, `what-happens-if-you-fail-ukmla-foundation-year-impact`
+(the FP-timeline consequence of failing, not resit mechanics — those stay
+in `ukmla-resits-rules-limits`), `ukmla-and-academic-foundation-programme`,
+`gmc-recognised-primary-medical-qualifications` (generic/global PMQ
+recognition, distinct from the India-specific `is-indian-mbbs-valid-in-uk`),
+`internship-requirement-for-gmc-registration`, `how-long-does-gmc-registration-take`
+(generic timeline FAQ, distinct from the India-specific
+`gmc-registration-and-epic-verification-india`), `locally-employed-doctors-route-to-gmc-registration`
+(the CESR/CEGPR "Portfolio Pathway" for LEDs, distinct from the entry-gate
+question in `ukmla-exemptions-for-specialist-and-gp-doctors`),
+`ukmla-exam-booking-process-gmc-online`, `gmc-english-language-exemption-for-imgs`,
+`gmc-welcome-to-uk-practice-induction-guide`, `oet-vs-ielts-for-gmc-registration-comparison`,
+`gmc-revalidation-process-explained`, `types-of-gmc-registration-explained`,
+and `gmc-fitness-to-practise-explained-for-new-doctors`. A new tag,
+`Registration & Eligibility`, was introduced for this batch's dominant
+theme (12 of the 20 posts) since no existing tag fit. All 20 were added to
+`CLUSTER_RULES`/`PILLAR_RULES` in `scripts/analyze-internal-links.cjs`.
+Post-regeneration check: **107 posts + 13 pillars**, `Posts with 0 incoming
+links: none`, no duplicate `primaryKeyword` values, and the
+cannibalization check still reports only the same 2 pre-existing cases
+(AKT/CPSA vs their pillars).
+
+**Gotcha hit this batch:** two posts in a 4-post cross-linking sub-group
+(`is-ukmla-replacing-plab-explained` and `ukmla-exam-booking-process-gmc-online`)
+ended up with only 1 incoming link each instead of the planned 2, because
+the *other* two posts in that sub-group didn't actually add the sibling
+link they were briefed to add (subagents don't always fully comply with
+every linking instruction) — caught by re-running `analyze-internal-links.cjs`
+and checking each new post's `incomingCount` individually rather than just
+trusting the aggregate "Posts with 0 incoming links: none" line, which
+only catches *zero*, not *one*. Fixed by hand-editing one natural link into
+each of two different existing posts. **Always check the per-post incoming
+count for every post in a batch, not just the site-wide zero-orphan
+count.** Also hit twice: a subagent's downloaded Higgsfield image was a PNG
+saved with a `.webp` extension rather than a genuine WebP file — caught by
+checking the file's magic bytes (`RIFF...WEBP` vs `\x89PNG`), not just that
+the file was non-empty, and fixed with the project's existing `sharp`
+dependency (`sharp(path).resize(1376,768).webp().toBuffer()`). Worth
+spot-checking magic bytes on at least a few images per batch rather than
+assuming every subagent's own self-reported verification caught it (two
+different subagents in this batch caught and fixed this themselves
+unprompted, but one didn't).
 
 ---
 

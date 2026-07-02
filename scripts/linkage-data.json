@@ -6,7 +6,7 @@
     "url": "/appeals-and-resits",
     "cluster": "Results & Scoring",
     "pillarPage": "",
-    "incomingCount": 26,
+    "incomingCount": 28,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -24,6 +24,7 @@
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
@@ -34,6 +35,7 @@
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -45,44 +47,78 @@
     "url": "/eligibility",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 36,
+    "incomingCount": 70,
     "outgoingCount": 0,
     "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa",
+      "bringing-family-to-uk-dependent-visa-guide",
       "disability-access-ukmla-guide",
       "english-language-requirement-for-ukmla-india",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "foundation-programme-2026-recruitment-changes",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-recognised-primary-medical-qualifications",
       "gmc-registration-and-epic-verification-india",
+      "gmc-registration-for-eu-and-irish-doctors",
       "gmc-registration-requirements-for-international-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "history-of-ukmla-plab-transition-explained",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
+      "how-to-write-an-nhs-cv-and-application",
+      "indemnity-insurance-for-doctors-explained",
+      "internship-requirement-for-gmc-registration",
       "is-indian-mbbs-valid-in-uk",
+      "is-ukmla-replacing-plab-explained",
+      "locum-vs-substantive-nhs-posts-explained",
       "mbbs-in-uk-for-indian-students",
+      "medical-training-initiative-scheme-closure-2026",
+      "medical-training-prioritisation-act-2026-imgs",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "scotland-wales-northern-ireland-registration-differences",
+      "transgender-health-in-the-ukmla",
       "uk-doctor-salary-guide-for-indian-doctors",
       "uk-visa-guide-for-international-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-and-academic-foundation-programme",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-chinese-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-refugee-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
+      "ukmla-special-circumstances-and-accommodations",
       "ukmla-to-nhs-job-pathway",
       "ukmla-vs-amc-and-mccqe-comparison",
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
+      "urology-ukmla-revision",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -94,47 +130,71 @@
     "url": "/exam-pattern/akt",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 49,
+    "incomingCount": 75,
     "outgoingCount": 0,
     "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
       "blood-tests-data-interpretation-akt",
       "cardiology-ukmla-akt-revision",
+      "care-of-the-elderly-and-frailty-ukmla",
       "disability-access-ukmla-guide",
+      "early-pregnancy-complications-ukmla",
       "ecg-interpretation-ukmla",
       "emergency-medicine-ukmla-revision",
       "endocrinology-diabetes-ukmla-revision",
       "foundation-programme-after-ukmla",
       "gastroenterology-ukmla-akt-revision",
+      "genetics-and-genomics-in-the-ukmla",
+      "gmc-annual-retention-fee-explained",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-registration-refund-policy",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
       "good-medical-practice-ukmla",
+      "gynaecological-cancers-ukmla",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-pass-ukmla-on-first-attempt",
       "how-to-read-akt-stem",
       "how-to-register-plab-1",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
+      "medically-unexplained-symptoms-ukmla",
+      "menopause-management-ukmla",
       "mental-health-ukmla-revision",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
+      "multi-specialty-recruitment-assessment-msra-explained",
       "nice-guidelines-akt-revision",
+      "nutrition-and-metabolic-disorders-ukmla",
       "ophthalmology-ent-ukmla-revision",
       "patient-safety-ukmla-prescribing-errors",
       "psychiatry-communication-cpsa-stations",
       "radiology-imaging-akt-ukmla",
       "respiratory-medicine-ukmla-revision",
       "safeguarding-ukmla-revision",
+      "sepsis-recognition-and-management-ukmla",
       "social-determinants-health-ukmla",
+      "substance-misuse-and-addiction-ukmla",
       "three-months-ukmla-akt-countdown",
       "time-management-akt-ukmla",
+      "toxicology-and-poisoning-ukmla",
+      "transgender-health-in-the-ukmla",
+      "trauma-and-orthopaedics-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-akt-test-centres-guide",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
@@ -145,6 +205,8 @@
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "urology-ukmla-revision",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -156,15 +218,24 @@
     "url": "/exam-pattern/cpsa",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 34,
+    "incomingCount": 50,
     "outgoingCount": 0,
     "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "breaking-bad-news-in-the-cpsa",
+      "consent-and-mental-capacity-ukmla",
+      "contraception-counselling-ukmla",
       "disability-access-ukmla-guide",
       "ecg-interpretation-ukmla",
       "foundation-programme-after-ukmla",
+      "gmc-annual-retention-fee-explained",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-registration-refund-policy",
       "good-medical-practice-ukmla",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-pass-ukmla-on-first-attempt",
+      "medically-unexplained-symptoms-ukmla",
       "mental-health-ukmla-revision",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
@@ -174,24 +245,31 @@
       "respiratory-medicine-ukmla-revision",
       "safeguarding-ukmla-revision",
       "three-months-ukmla-akt-countdown",
+      "transgender-health-in-the-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-akt-test-centres-guide",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
       "ukmla-revision-notes-strategy",
+      "ukmla-special-circumstances-and-accommodations",
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -203,15 +281,23 @@
     "url": "/fees",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 17,
+    "incomingCount": 26,
     "outgoingCount": 0,
     "linkedFrom": [
+      "gmc-annual-retention-fee-explained",
+      "gmc-registration-refund-policy",
       "how-to-become-a-doctor-in-uk-from-india",
+      "indemnity-insurance-for-doctors-explained",
+      "is-ukmla-replacing-plab-explained",
       "mbbs-in-uk-for-indian-students",
+      "nhs-pension-scheme-for-doctors-explained",
       "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-egyptian-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-refugee-doctors",
@@ -222,6 +308,7 @@
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "understanding-nhs-pay-scales-and-banding-for-doctors",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -233,18 +320,22 @@
     "url": "/key-dates",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 9,
+    "incomingCount": 13,
     "outgoingCount": 0,
     "linkedFrom": [
+      "foundation-programme-2026-recruitment-changes",
       "foundation-programme-after-ukmla",
       "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "ukmla-akt-test-centres-guide",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
-      "ukmla-preparation-for-imgs"
+      "ukmla-preparation-for-imgs",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
     "linksTo": []
   },
@@ -255,23 +346,28 @@
     "url": "/official-resources",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 24,
+    "incomingCount": 29,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "early-pregnancy-complications-ukmla",
       "english-language-requirement-for-ukmla-india",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "genetics-and-genomics-in-the-ukmla",
       "gmc-registration-and-epic-verification-india",
       "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
       "is-indian-mbbs-valid-in-uk",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
+      "scotland-wales-northern-ireland-registration-differences",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
@@ -292,47 +388,71 @@
     "url": "/preparation",
     "cluster": "Exam Preparation",
     "pillarPage": "",
-    "incomingCount": 51,
+    "incomingCount": 76,
     "outgoingCount": 0,
     "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
       "blood-tests-data-interpretation-akt",
+      "breaking-bad-news-in-the-cpsa",
       "cardiology-ukmla-akt-revision",
       "clinical-examination-cpsa-guide",
       "dermatology-ukmla-revision",
       "disability-access-ukmla-guide",
+      "early-pregnancy-complications-ukmla",
       "ecg-interpretation-ukmla",
       "emergency-medicine-ukmla-revision",
+      "foundation-programme-2026-recruitment-changes",
       "foundation-programme-after-ukmla",
       "gastroenterology-ukmla-akt-revision",
+      "genetics-and-genomics-in-the-ukmla",
+      "gmc-welcome-to-uk-practice-induction-guide",
       "good-medical-practice-ukmla",
       "group-study-vs-solo-ukmla",
+      "gynaecological-cancers-ukmla",
+      "history-of-ukmla-plab-transition-explained",
+      "how-to-pass-ukmla-on-first-attempt",
       "how-to-read-akt-stem",
       "how-to-register-plab-1",
+      "how-to-write-an-nhs-cv-and-application",
       "infection-microbiology-ukmla-revision",
       "managing-ukmla-exam-anxiety",
+      "medically-unexplained-symptoms-ukmla",
+      "menopause-management-ukmla",
       "mental-health-ukmla-revision",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
+      "multi-specialty-recruitment-assessment-msra-explained",
       "neurology-ukmla-revision",
       "nice-guidelines-akt-revision",
+      "nutrition-and-metabolic-disorders-ukmla",
       "obstetrics-gynaecology-ukmla-revision",
+      "oet-vs-ielts-for-gmc-registration-comparison",
       "paediatrics-ukmla-revision",
       "patient-safety-ukmla-prescribing-errors",
       "pharmacology-prescribing-safety-ukmla",
       "plab-2-preparation-guide",
       "psychiatry-communication-cpsa-stations",
+      "public-health-and-screening-ukmla",
       "radiology-imaging-akt-ukmla",
       "respiratory-medicine-ukmla-revision",
       "safeguarding-ukmla-revision",
+      "sepsis-recognition-and-management-ukmla",
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
       "time-management-akt-ukmla",
+      "toxicology-and-poisoning-ukmla",
+      "transgender-health-in-the-ukmla",
+      "trauma-and-orthopaedics-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-sri-lankan-doctors",
@@ -345,6 +465,7 @@
       "ukmla-revision-notes-strategy",
       "ukmla-vs-neet-pg",
       "ukmla-vs-usmle-comparison",
+      "urology-ukmla-revision",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -356,40 +477,78 @@
     "url": "/registration-guide",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 32,
+    "incomingCount": 70,
     "outgoingCount": 0,
     "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "certificate-of-completion-of-training-cct-explained",
       "disability-access-ukmla-guide",
       "english-language-requirement-for-ukmla-india",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "foundation-programme-2026-recruitment-changes",
       "foundation-programme-after-ukmla",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-order-reform-2026-protected-medical-titles",
       "gmc-registration-and-epic-verification-india",
+      "gmc-registration-refund-policy",
       "gmc-registration-requirements-for-international-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "gmc-revalidation-process-explained",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "history-of-ukmla-plab-transition-explained",
+      "how-long-does-gmc-registration-take",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-write-an-nhs-cv-and-application",
+      "indemnity-insurance-for-doctors-explained",
+      "internship-requirement-for-gmc-registration",
+      "is-ukmla-replacing-plab-explained",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "locum-vs-substantive-nhs-posts-explained",
+      "medical-training-prioritisation-act-2026-imgs",
+      "nhs-eportfolio-guide-for-doctors",
+      "nhs-job-interview-preparation-guide",
+      "oet-vs-ielts-for-gmc-registration-comparison",
       "plab-2-preparation-guide",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "scotland-wales-northern-ireland-registration-differences",
+      "transgender-health-in-the-ukmla",
+      "types-of-gmc-registration-explained",
       "uk-medical-schools-ukmla-implementation",
       "uk-visa-guide-for-international-doctors",
       "ukmla-akt-format-preparation",
       "ukmla-akt-test-centres-guide",
+      "ukmla-and-academic-foundation-programme",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-exam-day-what-to-expect",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-chinese-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-refugee-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors",
       "ukmla-preparation-for-imgs",
+      "ukmla-special-circumstances-and-accommodations",
       "ukmla-to-nhs-job-pathway",
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -401,14 +560,17 @@
     "url": "/results-and-scoring",
     "cluster": "Results & Scoring",
     "pillarPage": "",
-    "incomingCount": 21,
+    "incomingCount": 26,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "breaking-bad-news-in-the-cpsa",
       "ecg-interpretation-ukmla",
       "foundation-programme-after-ukmla",
       "mock-exams-ukmla-preparation",
+      "oet-vs-ielts-for-gmc-registration-comparison",
       "plab-2-preparation-guide",
+      "trauma-and-orthopaedics-ukmla",
       "uk-doctor-salary-guide-for-indian-doctors",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
@@ -424,6 +586,8 @@
       "ukmla-to-nhs-job-pathway",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "urology-ukmla-revision",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -435,38 +599,65 @@
     "url": "/syllabus",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 40,
+    "incomingCount": 69,
     "outgoingCount": 0,
     "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
       "blood-tests-data-interpretation-akt",
+      "breaking-bad-news-in-the-cpsa",
       "cardiology-ukmla-akt-revision",
+      "care-of-the-elderly-and-frailty-ukmla",
+      "chronic-pain-management-ukmla",
+      "consent-and-mental-capacity-ukmla",
+      "contraception-counselling-ukmla",
+      "critical-care-and-intensive-care-basics-ukmla",
       "dermatology-ukmla-revision",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
+      "early-pregnancy-complications-ukmla",
       "foundation-programme-after-ukmla",
       "gastroenterology-ukmla-akt-revision",
+      "genetics-and-genomics-in-the-ukmla",
       "good-medical-practice-ukmla",
       "group-study-vs-solo-ukmla",
+      "gynaecological-cancers-ukmla",
+      "history-of-ukmla-plab-transition-explained",
+      "how-to-pass-ukmla-on-first-attempt",
       "how-to-read-akt-stem",
       "how-to-register-plab-1",
+      "immunology-and-allergy-ukmla",
       "mbbs-in-uk-for-indian-students",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
+      "medically-unexplained-symptoms-ukmla",
+      "menopause-management-ukmla",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
       "neurology-ukmla-revision",
+      "nutrition-and-metabolic-disorders-ukmla",
       "obstetrics-gynaecology-ukmla-revision",
       "patient-safety-ukmla-prescribing-errors",
       "pharmacology-prescribing-safety-ukmla",
       "plab-2-preparation-guide",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla",
       "psychiatry-communication-cpsa-stations",
+      "public-health-and-screening-ukmla",
       "respiratory-medicine-ukmla-revision",
       "safeguarding-ukmla-revision",
+      "sepsis-recognition-and-management-ukmla",
+      "substance-misuse-and-addiction-ukmla",
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
       "time-management-akt-ukmla",
+      "toxicology-and-poisoning-ukmla",
+      "transgender-health-in-the-ukmla",
+      "trauma-and-orthopaedics-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-crash-course-for-doctors",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
@@ -474,9 +665,11 @@
       "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
+      "ukmla-syllabus-2026-changes",
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "urology-ukmla-revision",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": []
@@ -488,13 +681,16 @@
     "url": "/ukmla-vs-plab",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 24,
+    "incomingCount": 29,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
       "disability-access-ukmla-guide",
+      "history-of-ukmla-plab-transition-explained",
       "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-pass-ukmla-on-first-attempt",
       "how-to-register-plab-1",
+      "is-ukmla-replacing-plab-explained",
       "mla-content-map-explained",
       "time-management-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
@@ -503,6 +699,7 @@
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
@@ -510,6 +707,7 @@
       "ukmla-preparation-for-imgs",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
+      "ukmla-syllabus-2026-changes",
       "ukmla-vs-amc-and-mccqe-comparison",
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
@@ -525,21 +723,25 @@
     "url": "/what-is-ukmla",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 21,
+    "incomingCount": 25,
     "outgoingCount": 0,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
       "emergency-medicine-ukmla-revision",
       "foundation-programme-after-ukmla",
       "good-medical-practice-ukmla",
+      "history-of-ukmla-plab-transition-explained",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-read-akt-stem",
       "is-indian-mbbs-valid-in-uk",
       "mbbs-in-uk-for-indian-students",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
+      "nutrition-and-metabolic-disorders-ukmla",
+      "trauma-and-orthopaedics-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
+      "ukmla-and-academic-foundation-programme",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-for-pakistani-doctors",
@@ -553,16 +755,41 @@
     "linksTo": []
   },
   {
+    "key": "anaesthesia-and-perioperative-medicine-ukmla",
+    "type": "post",
+    "title": "Anaesthesia and Perioperative Medicine in the UKMLA: A Foundation Doctor's Guide",
+    "url": "/news#anaesthesia-and-perioperative-medicine-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "toxicology-and-poisoning-ukmla",
+      "trauma-and-orthopaedics-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/syllabus",
+      "patient-safety-ukmla-prescribing-errors",
+      "pharmacology-prescribing-safety-ukmla",
+      "surgical-presentations-ukmla-revision",
+      "toxicology-and-poisoning-ukmla",
+      "trauma-and-orthopaedics-ukmla"
+    ]
+  },
+  {
     "key": "angoff-standard-setting-explained",
     "type": "post",
     "title": "What Is an Angoff Standard Setting and Why Does It Matter?",
     "url": "/news#angoff-standard-setting-explained",
     "cluster": "Exam Format",
     "pillarPage": "/results-and-scoring",
-    "incomingCount": 5,
+    "incomingCount": 6,
     "outgoingCount": 16,
     "linkedFrom": [
       "managing-ukmla-exam-anxiety",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
       "ukmla-results-feedback-report",
       "ukmla-vs-usmle-comparison",
@@ -588,18 +815,46 @@
     ]
   },
   {
+    "key": "arcp-annual-review-of-competence-progression-explained",
+    "type": "post",
+    "title": "ARCP: The Annual Review of Competence Progression, Explained",
+    "url": "/news#arcp-annual-review-of-competence-progression-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 4,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "certificate-of-completion-of-training-cct-explained",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "nhs-eportfolio-guide-for-doctors"
+    ],
+    "linksTo": [
+      "/exam-pattern/cpsa",
+      "/registration-guide",
+      "certificate-of-completion-of-training-cct-explained",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "locum-vs-substantive-nhs-posts-explained",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "nhs-eportfolio-guide-for-doctors"
+    ]
+  },
+  {
     "key": "blood-tests-data-interpretation-akt",
     "type": "post",
     "title": "Blood Tests and Investigations in the AKT: Data Interpretation Guide",
     "url": "/news#blood-tests-data-interpretation-akt",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 12,
+    "incomingCount": 15,
     "outgoingCount": 10,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
       "ecg-interpretation-ukmla",
       "good-medical-practice-ukmla",
+      "gynaecological-cancers-ukmla",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
+      "medically-unexplained-symptoms-ukmla",
       "mock-exams-ukmla-preparation",
       "radiology-imaging-akt-ukmla",
       "safeguarding-ukmla-revision",
@@ -621,6 +876,57 @@
       "respiratory-medicine-ukmla-revision",
       "surgical-presentations-ukmla-revision",
       "time-management-akt-ukmla"
+    ]
+  },
+  {
+    "key": "breaking-bad-news-in-the-cpsa",
+    "type": "post",
+    "title": "Breaking Bad News in the CPSA: A Complete Guide",
+    "url": "/news#breaking-bad-news-in-the-cpsa",
+    "cluster": "Exam Format",
+    "pillarPage": "/exam-pattern/cpsa",
+    "incomingCount": 1,
+    "outgoingCount": 15,
+    "linkedFrom": [
+      "ukmla-special-circumstances-and-accommodations"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/cpsa",
+      "/preparation",
+      "/results-and-scoring",
+      "/syllabus",
+      "clinical-examination-cpsa-guide",
+      "foundation-programme-after-ukmla",
+      "history-of-ukmla-plab-transition-explained",
+      "managing-ukmla-exam-anxiety",
+      "mock-exams-ukmla-preparation",
+      "psychiatry-communication-cpsa-stations",
+      "ukmla-cpsa-what-it-tests",
+      "ukmla-preparation-for-imgs",
+      "ukmla-resits-rules-limits",
+      "ukmla-special-circumstances-and-accommodations"
+    ]
+  },
+  {
+    "key": "bringing-family-to-uk-dependent-visa-guide",
+    "type": "post",
+    "title": "Bringing Your Family to the UK: A Dependant Visa Guide for Doctors",
+    "url": "/news#bringing-family-to-uk-dependent-visa-guide",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 5,
+    "linkedFrom": [
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors"
     ]
   },
   {
@@ -673,16 +979,87 @@
     ]
   },
   {
+    "key": "care-of-the-elderly-and-frailty-ukmla",
+    "type": "post",
+    "title": "Care of the Elderly and Frailty in the UKMLA: What to Revise",
+    "url": "/news#care-of-the-elderly-and-frailty-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "nutrition-and-metabolic-disorders-ukmla",
+      "public-health-and-screening-ukmla",
+      "urology-ukmla-revision"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/syllabus",
+      "palliative-care-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "pharmacology-prescribing-safety-ukmla",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla",
+      "public-health-and-screening-ukmla",
+      "urology-ukmla-revision"
+    ]
+  },
+  {
+    "key": "certificate-of-completion-of-training-cct-explained",
+    "type": "post",
+    "title": "The Certificate of Completion of Training (CCT), Explained",
+    "url": "/news#certificate-of-completion-of-training-cct-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 3,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "multi-specialty-recruitment-assessment-msra-explained"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "arcp-annual-review-of-competence-progression-explained",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-revalidation-process-explained",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "types-of-gmc-registration-explained"
+    ]
+  },
+  {
+    "key": "chronic-pain-management-ukmla",
+    "type": "post",
+    "title": "Chronic Pain Management in the UKMLA: What to Revise",
+    "url": "/news#chronic-pain-management-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 4,
+    "linkedFrom": [
+      "critical-care-and-intensive-care-basics-ukmla",
+      "immunology-and-allergy-ukmla"
+    ],
+    "linksTo": [
+      "/syllabus",
+      "palliative-care-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "pharmacology-prescribing-safety-ukmla"
+    ]
+  },
+  {
     "key": "clinical-examination-cpsa-guide",
     "type": "post",
     "title": "Clinical Examination Stations in the CPSA: A Practical Guide",
     "url": "/news#clinical-examination-cpsa-guide",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 15,
+    "incomingCount": 16,
     "outgoingCount": 13,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "breaking-bad-news-in-the-cpsa",
       "foundation-programme-after-ukmla",
       "group-study-vs-solo-ukmla",
       "mla-content-map-explained",
@@ -712,6 +1089,74 @@
       "respiratory-medicine-ukmla-revision",
       "surgical-presentations-ukmla-revision",
       "uk-medical-schools-ukmla-implementation"
+    ]
+  },
+  {
+    "key": "consent-and-mental-capacity-ukmla",
+    "type": "post",
+    "title": "Consent and Mental Capacity in the UKMLA: The Complete Guide",
+    "url": "/news#consent-and-mental-capacity-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "domestic-abuse-and-safeguarding-adults-ukmla",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
+      "transgender-health-in-the-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/cpsa",
+      "/syllabus",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
+      "good-medical-practice-ukmla",
+      "psychiatry-communication-cpsa-stations",
+      "safeguarding-ukmla-revision",
+      "transgender-health-in-the-ukmla"
+    ]
+  },
+  {
+    "key": "contraception-counselling-ukmla",
+    "type": "post",
+    "title": "Contraception Counselling in the UKMLA: A Complete Revision Guide",
+    "url": "/news#contraception-counselling-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "early-pregnancy-complications-ukmla",
+      "menopause-management-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/cpsa",
+      "/syllabus",
+      "early-pregnancy-complications-ukmla",
+      "menopause-management-ukmla",
+      "obstetrics-gynaecology-ukmla-revision",
+      "psychiatry-communication-cpsa-stations"
+    ]
+  },
+  {
+    "key": "critical-care-and-intensive-care-basics-ukmla",
+    "type": "post",
+    "title": "Critical Care Basics in the UKMLA: Recognising the Deteriorating Patient",
+    "url": "/news#critical-care-and-intensive-care-basics-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 1,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "substance-misuse-and-addiction-ukmla"
+    ],
+    "linksTo": [
+      "/syllabus",
+      "chronic-pain-management-ukmla",
+      "emergency-medicine-ukmla-revision",
+      "good-medical-practice-ukmla",
+      "nephrology-ukmla-revision",
+      "substance-misuse-and-addiction-ukmla",
+      "time-management-akt-ukmla"
     ]
   },
   {
@@ -750,7 +1195,7 @@
     "url": "/news#disability-access-ukmla-guide",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/appeals-and-resits",
-    "incomingCount": 11,
+    "incomingCount": 13,
     "outgoingCount": 17,
     "linkedFrom": [
       "good-medical-practice-ukmla",
@@ -762,8 +1207,10 @@
       "social-determinants-health-ukmla",
       "time-management-akt-ukmla",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-exam-day-what-to-expect",
       "ukmla-preparation-for-imgs",
-      "ukmla-results-feedback-report"
+      "ukmla-results-feedback-report",
+      "ukmla-special-circumstances-and-accommodations"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -783,6 +1230,55 @@
       "time-management-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-key-dates-sitting-schedule"
+    ]
+  },
+  {
+    "key": "domestic-abuse-and-safeguarding-adults-ukmla",
+    "type": "post",
+    "title": "Domestic Abuse and Adult Safeguarding in the UKMLA",
+    "url": "/news#domestic-abuse-and-safeguarding-adults-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "consent-and-mental-capacity-ukmla",
+      "medically-unexplained-symptoms-ukmla",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla"
+    ],
+    "linksTo": [
+      "/syllabus",
+      "consent-and-mental-capacity-ukmla",
+      "good-medical-practice-ukmla",
+      "medically-unexplained-symptoms-ukmla",
+      "psychiatry-communication-cpsa-stations",
+      "safeguarding-ukmla-revision"
+    ]
+  },
+  {
+    "key": "early-pregnancy-complications-ukmla",
+    "type": "post",
+    "title": "Early Pregnancy Complications in the UKMLA: The Essential Guide",
+    "url": "/news#early-pregnancy-complications-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "contraception-counselling-ukmla",
+      "gynaecological-cancers-ukmla",
+      "menopause-management-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/official-resources",
+      "/preparation",
+      "/syllabus",
+      "contraception-counselling-ukmla",
+      "emergency-medicine-ukmla-revision",
+      "gynaecological-cancers-ukmla",
+      "managing-ukmla-exam-anxiety",
+      "obstetrics-gynaecology-ukmla-revision"
     ]
   },
   {
@@ -838,12 +1334,17 @@
     "url": "/news#emergency-medicine-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 5,
+    "incomingCount": 10,
     "outgoingCount": 12,
     "linkedFrom": [
+      "critical-care-and-intensive-care-basics-ukmla",
+      "early-pregnancy-complications-ukmla",
       "foundation-programme-after-ukmla",
       "haematology-ukmla-revision",
+      "immunology-and-allergy-ukmla",
       "paediatrics-ukmla-revision",
+      "toxicology-and-poisoning-ukmla",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors"
     ],
@@ -869,7 +1370,7 @@
     "url": "/news#endocrinology-diabetes-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 25,
+    "incomingCount": 27,
     "outgoingCount": 8,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
@@ -879,9 +1380,11 @@
       "emergency-medicine-ukmla-revision",
       "gastroenterology-ukmla-akt-revision",
       "haematology-ukmla-revision",
+      "menopause-management-ukmla",
       "nephrology-ukmla-revision",
       "neurology-ukmla-revision",
       "nice-guidelines-akt-revision",
+      "nutrition-and-metabolic-disorders-ukmla",
       "obstetrics-gynaecology-ukmla-revision",
       "ophthalmology-ent-ukmla-revision",
       "patient-safety-ukmla-prescribing-errors",
@@ -916,14 +1419,17 @@
     "url": "/news#english-language-requirement-for-ukmla-india",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 7,
+    "incomingCount": 10,
     "outgoingCount": 9,
     "linkedFrom": [
+      "gmc-english-language-exemption-for-imgs",
       "gmc-registration-and-epic-verification-india",
       "gmc-registration-requirements-for-international-doctors",
+      "oet-vs-ielts-for-gmc-registration-comparison",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors",
       "ukmla-for-refugee-doctors",
       "ukmla-for-sri-lankan-doctors"
     ],
@@ -940,22 +1446,88 @@
     ]
   },
   {
+    "key": "ewtd-working-hours-and-rest-rules-for-doctors",
+    "type": "post",
+    "title": "Working Hours and Rest Rules for Doctors: The EWTD Explained",
+    "url": "/news#ewtd-working-hours-and-rest-rules-for-doctors",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 3,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "locum-vs-substantive-nhs-posts-explained",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/official-resources",
+      "/registration-guide",
+      "arcp-annual-review-of-competence-progression-explained",
+      "foundation-programme-after-ukmla",
+      "locum-vs-substantive-nhs-posts-explained",
+      "managing-ukmla-exam-anxiety",
+      "ukmla-to-nhs-job-pathway",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
+    ]
+  },
+  {
+    "key": "foundation-programme-2026-recruitment-changes",
+    "type": "post",
+    "title": "Foundation Programme 2026 Recruitment Changes: What's New for Applicants",
+    "url": "/news#foundation-programme-2026-recruitment-changes",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/eligibility",
+    "incomingCount": 5,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "ukmla-and-academic-foundation-programme",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/key-dates",
+      "/preparation",
+      "/registration-guide",
+      "foundation-programme-after-ukmla",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "medical-training-prioritisation-act-2026-imgs",
+      "ukmla-and-academic-foundation-programme",
+      "ukmla-graduate-entry-medical-students",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
+    ]
+  },
+  {
     "key": "foundation-programme-after-ukmla",
     "type": "post",
     "title": "Understanding the Foundation Programme: What Awaits After the UKMLA",
     "url": "/news#foundation-programme-after-ukmla",
     "cluster": "Uncategorised",
     "pillarPage": "",
-    "incomingCount": 18,
+    "incomingCount": 30,
     "outgoingCount": 20,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "breaking-bad-news-in-the-cpsa",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "foundation-programme-2026-recruitment-changes",
+      "foundation-year-vs-specialty-training-for-imgs",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "indemnity-insurance-for-doctors-explained",
+      "internship-requirement-for-gmc-registration",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
       "mbbs-in-uk-for-indian-students",
       "mla-content-map-explained",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "types-of-gmc-registration-explained",
       "uk-doctor-salary-guide-for-indian-doctors",
       "ukmla-akt-format-preparation",
+      "ukmla-and-academic-foundation-programme",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
@@ -966,6 +1538,7 @@
       "ukmla-vs-neet-pg",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -992,18 +1565,51 @@
     ]
   },
   {
+    "key": "foundation-year-vs-specialty-training-for-imgs",
+    "type": "post",
+    "title": "Foundation Year vs Specialty Training for IMGs: Which Route After the UKMLA?",
+    "url": "/news#foundation-year-vs-specialty-training-for-imgs",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 8,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "certificate-of-completion-of-training-cct-explained",
+      "foundation-programme-2026-recruitment-changes",
+      "gmc-registration-refund-policy",
+      "how-to-pass-ukmla-on-first-attempt",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "medical-training-prioritisation-act-2026-imgs",
+      "multi-specialty-recruitment-assessment-msra-explained"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "foundation-programme-after-ukmla",
+      "gmc-registration-and-epic-verification-india",
+      "gmc-registration-refund-policy",
+      "how-to-pass-ukmla-on-first-attempt",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-exemptions-for-specialist-and-gp-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
     "key": "gastroenterology-ukmla-akt-revision",
     "type": "post",
     "title": "Gastroenterology and Hepatology in the UKMLA AKT",
     "url": "/news#gastroenterology-ukmla-akt-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 7,
+    "incomingCount": 8,
     "outgoingCount": 8,
     "linkedFrom": [
       "haematology-ukmla-revision",
       "infection-microbiology-ukmla-revision",
       "mock-exams-ukmla-preparation",
+      "nutrition-and-metabolic-disorders-ukmla",
       "rheumatology-ukmla-revision",
       "three-months-ukmla-akt-countdown",
       "time-management-akt-ukmla",
@@ -1021,17 +1627,177 @@
     ]
   },
   {
+    "key": "genetics-and-genomics-in-the-ukmla",
+    "type": "post",
+    "title": "Genetics and Genomics in the UKMLA: What You Need to Know",
+    "url": "/news#genetics-and-genomics-in-the-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "sepsis-recognition-and-management-ukmla",
+      "transgender-health-in-the-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/official-resources",
+      "/preparation",
+      "/syllabus",
+      "haematology-ukmla-revision",
+      "mla-content-map-explained",
+      "nephrology-ukmla-revision",
+      "sepsis-recognition-and-management-ukmla",
+      "transgender-health-in-the-ukmla",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
+    "key": "gmc-annual-retention-fee-explained",
+    "type": "post",
+    "title": "The GMC Annual Retention Fee, Explained",
+    "url": "/news#gmc-annual-retention-fee-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/fees",
+    "incomingCount": 3,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "nhs-eportfolio-guide-for-doctors",
+      "nhs-pension-scheme-for-doctors-explained",
+      "scotland-wales-northern-ireland-registration-differences"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "gmc-registration-refund-policy",
+      "types-of-gmc-registration-explained",
+      "ukmla-fees-for-img-2026"
+    ]
+  },
+  {
+    "key": "gmc-english-language-exemption-for-imgs",
+    "type": "post",
+    "title": "GMC English Language Exemption: Do You Need to Sit IELTS or OET?",
+    "url": "/news#gmc-english-language-exemption-for-imgs",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/eligibility",
+    "incomingCount": 5,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "gmc-registration-for-eu-and-irish-doctors",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "english-language-requirement-for-ukmla-india",
+      "gmc-registration-requirements-for-international-doctors",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "ukmla-for-filipino-doctors"
+    ]
+  },
+  {
+    "key": "gmc-fitness-to-practise-explained-for-new-doctors",
+    "type": "post",
+    "title": "GMC Fitness to Practise Explained: What New Doctors Need to Know",
+    "url": "/news#gmc-fitness-to-practise-explained-for-new-doctors",
+    "cluster": "Professional Practice & Safety",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 4,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-revalidation-process-explained",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "indemnity-insurance-for-doctors-explained"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/registration-guide",
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-revalidation-process-explained",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "good-medical-practice-ukmla",
+      "managing-ukmla-exam-anxiety",
+      "patient-safety-ukmla-prescribing-errors"
+    ]
+  },
+  {
+    "key": "gmc-order-reform-2026-protected-medical-titles",
+    "type": "post",
+    "title": "GMC Order Reform 2026: The Consultation on Protected Medical Titles",
+    "url": "/news#gmc-order-reform-2026-protected-medical-titles",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 4,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "medical-training-initiative-scheme-closure-2026",
+      "uk-visa-salary-threshold-changes-2026-for-doctors"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "foundation-programme-2026-recruitment-changes",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-registration-requirements-for-international-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-exemptions-for-specialist-and-gp-doctors"
+    ]
+  },
+  {
+    "key": "gmc-recognised-primary-medical-qualifications",
+    "type": "post",
+    "title": "Which Medical Qualifications Does the GMC Accept? PMQ Recognition Explained",
+    "url": "/news#gmc-recognised-primary-medical-qualifications",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/eligibility",
+    "incomingCount": 7,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "gmc-registration-for-eu-and-irish-doctors",
+      "internship-requirement-for-gmc-registration",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-for-chinese-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "gmc-registration-and-epic-verification-india",
+      "gmc-registration-requirements-for-international-doctors",
+      "internship-requirement-for-gmc-registration",
+      "is-indian-mbbs-valid-in-uk",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "ukmla-for-international-medical-graduates-country-routes"
+    ]
+  },
+  {
     "key": "gmc-registration-and-epic-verification-india",
     "type": "post",
     "title": "GMC Registration and EPIC Verification for Doctors From India: A Step-by-Step Guide",
     "url": "/news#gmc-registration-and-epic-verification-india",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/registration-guide",
-    "incomingCount": 10,
+    "incomingCount": 15,
     "outgoingCount": 9,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-recognised-primary-medical-qualifications",
+      "gmc-registration-refund-policy",
       "gmc-registration-requirements-for-international-doctors",
+      "how-long-does-gmc-registration-take",
+      "internship-requirement-for-gmc-registration",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
@@ -1054,16 +1820,77 @@
     ]
   },
   {
+    "key": "gmc-registration-for-eu-and-irish-doctors",
+    "type": "post",
+    "title": "GMC Registration for EU and Irish Doctors: What Changed After Brexit",
+    "url": "/news#gmc-registration-for-eu-and-irish-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-recognised-primary-medical-qualifications",
+      "how-long-does-gmc-registration-take",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors"
+    ]
+  },
+  {
+    "key": "gmc-registration-refund-policy",
+    "type": "post",
+    "title": "GMC Registration Refund Policy: When You Can (and Can't) Get Your Fee Back",
+    "url": "/news#gmc-registration-refund-policy",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/fees",
+    "incomingCount": 4,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-annual-retention-fee-explained",
+      "how-long-does-gmc-registration-take",
+      "ukmla-crash-course-for-doctors"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/registration-guide",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-registration-and-epic-verification-india",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-fees-for-img-2026",
+      "ukmla-resits-rules-limits"
+    ]
+  },
+  {
     "key": "gmc-registration-requirements-for-international-doctors",
     "type": "post",
     "title": "GMC Registration Requirements for International Doctors: The Complete Process",
     "url": "/news#gmc-registration-requirements-for-international-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/registration-guide",
-    "incomingCount": 6,
+    "incomingCount": 17,
     "outgoingCount": 9,
     "linkedFrom": [
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-recognised-primary-medical-qualifications",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "how-long-does-gmc-registration-take",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "internship-requirement-for-gmc-registration",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "scotland-wales-northern-ireland-registration-differences",
+      "types-of-gmc-registration-explained",
       "uk-visa-guide-for-international-doctors",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-for-filipino-doctors",
@@ -1083,19 +1910,108 @@
     ]
   },
   {
+    "key": "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+    "type": "post",
+    "title": "GMC Regulation of Physician Associates: What Doctors Need to Know",
+    "url": "/news#gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+    "cluster": "Professional Practice & Safety",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 2,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-revalidation-process-explained"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/registration-guide",
+      "foundation-programme-2026-recruitment-changes",
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-revalidation-process-explained",
+      "good-medical-practice-ukmla",
+      "medical-training-initiative-scheme-closure-2026",
+      "patient-safety-ukmla-prescribing-errors"
+    ]
+  },
+  {
+    "key": "gmc-revalidation-process-explained",
+    "type": "post",
+    "title": "The GMC Revalidation Process, Explained for New Doctors",
+    "url": "/news#gmc-revalidation-process-explained",
+    "cluster": "Professional Practice & Safety",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 6,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "certificate-of-completion-of-training-cct-explained",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "nhs-eportfolio-guide-for-doctors",
+      "scotland-wales-northern-ireland-registration-differences",
+      "types-of-gmc-registration-explained"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "good-medical-practice-ukmla",
+      "types-of-gmc-registration-explained",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "gmc-welcome-to-uk-practice-induction-guide",
+    "type": "post",
+    "title": "GMC Welcome to UK Practice: A Guide to the Free Induction Workshop",
+    "url": "/news#gmc-welcome-to-uk-practice-induction-guide",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 5,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "types-of-gmc-registration-explained",
+      "ukmla-exam-booking-process-gmc-online"
+    ],
+    "linksTo": [
+      "/preparation",
+      "/registration-guide",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-registration-requirements-for-international-doctors",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "types-of-gmc-registration-explained",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
     "key": "good-medical-practice-ukmla",
     "type": "post",
     "title": "Good Medical Practice and the UKMLA: What the GMC Expects",
     "url": "/news#good-medical-practice-ukmla",
     "cluster": "Professional Practice & Safety",
     "pillarPage": "",
-    "incomingCount": 8,
+    "incomingCount": 18,
     "outgoingCount": 11,
     "linkedFrom": [
+      "consent-and-mental-capacity-ukmla",
+      "critical-care-and-intensive-care-basics-ukmla",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
       "foundation-programme-after-ukmla",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "gmc-revalidation-process-explained",
+      "indemnity-insurance-for-doctors-explained",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "nhs-job-interview-preparation-guide",
       "patient-safety-ukmla-prescribing-errors",
       "plab-2-preparation-guide",
       "three-months-ukmla-akt-countdown",
+      "transgender-health-in-the-ukmla",
       "ukmla-akt-format-preparation",
       "ukmla-graduate-entry-medical-students",
       "ukmla-results-feedback-report",
@@ -1122,11 +2038,13 @@
     "url": "/news#group-study-vs-solo-ukmla",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 3,
+    "incomingCount": 5,
     "outgoingCount": 12,
     "linkedFrom": [
       "disability-access-ukmla-guide",
+      "how-to-pass-ukmla-on-first-attempt",
       "managing-ukmla-exam-anxiety",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-revision-notes-strategy"
     ],
     "linksTo": [
@@ -1145,15 +2063,43 @@
     ]
   },
   {
+    "key": "gynaecological-cancers-ukmla",
+    "type": "post",
+    "title": "Gynaecological Cancers in the UKMLA: Red Flags and Referral",
+    "url": "/news#gynaecological-cancers-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "early-pregnancy-complications-ukmla",
+      "public-health-and-screening-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/syllabus",
+      "blood-tests-data-interpretation-akt",
+      "early-pregnancy-complications-ukmla",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
+      "menopause-management-ukmla",
+      "obstetrics-gynaecology-ukmla-revision",
+      "paediatrics-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "surgical-presentations-ukmla-revision"
+    ]
+  },
+  {
     "key": "haematology-ukmla-revision",
     "type": "post",
     "title": "Haematology in the UKMLA: Anaemia, Clotting, and Blood Cancers",
     "url": "/news#haematology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 4,
+    "incomingCount": 5,
     "outgoingCount": 9,
     "linkedFrom": [
+      "genetics-and-genomics-in-the-ukmla",
       "rheumatology-ukmla-revision",
       "three-months-ukmla-akt-countdown",
       "ukmla-graduate-entry-medical-students",
@@ -1172,15 +2118,70 @@
     ]
   },
   {
+    "key": "history-of-ukmla-plab-transition-explained",
+    "type": "post",
+    "title": "The History of the UKMLA and PLAB Transition, Explained",
+    "url": "/news#history-of-ukmla-plab-transition-explained",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/what-is-ukmla",
+    "incomingCount": 1,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/preparation",
+      "/registration-guide",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "/what-is-ukmla",
+      "is-ukmla-replacing-plab-explained",
+      "ukmla-exam-day-what-to-expect",
+      "ukmla-syllabus-2026-changes",
+      "what-is-ukmla-complete-guide"
+    ]
+  },
+  {
+    "key": "how-long-does-gmc-registration-take",
+    "type": "post",
+    "title": "How Long Does GMC Registration Take? A Realistic Timeline",
+    "url": "/news#how-long-does-gmc-registration-take",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 4,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "gmc-registration-for-eu-and-irish-doctors",
+      "internship-requirement-for-gmc-registration",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "returning-to-practise-in-gulf-countries-dataflow-guide"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "gmc-registration-and-epic-verification-india",
+      "gmc-registration-refund-policy",
+      "gmc-registration-requirements-for-international-doctors",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "internship-requirement-for-gmc-registration",
+      "locally-employed-doctors-route-to-gmc-registration"
+    ]
+  },
+  {
     "key": "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
     "type": "post",
     "title": "How to Become a Doctor in the UK: The Complete GMC Registration Guide for IMGs",
     "url": "/news#how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 4,
+    "incomingCount": 9,
     "outgoingCount": 18,
     "linkedFrom": [
+      "gmc-order-reform-2026-protected-medical-titles",
+      "gmc-registration-refund-policy",
+      "how-long-does-gmc-registration-take",
+      "internship-requirement-for-gmc-registration",
+      "medical-training-prioritisation-act-2026-imgs",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
       "ukmla-for-refugee-doctors",
@@ -1266,6 +2267,40 @@
     ]
   },
   {
+    "key": "how-to-pass-ukmla-on-first-attempt",
+    "type": "post",
+    "title": "How to Pass the UKMLA on Your First Attempt",
+    "url": "/news#how-to-pass-ukmla-on-first-attempt",
+    "cluster": "Exam Preparation",
+    "pillarPage": "/preparation",
+    "incomingCount": 4,
+    "outgoingCount": 16,
+    "linkedFrom": [
+      "foundation-year-vs-specialty-training-for-imgs",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-syllabus-2026-changes"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/preparation",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "group-study-vs-solo-ukmla",
+      "managing-ukmla-exam-anxiety",
+      "mock-exams-ukmla-preparation",
+      "three-months-ukmla-akt-countdown",
+      "time-management-akt-ukmla",
+      "ukmla-akt-pass-mark-and-pass-rate-explained",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-resits-rules-limits",
+      "ukmla-revision-notes-strategy"
+    ]
+  },
+  {
     "key": "how-to-read-akt-stem",
     "type": "post",
     "title": "How to Read an AKT Stem: Avoiding Common Traps",
@@ -1316,10 +2351,12 @@
     "url": "/news#how-to-register-plab-1",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/registration-guide",
-    "incomingCount": 4,
+    "incomingCount": 6,
     "outgoingCount": 12,
     "linkedFrom": [
       "how-to-become-a-doctor-in-uk-from-india",
+      "is-ukmla-replacing-plab-explained",
+      "ukmla-exam-booking-process-gmc-online",
       "ukmla-for-pakistani-doctors",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-vs-plab-difference"
@@ -1340,13 +2377,82 @@
     ]
   },
   {
+    "key": "how-to-write-an-nhs-cv-and-application",
+    "type": "post",
+    "title": "How to Write an NHS CV and Application That Gets Shortlisted",
+    "url": "/news#how-to-write-an-nhs-cv-and-application",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 1,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "nhs-job-interview-preparation-guide"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/preparation",
+      "/registration-guide",
+      "locum-vs-substantive-nhs-posts-explained",
+      "nhs-job-interview-preparation-guide",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "immunology-and-allergy-ukmla",
+    "type": "post",
+    "title": "Immunology and Allergy in the UKMLA: High-Yield Revision",
+    "url": "/news#immunology-and-allergy-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 1,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "nutrition-and-metabolic-disorders-ukmla"
+    ],
+    "linksTo": [
+      "/syllabus",
+      "chronic-pain-management-ukmla",
+      "emergency-medicine-ukmla-revision",
+      "nutrition-and-metabolic-disorders-ukmla",
+      "pharmacology-prescribing-safety-ukmla",
+      "rheumatology-ukmla-revision"
+    ]
+  },
+  {
+    "key": "indemnity-insurance-for-doctors-explained",
+    "type": "post",
+    "title": "Indemnity Insurance for Doctors, Explained",
+    "url": "/news#indemnity-insurance-for-doctors-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/fees",
+    "incomingCount": 1,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "nhs-pension-scheme-for-doctors-explained"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/registration-guide",
+      "foundation-programme-after-ukmla",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "good-medical-practice-ukmla",
+      "nhs-pension-scheme-for-doctors-explained",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
     "key": "infection-microbiology-ukmla-revision",
     "type": "post",
     "title": "Infection and Microbiology in the UKMLA: Antibiotic Stewardship and More",
     "url": "/news#infection-microbiology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 26,
+    "incomingCount": 27,
     "outgoingCount": 7,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
@@ -1370,6 +2476,7 @@
       "radiology-imaging-akt-ukmla",
       "rheumatology-ukmla-revision",
       "safeguarding-ukmla-revision",
+      "sepsis-recognition-and-management-ukmla",
       "social-determinants-health-ukmla",
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
@@ -1387,16 +2494,42 @@
     ]
   },
   {
+    "key": "internship-requirement-for-gmc-registration",
+    "type": "post",
+    "title": "The Internship Requirement for GMC Registration, Explained",
+    "url": "/news#internship-requirement-for-gmc-registration",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "gmc-recognised-primary-medical-qualifications",
+      "how-long-does-gmc-registration-take"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "foundation-programme-after-ukmla",
+      "gmc-recognised-primary-medical-qualifications",
+      "gmc-registration-and-epic-verification-india",
+      "gmc-registration-requirements-for-international-doctors",
+      "how-long-does-gmc-registration-take",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "ukmla-exemptions-for-specialist-and-gp-doctors"
+    ]
+  },
+  {
     "key": "is-indian-mbbs-valid-in-uk",
     "type": "post",
     "title": "Is an Indian MBBS Valid in the UK? UKMLA Recognition and Degree Validity Explained",
     "url": "/news#is-indian-mbbs-valid-in-uk",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 6,
+    "incomingCount": 7,
     "outgoingCount": 11,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
+      "gmc-recognised-primary-medical-qualifications",
       "gmc-registration-and-epic-verification-india",
       "mbbs-in-uk-for-indian-students",
       "uk-doctor-salary-guide-for-indian-doctors",
@@ -1418,17 +2551,129 @@
     ]
   },
   {
+    "key": "is-ukmla-replacing-plab-explained",
+    "type": "post",
+    "title": "Is UKMLA Replacing PLAB? The Real Relationship, Explained",
+    "url": "/news#is-ukmla-replacing-plab-explained",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/ukmla-vs-plab",
+    "incomingCount": 4,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "history-of-ukmla-plab-transition-explained",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-exam-day-what-to-expect",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/registration-guide",
+      "/ukmla-vs-plab",
+      "how-to-register-plab-1",
+      "plab-2-preparation-guide",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-preparation-for-imgs",
+      "ukmla-syllabus-2026-changes",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
+    ]
+  },
+  {
+    "key": "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+    "type": "post",
+    "title": "Joining a Royal College After the UKMLA: MRCP, MRCS and MRCGP Explained",
+    "url": "/news#joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 3,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "bringing-family-to-uk-dependent-visa-guide",
+      "certificate-of-completion-of-training-cct-explained",
+      "multi-specialty-recruitment-assessment-msra-explained"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "bringing-family-to-uk-dependent-visa-guide",
+      "certificate-of-completion-of-training-cct-explained",
+      "foundation-programme-after-ukmla",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "ukmla-exemptions-for-specialist-and-gp-doctors"
+    ]
+  },
+  {
+    "key": "locally-employed-doctors-route-to-gmc-registration",
+    "type": "post",
+    "title": "Locally Employed Doctors: The Route to Full and Specialist GMC Registration",
+    "url": "/news#locally-employed-doctors-route-to-gmc-registration",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 6,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "certificate-of-completion-of-training-cct-explained",
+      "gmc-english-language-exemption-for-imgs",
+      "how-long-does-gmc-registration-take",
+      "locum-vs-substantive-nhs-posts-explained",
+      "medical-training-initiative-scheme-closure-2026",
+      "types-of-gmc-registration-explained"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-registration-requirements-for-international-doctors",
+      "how-long-does-gmc-registration-take",
+      "medical-training-initiative-scheme-closure-2026",
+      "ukmla-exemptions-for-specialist-and-gp-doctors",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "locum-vs-substantive-nhs-posts-explained",
+    "type": "post",
+    "title": "Locum vs Substantive NHS Posts: Which Is Right for You?",
+    "url": "/news#locum-vs-substantive-nhs-posts-explained",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 4,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "how-to-write-an-nhs-cv-and-application",
+      "nhs-eportfolio-guide-for-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "nhs-eportfolio-guide-for-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
     "key": "managing-ukmla-exam-anxiety",
     "type": "post",
     "title": "Managing UKMLA Exam Anxiety: Practical Strategies for Candidates",
     "url": "/news#managing-ukmla-exam-anxiety",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 2,
+    "incomingCount": 10,
     "outgoingCount": 8,
     "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa",
+      "early-pregnancy-complications-ukmla",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
-      "ukmla-akt-pass-mark-and-pass-rate-explained"
+      "how-to-pass-ukmla-on-first-attempt",
+      "ukmla-akt-pass-mark-and-pass-rate-explained",
+      "ukmla-exam-day-what-to-expect",
+      "ukmla-special-circumstances-and-accommodations",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
     "linksTo": [
       "/preparation",
@@ -1472,19 +2717,145 @@
     ]
   },
   {
+    "key": "medical-statistics-and-evidence-based-medicine-ukmla",
+    "type": "post",
+    "title": "Medical Statistics and Evidence-Based Medicine in the UKMLA",
+    "url": "/news#medical-statistics-and-evidence-based-medicine-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "gynaecological-cancers-ukmla",
+      "public-health-and-screening-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/syllabus",
+      "angoff-standard-setting-explained",
+      "blood-tests-data-interpretation-akt",
+      "consent-and-mental-capacity-ukmla",
+      "public-health-and-screening-ukmla"
+    ]
+  },
+  {
+    "key": "medical-training-initiative-scheme-closure-2026",
+    "type": "post",
+    "title": "Medical Training Initiative Scheme Closure 2026: What IMGs Need to Know",
+    "url": "/news#medical-training-initiative-scheme-closure-2026",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 3,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "medical-training-prioritisation-act-2026-imgs"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "gmc-order-reform-2026-protected-medical-titles",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "uk-visa-guide-for-international-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-for-refugee-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "medical-training-prioritisation-act-2026-imgs",
+    "type": "post",
+    "title": "The Medical Training Prioritisation Act 2026: What It Means for IMGs",
+    "url": "/news#medical-training-prioritisation-act-2026-imgs",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "foundation-programme-2026-recruitment-changes",
+      "uk-visa-salary-threshold-changes-2026-for-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "medical-training-initiative-scheme-closure-2026",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "medically-unexplained-symptoms-ukmla",
+    "type": "post",
+    "title": "Medically Unexplained Symptoms in the UKMLA: What to Revise",
+    "url": "/news#medically-unexplained-symptoms-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "domestic-abuse-and-safeguarding-adults-ukmla",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/preparation",
+      "/syllabus",
+      "blood-tests-data-interpretation-akt",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
+      "mental-health-ukmla-revision",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla",
+      "psychiatry-communication-cpsa-stations"
+    ]
+  },
+  {
+    "key": "menopause-management-ukmla",
+    "type": "post",
+    "title": "Menopause Management in the UKMLA: What You Need to Know",
+    "url": "/news#menopause-management-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "contraception-counselling-ukmla",
+      "gynaecological-cancers-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/syllabus",
+      "contraception-counselling-ukmla",
+      "early-pregnancy-complications-ukmla",
+      "endocrinology-diabetes-ukmla-revision",
+      "nice-guidelines-akt-revision",
+      "obstetrics-gynaecology-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "psychiatry-communication-cpsa-stations",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
     "key": "mental-health-ukmla-revision",
     "type": "post",
     "title": "Mental Health Presentations in the UKMLA: What to Revise",
     "url": "/news#mental-health-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 14,
+    "incomingCount": 16,
     "outgoingCount": 12,
     "linkedFrom": [
       "disability-access-ukmla-guide",
       "good-medical-practice-ukmla",
       "how-to-read-akt-stem",
       "infection-microbiology-ukmla-revision",
+      "medically-unexplained-symptoms-ukmla",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
       "nice-guidelines-akt-revision",
@@ -1493,6 +2864,7 @@
       "rheumatology-ukmla-revision",
       "safeguarding-ukmla-revision",
       "social-determinants-health-ukmla",
+      "substance-misuse-and-addiction-ukmla",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs"
     ],
@@ -1518,14 +2890,18 @@
     "url": "/news#mla-content-map-explained",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/syllabus",
-    "incomingCount": 6,
+    "incomingCount": 10,
     "outgoingCount": 27,
     "linkedFrom": [
+      "genetics-and-genomics-in-the-ukmla",
       "mental-health-ukmla-revision",
       "paediatrics-ukmla-revision",
       "pharmacology-prescribing-safety-ukmla",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
+      "ukmla-syllabus-2026-changes",
       "ukmla-vs-neet-pg"
     ],
     "linksTo": [
@@ -1565,16 +2941,20 @@
     "url": "/news#mock-exams-ukmla-preparation",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 12,
+    "incomingCount": 16,
     "outgoingCount": 22,
     "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa",
       "clinical-examination-cpsa-guide",
       "group-study-vs-solo-ukmla",
+      "how-to-pass-ukmla-on-first-attempt",
       "how-to-read-akt-stem",
       "how-to-register-plab-1",
       "managing-ukmla-exam-anxiety",
       "plab-2-preparation-guide",
       "time-management-akt-ukmla",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors",
       "ukmla-fees-for-img-2026",
       "ukmla-for-pakistani-doctors",
       "ukmla-question-bank-and-mock-tests",
@@ -1607,17 +2987,47 @@
     ]
   },
   {
+    "key": "multi-specialty-recruitment-assessment-msra-explained",
+    "type": "post",
+    "title": "The Multi-Specialty Recruitment Assessment (MSRA), Explained",
+    "url": "/news#multi-specialty-recruitment-assessment-msra-explained",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "certificate-of-completion-of-training-cct-explained"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/preparation",
+      "arcp-annual-review-of-competence-progression-explained",
+      "certificate-of-completion-of-training-cct-explained",
+      "foundation-programme-2026-recruitment-changes",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "good-medical-practice-ukmla",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "ukmla-preparation-for-imgs"
+    ]
+  },
+  {
     "key": "nephrology-ukmla-revision",
     "type": "post",
     "title": "Nephrology in the UKMLA: AKI, CKD, and Electrolyte Disorders",
     "url": "/news#nephrology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 2,
+    "incomingCount": 6,
     "outgoingCount": 6,
     "linkedFrom": [
+      "critical-care-and-intensive-care-basics-ukmla",
+      "genetics-and-genomics-in-the-ukmla",
       "nice-guidelines-akt-revision",
-      "three-months-ukmla-akt-countdown"
+      "prescribing-in-renal-and-hepatic-impairment-ukmla",
+      "three-months-ukmla-akt-countdown",
+      "urology-ukmla-revision"
     ],
     "linksTo": [
       "cardiology-ukmla-akt-revision",
@@ -1671,18 +3081,86 @@
     ]
   },
   {
+    "key": "nhs-eportfolio-guide-for-doctors",
+    "type": "post",
+    "title": "The NHS e-Portfolio: A Practical Guide for Doctors",
+    "url": "/news#nhs-eportfolio-guide-for-doctors",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 2,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "arcp-annual-review-of-competence-progression-explained",
+      "locum-vs-substantive-nhs-posts-explained"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "arcp-annual-review-of-competence-progression-explained",
+      "gmc-annual-retention-fee-explained",
+      "gmc-revalidation-process-explained",
+      "locum-vs-substantive-nhs-posts-explained",
+      "ukmla-revision-notes-strategy",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "nhs-job-interview-preparation-guide",
+    "type": "post",
+    "title": "NHS Job Interview Preparation: A Complete Guide for IMGs and UK Graduates",
+    "url": "/news#nhs-job-interview-preparation-guide",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "how-to-write-an-nhs-cv-and-application",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "good-medical-practice-ukmla",
+      "how-to-write-an-nhs-cv-and-application",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "nhs-pension-scheme-for-doctors-explained",
+    "type": "post",
+    "title": "The NHS Pension Scheme for Doctors, Explained",
+    "url": "/news#nhs-pension-scheme-for-doctors-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/fees",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "indemnity-insurance-for-doctors-explained",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
+    ],
+    "linksTo": [
+      "/fees",
+      "gmc-annual-retention-fee-explained",
+      "indemnity-insurance-for-doctors-explained",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "ukmla-to-nhs-job-pathway",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
+    ]
+  },
+  {
     "key": "nice-guidelines-akt-revision",
     "type": "post",
     "title": "NICE Guidelines and the AKT: What You Actually Need to Know",
     "url": "/news#nice-guidelines-akt-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 12,
+    "incomingCount": 13,
     "outgoingCount": 9,
     "linkedFrom": [
       "cardiology-ukmla-akt-revision",
       "ecg-interpretation-ukmla",
       "how-to-read-akt-stem",
+      "menopause-management-ukmla",
       "mental-health-ukmla-revision",
       "ophthalmology-ent-ukmla-revision",
       "pharmacology-prescribing-safety-ukmla",
@@ -1706,19 +3184,47 @@
     ]
   },
   {
+    "key": "nutrition-and-metabolic-disorders-ukmla",
+    "type": "post",
+    "title": "Nutrition and Metabolic Disorders in the UKMLA: What to Revise",
+    "url": "/news#nutrition-and-metabolic-disorders-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 1,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "immunology-and-allergy-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/syllabus",
+      "/what-is-ukmla",
+      "care-of-the-elderly-and-frailty-ukmla",
+      "endocrinology-diabetes-ukmla-revision",
+      "gastroenterology-ukmla-akt-revision",
+      "immunology-and-allergy-ukmla",
+      "substance-misuse-and-addiction-ukmla"
+    ]
+  },
+  {
     "key": "obstetrics-gynaecology-ukmla-revision",
     "type": "post",
     "title": "Obstetrics and Gynaecology in the UKMLA: Key Topics to Revise",
     "url": "/news#obstetrics-gynaecology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 11,
+    "incomingCount": 15,
     "outgoingCount": 11,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "contraception-counselling-ukmla",
+      "early-pregnancy-complications-ukmla",
       "foundation-programme-after-ukmla",
+      "gynaecological-cancers-ukmla",
       "haematology-ukmla-revision",
       "how-to-read-akt-stem",
+      "menopause-management-ukmla",
       "mla-content-map-explained",
       "plab-2-preparation-guide",
       "radiology-imaging-akt-ukmla",
@@ -1739,6 +3245,35 @@
       "radiology-imaging-akt-ukmla",
       "respiratory-medicine-ukmla-revision",
       "surgical-presentations-ukmla-revision"
+    ]
+  },
+  {
+    "key": "oet-vs-ielts-for-gmc-registration-comparison",
+    "type": "post",
+    "title": "OET vs IELTS for GMC Registration: Which Should You Take?",
+    "url": "/news#oet-vs-ielts-for-gmc-registration-comparison",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/eligibility",
+    "incomingCount": 5,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-recognised-primary-medical-qualifications",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "ukmla-for-chinese-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/preparation",
+      "/registration-guide",
+      "/results-and-scoring",
+      "english-language-requirement-for-ukmla-india",
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-recognised-primary-medical-qualifications",
+      "gmc-registration-requirements-for-international-doctors",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "uk-visa-salary-threshold-changes-2026-for-doctors"
     ]
   },
   {
@@ -1784,7 +3319,7 @@
     "url": "/news#paediatrics-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 28,
+    "incomingCount": 29,
     "outgoingCount": 12,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1793,6 +3328,7 @@
       "endocrinology-diabetes-ukmla-revision",
       "foundation-programme-after-ukmla",
       "good-medical-practice-ukmla",
+      "gynaecological-cancers-ukmla",
       "haematology-ukmla-revision",
       "how-to-read-akt-stem",
       "infection-microbiology-ukmla-revision",
@@ -1838,9 +3374,11 @@
     "url": "/news#palliative-care-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 4,
     "linkedFrom": [
+      "care-of-the-elderly-and-frailty-ukmla",
+      "chronic-pain-management-ukmla",
       "three-months-ukmla-akt-countdown",
       "ukmla-results-feedback-report"
     ],
@@ -1858,18 +3396,25 @@
     "url": "/news#patient-safety-ukmla-prescribing-errors",
     "cluster": "Professional Practice & Safety",
     "pillarPage": "",
-    "incomingCount": 26,
+    "incomingCount": 38,
     "outgoingCount": 11,
     "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
       "cardiology-ukmla-akt-revision",
+      "care-of-the-elderly-and-frailty-ukmla",
+      "chronic-pain-management-ukmla",
       "dermatology-ukmla-revision",
       "disability-access-ukmla-guide",
       "ecg-interpretation-ukmla",
       "foundation-programme-after-ukmla",
+      "gmc-fitness-to-practise-explained-for-new-doctors",
+      "gmc-regulation-of-physician-associates-what-doctors-need-to-know",
       "good-medical-practice-ukmla",
+      "gynaecological-cancers-ukmla",
       "how-to-read-akt-stem",
       "infection-microbiology-ukmla-revision",
+      "menopause-management-ukmla",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
       "nice-guidelines-akt-revision",
@@ -1877,8 +3422,12 @@
       "ophthalmology-ent-ukmla-revision",
       "palliative-care-ukmla-revision",
       "pharmacology-prescribing-safety-ukmla",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla",
+      "sepsis-recognition-and-management-ukmla",
       "social-determinants-health-ukmla",
+      "substance-misuse-and-addiction-ukmla",
       "surgical-presentations-ukmla-revision",
+      "toxicology-and-poisoning-ukmla",
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-for-nigerian-doctors",
@@ -1886,6 +3435,7 @@
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
       "ukmla-vs-plab-difference",
+      "urology-ukmla-revision",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -1909,11 +3459,20 @@
     "url": "/news#pharmacology-prescribing-safety-ukmla",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 2,
+    "incomingCount": 11,
     "outgoingCount": 8,
     "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
+      "care-of-the-elderly-and-frailty-ukmla",
+      "chronic-pain-management-ukmla",
+      "immunology-and-allergy-ukmla",
+      "prescribing-in-renal-and-hepatic-impairment-ukmla",
+      "public-health-and-screening-ukmla",
+      "substance-misuse-and-addiction-ukmla",
+      "toxicology-and-poisoning-ukmla",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
-      "ukmla-exemptions-for-specialist-and-gp-doctors"
+      "ukmla-exemptions-for-specialist-and-gp-doctors",
+      "ukmla-syllabus-2026-changes"
     ],
     "linksTo": [
       "/preparation",
@@ -1933,10 +3492,11 @@
     "url": "/news#plab-2-preparation-guide",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 4,
+    "incomingCount": 5,
     "outgoingCount": 20,
     "linkedFrom": [
       "how-to-become-a-doctor-in-uk-from-india",
+      "is-ukmla-replacing-plab-explained",
       "ukmla-cpsa-what-it-tests",
       "ukmla-for-pakistani-doctors",
       "ukmla-resits-rules-limits"
@@ -1965,26 +3525,55 @@
     ]
   },
   {
+    "key": "prescribing-in-renal-and-hepatic-impairment-ukmla",
+    "type": "post",
+    "title": "Prescribing in Renal and Hepatic Impairment: A UKMLA Revision Guide",
+    "url": "/news#prescribing-in-renal-and-hepatic-impairment-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "care-of-the-elderly-and-frailty-ukmla",
+      "medically-unexplained-symptoms-ukmla"
+    ],
+    "linksTo": [
+      "/syllabus",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
+      "medically-unexplained-symptoms-ukmla",
+      "nephrology-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "pharmacology-prescribing-safety-ukmla"
+    ]
+  },
+  {
     "key": "psychiatry-communication-cpsa-stations",
     "type": "post",
     "title": "Psychiatry Communication Stations: Handling Difficult Conversations",
     "url": "/news#psychiatry-communication-cpsa-stations",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 16,
+    "incomingCount": 23,
     "outgoingCount": 13,
     "linkedFrom": [
       "angoff-standard-setting-explained",
+      "breaking-bad-news-in-the-cpsa",
+      "consent-and-mental-capacity-ukmla",
+      "contraception-counselling-ukmla",
       "disability-access-ukmla-guide",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
       "foundation-programme-after-ukmla",
       "group-study-vs-solo-ukmla",
       "how-to-read-akt-stem",
+      "medically-unexplained-symptoms-ukmla",
+      "menopause-management-ukmla",
       "mental-health-ukmla-revision",
       "mock-exams-ukmla-preparation",
       "patient-safety-ukmla-prescribing-errors",
       "plab-2-preparation-guide",
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
@@ -2008,13 +3597,37 @@
     ]
   },
   {
+    "key": "public-health-and-screening-ukmla",
+    "type": "post",
+    "title": "Public Health and Screening in the UKMLA: What You Need to Know",
+    "url": "/news#public-health-and-screening-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "care-of-the-elderly-and-frailty-ukmla",
+      "medical-statistics-and-evidence-based-medicine-ukmla"
+    ],
+    "linksTo": [
+      "/preparation",
+      "/syllabus",
+      "care-of-the-elderly-and-frailty-ukmla",
+      "gynaecological-cancers-ukmla",
+      "medical-statistics-and-evidence-based-medicine-ukmla",
+      "pharmacology-prescribing-safety-ukmla",
+      "social-determinants-health-ukmla",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
     "key": "radiology-imaging-akt-ukmla",
     "type": "post",
     "title": "Radiology and Imaging Interpretation in the AKT",
     "url": "/news#radiology-imaging-akt-ukmla",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 17,
+    "incomingCount": 18,
     "outgoingCount": 11,
     "linkedFrom": [
       "clinical-examination-cpsa-guide",
@@ -2028,6 +3641,7 @@
       "surgical-presentations-ukmla-revision",
       "three-months-ukmla-akt-countdown",
       "time-management-akt-ukmla",
+      "trauma-and-orthopaedics-ukmla",
       "ukmla-akt-format-preparation",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
@@ -2047,6 +3661,34 @@
       "respiratory-medicine-ukmla-revision",
       "surgical-presentations-ukmla-revision",
       "ukmla-akt-format-preparation"
+    ]
+  },
+  {
+    "key": "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+    "type": "post",
+    "title": "Relocating to the UK: A Practical Guide for IMG Doctors",
+    "url": "/news#relocating-to-the-uk-a-practical-guide-for-img-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 4,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "bringing-family-to-uk-dependent-visa-guide",
+      "how-to-write-an-nhs-cv-and-application",
+      "nhs-job-interview-preparation-guide",
+      "scotland-wales-northern-ireland-registration-differences"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "bringing-family-to-uk-dependent-visa-guide",
+      "foundation-programme-after-ukmla",
+      "gmc-registration-requirements-for-international-doctors",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "nhs-job-interview-preparation-guide",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway"
     ]
   },
   {
@@ -2103,19 +3745,45 @@
     ]
   },
   {
+    "key": "returning-to-practise-in-gulf-countries-dataflow-guide",
+    "type": "post",
+    "title": "Returning to Practise in Gulf Countries: The DataFlow Verification Guide",
+    "url": "/news#returning-to-practise-in-gulf-countries-dataflow-guide",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "gmc-recognised-primary-medical-qualifications",
+      "how-long-does-gmc-registration-take",
+      "types-of-gmc-registration-explained",
+      "ukmla-for-gulf-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors"
+    ]
+  },
+  {
     "key": "rheumatology-ukmla-revision",
     "type": "post",
     "title": "Rheumatology in the UKMLA: Joints, Inflammation, and Autoimmunity",
     "url": "/news#rheumatology-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 7,
+    "incomingCount": 9,
     "outgoingCount": 8,
     "linkedFrom": [
       "dermatology-ukmla-revision",
       "disability-access-ukmla-guide",
+      "immunology-and-allergy-ukmla",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
+      "trauma-and-orthopaedics-ukmla",
       "ukmla-cpsa-what-it-tests",
       "ukmla-graduate-entry-medical-students",
       "ukmla-question-bank-and-mock-tests"
@@ -2138,9 +3806,11 @@
     "url": "/news#safeguarding-ukmla-revision",
     "cluster": "Professional Practice & Safety",
     "pillarPage": "",
-    "incomingCount": 7,
+    "incomingCount": 9,
     "outgoingCount": 11,
     "linkedFrom": [
+      "consent-and-mental-capacity-ukmla",
+      "domestic-abuse-and-safeguarding-adults-ukmla",
       "how-to-read-akt-stem",
       "mla-content-map-explained",
       "paediatrics-ukmla-revision",
@@ -2164,19 +3834,73 @@
     ]
   },
   {
+    "key": "scotland-wales-northern-ireland-registration-differences",
+    "type": "post",
+    "title": "Practising Medicine in Scotland, Wales and Northern Ireland: What's Different?",
+    "url": "/news#scotland-wales-northern-ireland-registration-differences",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 1,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/official-resources",
+      "/registration-guide",
+      "gmc-annual-retention-fee-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "gmc-revalidation-process-explained",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "types-of-gmc-registration-explained",
+      "ukmla-to-nhs-job-pathway",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
+    ]
+  },
+  {
+    "key": "sepsis-recognition-and-management-ukmla",
+    "type": "post",
+    "title": "Sepsis Recognition and Management in the UKMLA: The Essential Guide",
+    "url": "/news#sepsis-recognition-and-management-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "genetics-and-genomics-in-the-ukmla",
+      "toxicology-and-poisoning-ukmla",
+      "transgender-health-in-the-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/syllabus",
+      "genetics-and-genomics-in-the-ukmla",
+      "infection-microbiology-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "toxicology-and-poisoning-ukmla",
+      "transgender-health-in-the-ukmla",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
     "key": "social-determinants-health-ukmla",
     "type": "post",
     "title": "Social Determinants of Health in the UKMLA: Person-Centred Care",
     "url": "/news#social-determinants-health-ukmla",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 5,
+    "incomingCount": 8,
     "outgoingCount": 10,
     "linkedFrom": [
       "mla-content-map-explained",
+      "public-health-and-screening-ukmla",
       "three-months-ukmla-akt-countdown",
+      "transgender-health-in-the-ukmla",
       "ukmla-fees-explained",
       "ukmla-for-nigerian-doctors",
+      "ukmla-syllabus-2026-changes",
       "what-is-ukmla-complete-guide"
     ],
     "linksTo": [
@@ -2193,15 +3917,39 @@
     ]
   },
   {
+    "key": "substance-misuse-and-addiction-ukmla",
+    "type": "post",
+    "title": "Substance Misuse and Addiction in the UKMLA: What to Revise",
+    "url": "/news#substance-misuse-and-addiction-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "critical-care-and-intensive-care-basics-ukmla",
+      "nutrition-and-metabolic-disorders-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/syllabus",
+      "critical-care-and-intensive-care-basics-ukmla",
+      "mental-health-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "pharmacology-prescribing-safety-ukmla",
+      "toxicology-and-poisoning-ukmla"
+    ]
+  },
+  {
     "key": "surgical-presentations-ukmla-revision",
     "type": "post",
     "title": "Surgical Presentations in the UKMLA: What a Foundation Doctor Needs to Know",
     "url": "/news#surgical-presentations-ukmla-revision",
     "cluster": "Clinical Systems Revision",
     "pillarPage": "/syllabus",
-    "incomingCount": 33,
+    "incomingCount": 37,
     "outgoingCount": 11,
     "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
       "blood-tests-data-interpretation-akt",
       "cardiology-ukmla-akt-revision",
@@ -2213,6 +3961,7 @@
       "foundation-programme-after-ukmla",
       "gastroenterology-ukmla-akt-revision",
       "good-medical-practice-ukmla",
+      "gynaecological-cancers-ukmla",
       "haematology-ukmla-revision",
       "how-to-read-akt-stem",
       "infection-microbiology-ukmla-revision",
@@ -2229,12 +3978,14 @@
       "radiology-imaging-akt-ukmla",
       "respiratory-medicine-ukmla-revision",
       "three-months-ukmla-akt-countdown",
+      "trauma-and-orthopaedics-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report",
       "ukmla-vs-neet-pg",
-      "ukmla-vs-usmle-comparison"
+      "ukmla-vs-usmle-comparison",
+      "urology-ukmla-revision"
     ],
     "linksTo": [
       "/preparation",
@@ -2257,12 +4008,16 @@
     "url": "/news#three-months-ukmla-akt-countdown",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 6,
+    "incomingCount": 10,
     "outgoingCount": 24,
     "linkedFrom": [
+      "how-to-pass-ukmla-on-first-attempt",
       "managing-ukmla-exam-anxiety",
       "mental-health-ukmla-revision",
       "paediatrics-ukmla-revision",
+      "ukmla-and-academic-foundation-programme",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-preparation-for-imgs",
       "ukmla-vs-usmle-comparison"
@@ -2301,16 +4056,19 @@
     "url": "/news#time-management-akt-ukmla",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 11,
+    "incomingCount": 14,
     "outgoingCount": 16,
     "linkedFrom": [
       "blood-tests-data-interpretation-akt",
+      "critical-care-and-intensive-care-basics-ukmla",
       "disability-access-ukmla-guide",
       "group-study-vs-solo-ukmla",
+      "how-to-pass-ukmla-on-first-attempt",
       "managing-ukmla-exam-anxiety",
       "plab-2-preparation-guide",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-format-preparation",
+      "ukmla-and-academic-foundation-programme",
       "ukmla-graduate-entry-medical-students",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
@@ -2336,19 +4094,131 @@
     ]
   },
   {
+    "key": "toxicology-and-poisoning-ukmla",
+    "type": "post",
+    "title": "Toxicology and Poisoning in the UKMLA: High-Yield Overdose Management",
+    "url": "/news#toxicology-and-poisoning-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
+      "sepsis-recognition-and-management-ukmla",
+      "substance-misuse-and-addiction-ukmla"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/syllabus",
+      "anaesthesia-and-perioperative-medicine-ukmla",
+      "emergency-medicine-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "pharmacology-prescribing-safety-ukmla",
+      "sepsis-recognition-and-management-ukmla"
+    ]
+  },
+  {
+    "key": "transgender-health-in-the-ukmla",
+    "type": "post",
+    "title": "Transgender Health in the UKMLA: What the Content Map Covers",
+    "url": "/news#transgender-health-in-the-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 3,
+    "outgoingCount": 12,
+    "linkedFrom": [
+      "consent-and-mental-capacity-ukmla",
+      "genetics-and-genomics-in-the-ukmla",
+      "sepsis-recognition-and-management-ukmla"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/preparation",
+      "/registration-guide",
+      "/syllabus",
+      "consent-and-mental-capacity-ukmla",
+      "genetics-and-genomics-in-the-ukmla",
+      "good-medical-practice-ukmla",
+      "sepsis-recognition-and-management-ukmla",
+      "social-determinants-health-ukmla",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
+    "key": "trauma-and-orthopaedics-ukmla",
+    "type": "post",
+    "title": "Trauma and Orthopaedics in the UKMLA: High-Yield Fracture Management",
+    "url": "/news#trauma-and-orthopaedics-ukmla",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "anaesthesia-and-perioperative-medicine-ukmla",
+      "urology-ukmla-revision"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/preparation",
+      "/results-and-scoring",
+      "/syllabus",
+      "/what-is-ukmla",
+      "anaesthesia-and-perioperative-medicine-ukmla",
+      "radiology-imaging-akt-ukmla",
+      "rheumatology-ukmla-revision",
+      "surgical-presentations-ukmla-revision",
+      "urology-ukmla-revision"
+    ]
+  },
+  {
+    "key": "types-of-gmc-registration-explained",
+    "type": "post",
+    "title": "Types of GMC Registration Explained: Provisional, Full, Specialist and GP",
+    "url": "/news#types-of-gmc-registration-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 6,
+    "outgoingCount": 7,
+    "linkedFrom": [
+      "certificate-of-completion-of-training-cct-explained",
+      "gmc-annual-retention-fee-explained",
+      "gmc-revalidation-process-explained",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "scotland-wales-northern-ireland-registration-differences"
+    ],
+    "linksTo": [
+      "/registration-guide",
+      "foundation-programme-after-ukmla",
+      "gmc-registration-requirements-for-international-doctors",
+      "gmc-revalidation-process-explained",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "ukmla-exemptions-for-specialist-and-gp-doctors"
+    ]
+  },
+  {
     "key": "uk-doctor-salary-guide-for-indian-doctors",
     "type": "post",
     "title": "UK Doctor Salary for Indian Doctors: NHS Pay Scales and What You'll Actually Take Home",
     "url": "/news#uk-doctor-salary-guide-for-indian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 4,
+    "incomingCount": 9,
     "outgoingCount": 11,
     "linkedFrom": [
       "is-indian-mbbs-valid-in-uk",
       "mbbs-in-uk-for-indian-students",
+      "medical-training-prioritisation-act-2026-imgs",
+      "nhs-pension-scheme-for-doctors-explained",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
       "ukmla-for-south-african-doctors",
-      "ukmla-to-nhs-job-pathway"
+      "ukmla-to-nhs-job-pathway",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -2371,7 +4241,7 @@
     "url": "/news#uk-medical-schools-ukmla-implementation",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/what-is-ukmla",
-    "incomingCount": 31,
+    "incomingCount": 33,
     "outgoingCount": 20,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -2391,6 +4261,7 @@
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-exam-booking-process-gmc-online",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-nigerian-doctors",
@@ -2402,6 +4273,7 @@
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
+      "ukmla-syllabus-2026-changes",
       "ukmla-vs-plab-difference",
       "ukmla-vs-usmle-comparison",
       "what-is-ukmla-complete-guide"
@@ -2436,11 +4308,16 @@
     "url": "/news#uk-visa-guide-for-international-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 8,
     "outgoingCount": 7,
     "linkedFrom": [
+      "bringing-family-to-uk-dependent-visa-guide",
       "gmc-registration-requirements-for-international-doctors",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "indemnity-insurance-for-doctors-explained",
+      "medical-training-initiative-scheme-closure-2026",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
       "ukmla-for-refugee-doctors"
     ],
     "linksTo": [
@@ -2450,6 +4327,34 @@
       "how-to-become-a-doctor-in-uk-from-india",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-refugee-doctors",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "uk-visa-salary-threshold-changes-2026-for-doctors",
+    "type": "post",
+    "title": "UK Visa Salary Threshold Changes 2026: What Doctors Need to Know",
+    "url": "/news#uk-visa-salary-threshold-changes-2026-for-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 6,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "bringing-family-to-uk-dependent-visa-guide",
+      "gmc-order-reform-2026-protected-medical-titles",
+      "locum-vs-substantive-nhs-posts-explained",
+      "medical-training-initiative-scheme-closure-2026",
+      "medical-training-prioritisation-act-2026-imgs",
+      "oet-vs-ielts-for-gmc-registration-comparison"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "gmc-order-reform-2026-protected-medical-titles",
+      "medical-training-prioritisation-act-2026-imgs",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-fees-for-img-2026",
       "ukmla-to-nhs-job-pathway"
     ]
   },
@@ -2517,9 +4422,10 @@
     "url": "/news#ukmla-akt-pass-mark-and-pass-rate-explained",
     "cluster": "Results & Scoring",
     "pillarPage": "/results-and-scoring",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 9,
     "linkedFrom": [
+      "how-to-pass-ukmla-on-first-attempt",
       "pharmacology-prescribing-safety-ukmla",
       "ukmla-vs-amc-and-mccqe-comparison"
     ],
@@ -2542,16 +4448,19 @@
     "url": "/news#ukmla-akt-test-centres-guide",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/exam-pattern/akt",
-    "incomingCount": 7,
+    "incomingCount": 10,
     "outgoingCount": 13,
     "linkedFrom": [
+      "ukmla-exam-booking-process-gmc-online",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-jordanian-and-iraqi-doctors",
       "ukmla-for-south-african-doctors",
-      "ukmla-for-sri-lankan-doctors"
+      "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
     ],
     "linksTo": [
       "/exam-pattern/akt",
@@ -2570,15 +4479,70 @@
     ]
   },
   {
+    "key": "ukmla-and-academic-foundation-programme",
+    "type": "post",
+    "title": "UKMLA and the Academic Foundation Programme: What Research-Minded Students Need to Know",
+    "url": "/news#ukmla-and-academic-foundation-programme",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "foundation-programme-2026-recruitment-changes",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "/what-is-ukmla",
+      "foundation-programme-2026-recruitment-changes",
+      "foundation-programme-after-ukmla",
+      "three-months-ukmla-akt-countdown",
+      "time-management-akt-ukmla",
+      "ukmla-graduate-entry-medical-students",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
+    ]
+  },
+  {
+    "key": "ukmla-anki-deck-and-flashcard-revision-guide",
+    "type": "post",
+    "title": "UKMLA Anki Deck and Flashcard Revision: The Complete Guide",
+    "url": "/news#ukmla-anki-deck-and-flashcard-revision-guide",
+    "cluster": "Exam Preparation",
+    "pillarPage": "/preparation",
+    "incomingCount": 4,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "foundation-year-vs-specialty-training-for-imgs",
+      "how-to-pass-ukmla-on-first-attempt",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-syllabus-2026-changes"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/preparation",
+      "group-study-vs-solo-ukmla",
+      "how-to-pass-ukmla-on-first-attempt",
+      "mla-content-map-explained",
+      "mock-exams-ukmla-preparation",
+      "three-months-ukmla-akt-countdown",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-revision-notes-strategy",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
     "key": "ukmla-cpsa-what-it-tests",
     "type": "post",
     "title": "UKMLA CPSA: What the Clinical Exam Really Tests",
     "url": "/news#ukmla-cpsa-what-it-tests",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 7,
+    "incomingCount": 8,
     "outgoingCount": 21,
     "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa",
       "mental-health-ukmla-revision",
       "neurology-ukmla-revision",
       "uk-medical-schools-ukmla-implementation",
@@ -2612,13 +4576,42 @@
     ]
   },
   {
+    "key": "ukmla-crash-course-for-doctors",
+    "type": "post",
+    "title": "UKMLA Crash Course for Doctors: How to Choose the Right Intensive Course",
+    "url": "/news#ukmla-crash-course-for-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/preparation",
+    "incomingCount": 4,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "gmc-registration-refund-policy",
+      "how-to-pass-ukmla-on-first-attempt",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-syllabus-2026-changes"
+    ],
+    "linksTo": [
+      "/preparation",
+      "/syllabus",
+      "gmc-registration-refund-policy",
+      "how-to-pass-ukmla-on-first-attempt",
+      "mock-exams-ukmla-preparation",
+      "three-months-ukmla-akt-countdown",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-fees-for-img-2026",
+      "ukmla-preparation-for-imgs",
+      "ukmla-question-bank-and-mock-tests",
+      "ukmla-syllabus-2026-changes"
+    ]
+  },
+  {
     "key": "ukmla-eligibility-who-can-sit",
     "type": "post",
     "title": "UKMLA Eligibility: Who Can Sit the Exam?",
     "url": "/news#ukmla-eligibility-who-can-sit",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/eligibility",
-    "incomingCount": 12,
+    "incomingCount": 13,
     "outgoingCount": 11,
     "linkedFrom": [
       "gmc-registration-and-epic-verification-india",
@@ -2628,6 +4621,7 @@
       "is-indian-mbbs-valid-in-uk",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-for-egyptian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-refugee-doctors",
       "ukmla-for-south-african-doctors",
@@ -2649,18 +4643,76 @@
     ]
   },
   {
+    "key": "ukmla-exam-booking-process-gmc-online",
+    "type": "post",
+    "title": "The UKMLA Exam Booking Process: A Step-by-Step Walkthrough",
+    "url": "/news#ukmla-exam-booking-process-gmc-online",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 4,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "is-ukmla-replacing-plab-explained",
+      "ukmla-exam-day-what-to-expect",
+      "ukmla-special-circumstances-and-accommodations"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/key-dates",
+      "/registration-guide",
+      "gmc-welcome-to-uk-practice-induction-guide",
+      "how-to-register-plab-1",
+      "is-ukmla-replacing-plab-explained",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-akt-test-centres-guide"
+    ]
+  },
+  {
+    "key": "ukmla-exam-day-what-to-expect",
+    "type": "post",
+    "title": "UKMLA Exam Day: What to Expect at the AKT and CPSA",
+    "url": "/news#ukmla-exam-day-what-to-expect",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 2,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "history-of-ukmla-plab-transition-explained",
+      "ukmla-special-circumstances-and-accommodations"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/key-dates",
+      "/preparation",
+      "/registration-guide",
+      "disability-access-ukmla-guide",
+      "is-ukmla-replacing-plab-explained",
+      "managing-ukmla-exam-anxiety",
+      "ukmla-exam-booking-process-gmc-online"
+    ]
+  },
+  {
     "key": "ukmla-exemptions-for-specialist-and-gp-doctors",
     "type": "post",
     "title": "Do Experienced Doctors Need to Take the UKMLA? Exemptions for Specialists and GPs",
     "url": "/news#ukmla-exemptions-for-specialist-and-gp-doctors",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 9,
     "outgoingCount": 8,
     "linkedFrom": [
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-order-reform-2026-protected-medical-titles",
       "gmc-registration-requirements-for-international-doctors",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
-      "pharmacology-prescribing-safety-ukmla"
+      "internship-requirement-for-gmc-registration",
+      "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "pharmacology-prescribing-safety-ukmla",
+      "types-of-gmc-registration-explained"
     ],
     "linksTo": [
       "/eligibility",
@@ -2680,11 +4732,12 @@
     "url": "/news#ukmla-fees-explained",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/fees",
-    "incomingCount": 5,
+    "incomingCount": 6,
     "outgoingCount": 15,
     "linkedFrom": [
       "how-to-become-a-doctor-in-uk-from-india",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report"
@@ -2714,12 +4767,16 @@
     "url": "/news#ukmla-fees-for-img-2026",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/fees",
-    "incomingCount": 16,
+    "incomingCount": 21,
     "outgoingCount": 23,
     "linkedFrom": [
+      "gmc-annual-retention-fee-explained",
+      "gmc-registration-refund-policy",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-become-a-doctor-in-uk-from-india",
       "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-crash-course-for-doctors",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
@@ -2729,6 +4786,7 @@
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-vs-amc-and-mccqe-comparison",
       "ukmla-vs-neet-pg",
@@ -2793,17 +4851,40 @@
     ]
   },
   {
+    "key": "ukmla-for-chinese-doctors",
+    "type": "post",
+    "title": "UKMLA for Chinese Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-chinese-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "gmc-recognised-primary-medical-qualifications",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "ukmla-for-filipino-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
+    ]
+  },
+  {
     "key": "ukmla-for-egyptian-doctors",
     "type": "post",
     "title": "UKMLA for Egyptian Doctors: Eligibility, Fees and the Route to GMC Registration",
     "url": "/news#ukmla-for-egyptian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 16,
     "linkedFrom": [
       "ukmla-akt-test-centres-guide",
-      "ukmla-for-gulf-doctors"
+      "ukmla-for-gulf-doctors",
+      "ukmla-for-jordanian-and-iraqi-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -2831,11 +4912,14 @@
     "url": "/news#ukmla-for-filipino-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 5,
     "outgoingCount": 11,
     "linkedFrom": [
+      "gmc-english-language-exemption-for-imgs",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
-      "ukmla-for-international-medical-graduates-country-routes"
+      "ukmla-for-chinese-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -2858,12 +4942,14 @@
     "url": "/news#ukmla-for-gulf-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 5,
     "outgoingCount": 13,
     "linkedFrom": [
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
       "ukmla-akt-test-centres-guide",
       "ukmla-for-egyptian-doctors",
-      "ukmla-for-international-medical-graduates-country-routes"
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-jordanian-and-iraqi-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -2888,11 +4974,15 @@
     "url": "/news#ukmla-for-international-medical-graduates-country-routes",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 6,
     "outgoingCount": 10,
     "linkedFrom": [
+      "gmc-recognised-primary-medical-qualifications",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
-      "ukmla-for-filipino-doctors"
+      "medical-training-prioritisation-act-2026-imgs",
+      "ukmla-for-filipino-doctors",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -2908,13 +4998,102 @@
     ]
   },
   {
+    "key": "ukmla-for-jamaican-and-trinidadian-doctors",
+    "type": "post",
+    "title": "UKMLA for Jamaican and Trinidadian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-jamaican-and-trinidadian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "gmc-registration-for-eu-and-irish-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/registration-guide",
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-registration-for-eu-and-irish-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-south-african-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors",
+      "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
+    "key": "ukmla-for-jordanian-and-iraqi-doctors",
+    "type": "post",
+    "title": "UKMLA for Jordanian and Iraqi Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-jordanian-and-iraqi-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 1,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "returning-to-practise-in-gulf-countries-dataflow-guide"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/registration-guide",
+      "english-language-requirement-for-ukmla-india",
+      "gmc-recognised-primary-medical-qualifications",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-akt-test-centres-guide",
+      "ukmla-for-chinese-doctors",
+      "ukmla-for-egyptian-doctors",
+      "ukmla-for-gulf-doctors"
+    ]
+  },
+  {
+    "key": "ukmla-for-kenyan-and-east-african-doctors",
+    "type": "post",
+    "title": "UKMLA for Kenyan and East African Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-kenyan-and-east-african-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 22,
+    "linkedFrom": [
+      "gmc-registration-for-eu-and-irish-doctors",
+      "returning-to-practise-in-gulf-countries-dataflow-guide"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/fees",
+      "/official-resources",
+      "/preparation",
+      "/registration-guide",
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "emergency-medicine-ukmla-revision",
+      "foundation-programme-after-ukmla",
+      "gmc-english-language-exemption-for-imgs",
+      "gmc-registration-for-eu-and-irish-doctors",
+      "mla-content-map-explained",
+      "psychiatry-communication-cpsa-stations",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-eligibility-who-can-sit",
+      "ukmla-fees-explained",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
     "key": "ukmla-for-nigerian-doctors",
     "type": "post",
     "title": "UKMLA for Nigerian Doctors: Eligibility, Fees and How to Register with the GMC",
     "url": "/news#ukmla-for-nigerian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 16,
+    "incomingCount": 17,
     "outgoingCount": 24,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
@@ -2930,6 +5109,7 @@
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-to-nhs-job-pathway"
@@ -3019,10 +5199,11 @@
     "url": "/news#ukmla-for-refugee-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 8,
     "linkedFrom": [
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "medical-training-initiative-scheme-closure-2026",
       "uk-visa-guide-for-international-doctors"
     ],
     "linksTo": [
@@ -3043,10 +5224,11 @@
     "url": "/news#ukmla-for-south-african-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 14,
     "linkedFrom": [
       "ukmla-akt-test-centres-guide",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
       "ukmla-to-nhs-job-pathway"
     ],
     "linksTo": [
@@ -3098,17 +5280,45 @@
     ]
   },
   {
+    "key": "ukmla-for-vietnamese-and-indonesian-doctors",
+    "type": "post",
+    "title": "UKMLA for Vietnamese and Indonesian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-vietnamese-and-indonesian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "ukmla-for-chinese-doctors",
+      "ukmla-for-jamaican-and-trinidadian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/registration-guide",
+      "gmc-recognised-primary-medical-qualifications",
+      "oet-vs-ielts-for-gmc-registration-comparison",
+      "ukmla-akt-test-centres-guide",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-chinese-doctors",
+      "ukmla-for-filipino-doctors",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
     "key": "ukmla-graduate-entry-medical-students",
     "type": "post",
     "title": "UKMLA for Graduate-Entry Medical Students: What Is Different?",
     "url": "/news#ukmla-graduate-entry-medical-students",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/eligibility",
-    "incomingCount": 4,
+    "incomingCount": 6,
     "outgoingCount": 31,
     "linkedFrom": [
+      "foundation-programme-2026-recruitment-changes",
       "mbbs-in-uk-for-indian-students",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-and-academic-foundation-programme",
       "ukmla-eligibility-who-can-sit",
       "ukmla-key-dates-sitting-schedule"
     ],
@@ -3185,15 +5395,26 @@
     "url": "/news#ukmla-preparation-for-imgs",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 14,
+    "incomingCount": 25,
     "outgoingCount": 25,
     "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa",
       "english-language-requirement-for-ukmla-india",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-welcome-to-uk-practice-induction-guide",
       "how-to-become-a-doctor-in-uk-from-india",
+      "how-to-write-an-nhs-cv-and-application",
+      "is-ukmla-replacing-plab-explained",
       "managing-ukmla-exam-anxiety",
+      "medical-training-initiative-scheme-closure-2026",
+      "medical-training-prioritisation-act-2026-imgs",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "nhs-job-interview-preparation-guide",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
       "time-management-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-crash-course-for-doctors",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
@@ -3238,18 +5459,24 @@
     "url": "/news#ukmla-question-bank-and-mock-tests",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/preparation",
-    "incomingCount": 10,
+    "incomingCount": 16,
     "outgoingCount": 27,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
       "how-to-become-a-doctor-in-uk-from-india",
+      "indemnity-insurance-for-doctors-explained",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
+      "ukmla-for-vietnamese-and-indonesian-doctors",
       "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
@@ -3289,13 +5516,17 @@
     "url": "/news#ukmla-resits-rules-limits",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/appeals-and-resits",
-    "incomingCount": 4,
+    "incomingCount": 8,
     "outgoingCount": 12,
     "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa",
+      "gmc-registration-refund-policy",
+      "how-to-pass-ukmla-on-first-attempt",
       "plab-2-preparation-guide",
       "ukmla-fees-for-img-2026",
       "ukmla-for-pakistani-doctors",
-      "ukmla-results-feedback-report"
+      "ukmla-results-feedback-report",
+      "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -3371,11 +5602,14 @@
     "url": "/news#ukmla-revision-notes-strategy",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 4,
+    "incomingCount": 7,
     "outgoingCount": 18,
     "linkedFrom": [
       "group-study-vs-solo-ukmla",
+      "how-to-pass-ukmla-on-first-attempt",
       "managing-ukmla-exam-anxiety",
+      "nhs-eportfolio-guide-for-doctors",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits"
     ],
@@ -3401,21 +5635,93 @@
     ]
   },
   {
+    "key": "ukmla-special-circumstances-and-accommodations",
+    "type": "post",
+    "title": "UKMLA Special Circumstances: Accommodations Beyond Disability Access",
+    "url": "/news#ukmla-special-circumstances-and-accommodations",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 1,
+    "outgoingCount": 8,
+    "linkedFrom": [
+      "breaking-bad-news-in-the-cpsa"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/cpsa",
+      "/registration-guide",
+      "breaking-bad-news-in-the-cpsa",
+      "disability-access-ukmla-guide",
+      "managing-ukmla-exam-anxiety",
+      "ukmla-exam-booking-process-gmc-online",
+      "ukmla-exam-day-what-to-expect"
+    ]
+  },
+  {
+    "key": "ukmla-syllabus-2026-changes",
+    "type": "post",
+    "title": "UKMLA Syllabus 2026 Changes: What's New in the Updated MLA Content Map",
+    "url": "/news#ukmla-syllabus-2026-changes",
+    "cluster": "Core UKMLA Overview",
+    "pillarPage": "/syllabus",
+    "incomingCount": 9,
+    "outgoingCount": 9,
+    "linkedFrom": [
+      "genetics-and-genomics-in-the-ukmla",
+      "history-of-ukmla-plab-transition-explained",
+      "is-ukmla-replacing-plab-explained",
+      "menopause-management-ukmla",
+      "public-health-and-screening-ukmla",
+      "sepsis-recognition-and-management-ukmla",
+      "transgender-health-in-the-ukmla",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors"
+    ],
+    "linksTo": [
+      "/syllabus",
+      "/ukmla-vs-plab",
+      "how-to-pass-ukmla-on-first-attempt",
+      "mla-content-map-explained",
+      "pharmacology-prescribing-safety-ukmla",
+      "social-determinants-health-ukmla",
+      "uk-medical-schools-ukmla-implementation",
+      "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-crash-course-for-doctors"
+    ]
+  },
+  {
     "key": "ukmla-to-nhs-job-pathway",
     "type": "post",
     "title": "UKMLA to NHS Job: What Happens After You Pass and Register With the GMC",
     "url": "/news#ukmla-to-nhs-job-pathway",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 6,
+    "incomingCount": 23,
     "outgoingCount": 11,
     "linkedFrom": [
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "foundation-year-vs-specialty-training-for-imgs",
       "gmc-registration-and-epic-verification-india",
+      "gmc-revalidation-process-explained",
+      "gmc-welcome-to-uk-practice-induction-guide",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "how-to-write-an-nhs-cv-and-application",
+      "indemnity-insurance-for-doctors-explained",
+      "locally-employed-doctors-route-to-gmc-registration",
+      "locum-vs-substantive-nhs-posts-explained",
       "mbbs-in-uk-for-indian-students",
+      "medical-training-initiative-scheme-closure-2026",
+      "medical-training-prioritisation-act-2026-imgs",
+      "nhs-eportfolio-guide-for-doctors",
+      "nhs-job-interview-preparation-guide",
+      "nhs-pension-scheme-for-doctors-explained",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "scotland-wales-northern-ireland-registration-differences",
       "uk-doctor-salary-guide-for-indian-doctors",
       "uk-visa-guide-for-international-doctors",
-      "ukmla-for-south-african-doctors"
+      "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-for-south-african-doctors",
+      "understanding-nhs-pay-scales-and-banding-for-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -3580,16 +5886,96 @@
     ]
   },
   {
+    "key": "understanding-nhs-pay-scales-and-banding-for-doctors",
+    "type": "post",
+    "title": "Understanding NHS Pay Scales and Banding for Doctors",
+    "url": "/news#understanding-nhs-pay-scales-and-banding-for-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/fees",
+    "incomingCount": 3,
+    "outgoingCount": 6,
+    "linkedFrom": [
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "nhs-pension-scheme-for-doctors-explained",
+      "scotland-wales-northern-ireland-registration-differences"
+    ],
+    "linksTo": [
+      "/fees",
+      "ewtd-working-hours-and-rest-rules-for-doctors",
+      "nhs-pension-scheme-for-doctors-explained",
+      "scotland-wales-northern-ireland-registration-differences",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "ukmla-to-nhs-job-pathway"
+    ]
+  },
+  {
+    "key": "urology-ukmla-revision",
+    "type": "post",
+    "title": "Urology in the UKMLA: High-Yield Topics for the AKT",
+    "url": "/news#urology-ukmla-revision",
+    "cluster": "Clinical Systems Revision",
+    "pillarPage": "/syllabus",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "care-of-the-elderly-and-frailty-ukmla",
+      "trauma-and-orthopaedics-ukmla"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/preparation",
+      "/results-and-scoring",
+      "/syllabus",
+      "care-of-the-elderly-and-frailty-ukmla",
+      "nephrology-ukmla-revision",
+      "patient-safety-ukmla-prescribing-errors",
+      "surgical-presentations-ukmla-revision",
+      "trauma-and-orthopaedics-ukmla"
+    ]
+  },
+  {
+    "key": "what-happens-if-you-fail-ukmla-foundation-year-impact",
+    "type": "post",
+    "title": "What Happens If You Fail the UKMLA? The Impact on Your Foundation Year",
+    "url": "/news#what-happens-if-you-fail-ukmla-foundation-year-impact",
+    "cluster": "Results & Scoring",
+    "pillarPage": "/appeals-and-resits",
+    "incomingCount": 3,
+    "outgoingCount": 13,
+    "linkedFrom": [
+      "foundation-programme-2026-recruitment-changes",
+      "is-ukmla-replacing-plab-explained",
+      "ukmla-and-academic-foundation-programme"
+    ],
+    "linksTo": [
+      "/appeals-and-resits",
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/key-dates",
+      "/registration-guide",
+      "/results-and-scoring",
+      "foundation-programme-2026-recruitment-changes",
+      "foundation-programme-after-ukmla",
+      "is-ukmla-replacing-plab-explained",
+      "managing-ukmla-exam-anxiety",
+      "ukmla-and-academic-foundation-programme",
+      "ukmla-resits-rules-limits"
+    ]
+  },
+  {
     "key": "what-is-ukmla-complete-guide",
     "type": "post",
     "title": "What Is the UKMLA? A Complete Beginner's Guide",
     "url": "/news#what-is-ukmla-complete-guide",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/what-is-ukmla",
-    "incomingCount": 4,
+    "incomingCount": 5,
     "outgoingCount": 21,
     "linkedFrom": [
       "foundation-programme-after-ukmla",
+      "history-of-ukmla-plab-transition-explained",
       "is-indian-mbbs-valid-in-uk",
       "mbbs-in-uk-for-indian-students",
       "ukmla-akt-format-preparation"
