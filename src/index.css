@@ -1165,6 +1165,123 @@ tr:hover td {
 /* ============================================================
    POSTS (index list + full article view)
    ============================================================ */
+/* ---- Post search ---- */
+.post-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.post-search-field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1 1 280px;
+}
+
+.post-search-icon {
+  position: absolute;
+  left: 16px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.post-search-input {
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  border: none;
+  border-radius: 9999px;
+  padding: 13px 44px 13px 44px;
+  box-shadow: var(--clay-pressed);
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.post-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.post-search-input:focus {
+  box-shadow: var(--clay-pressed), 0 0 0 2px var(--brand-secondary-light);
+}
+
+/* Hide the native search clear control; we render our own. */
+.post-search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.post-search-clear {
+  position: absolute;
+  right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--text-muted);
+  background: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+.post-search-clear:hover {
+  color: var(--brand-secondary);
+  background-color: var(--brand-secondary-light);
+}
+
+.post-search-btn {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--brand-secondary);
+  border: none;
+  border-radius: 9999px;
+  padding: 13px 28px;
+  cursor: pointer;
+  box-shadow: var(--clay);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s;
+}
+
+.post-search-btn:hover {
+  transform: translateY(-2px);
+}
+
+.post-search-btn:active {
+  transform: translateY(0);
+  box-shadow: var(--clay-pressed);
+}
+
+.post-search-status {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+}
+
+.post-search-status-clear,
+.post-search-status-clear:hover {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--brand-secondary);
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 6px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 /* ---- Topic filter bar ---- */
 .post-filter {
   display: flex;

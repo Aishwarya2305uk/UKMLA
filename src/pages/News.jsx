@@ -2608,6 +2608,8 @@ export default function News() {
   const [activeTopic, setActiveTopic] = useState('All');
   const [activeSection, setActiveSection] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
+  const [searchInput, setSearchInput] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const POSTS_PER_PAGE = 12;
   const contentRef = useRef(null);
@@ -2848,11 +2850,30 @@ export default function News() {
   // Newest posts first, so freshly added posts surface on page 1 instead of
   // sinking to the last page in original insertion order.
   const sortedPosts = [...posts].sort((a, b) => new Date(b.date) - new Date(a.date));
-  const visiblePosts = activeTopic === 'All' ? sortedPosts : sortedPosts.filter((p) => p.tag === activeTopic);
-  const featuredPost = visiblePosts[0] || null;
-  const remainingPosts = visiblePosts.slice(1);
+  const topicFiltered = activeTopic === 'All' ? sortedPosts : sortedPosts.filter((p) => p.tag === activeTopic);
+
+  // Apply the committed search query (set when the user submits the search
+  // form) across title, summary, tag, and primary keyword.
+  const query = searchQuery.trim().toLowerCase();
+  const isSearching = query.length > 0;
+  const visiblePosts = isSearching
+    ? topicFiltered.filter((p) =>
+        p.title.toLowerCase().includes(query) ||
+        p.summary.toLowerCase().includes(query) ||
+        p.tag.toLowerCase().includes(query) ||
+        (p.primaryKeyword || '').toLowerCase().includes(query)
+      )
+    : topicFiltered;
+
+  // While searching, every match goes into the grid (no featured treatment) so
+  // the most relevant results are not visually demoted.
+  const featuredPost = isSearching ? null : visiblePosts[0] || null;
+  const remainingPosts = isSearching ? visiblePosts : visiblePosts.slice(1);
   const totalPages = Math.ceil(remainingPosts.length / POSTS_PER_PAGE);
   const paginatedPosts = remainingPosts.slice((currentPage - 1) * POSTS_PER_PAGE, currentPage * POSTS_PER_PAGE);
+
+  const runSearch = () => { setSearchQuery(searchInput); setCurrentPage(1); };
+  const clearSearch = () => { setSearchInput(''); setSearchQuery(''); setCurrentPage(1); };
 
   return (
     <Layout>
@@ -2863,6 +2884,61 @@ export default function News() {
             News, regulatory updates, and analysis on the UKMLA. Select a post to read it in full.
           </p>
         </header>
+
+        <form
+          className="post-search"
+          role="search"
+          onSubmit={(e) => { e.preventDefault(); runSearch(); }}
+        >
+          <div className="post-search-field">
+            <svg
+              className="post-search-icon"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+            <input
+              type="search"
+              className="post-search-input"
+              placeholder="Search posts by title, topic, or keyword…"
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
+              aria-label="Search posts"
+            />
+            {searchInput && (
+              <button
+                type="button"
+                className="post-search-clear"
+                onClick={clearSearch}
+                aria-label="Clear search"
+              >
+                ×
+              </button>
+            )}
+          </div>
+          <button type="submit" className="post-search-btn">Search</button>
+        </form>
+
+        {isSearching && (
+          <p className="post-search-status" role="status">
+            {visiblePosts.length === 0
+              ? `No results for “${searchQuery}”`
+              : `${visiblePosts.length} result${visiblePosts.length === 1 ? '' : 's'} for “${searchQuery}”`}
+            {' '}
+            <button type="button" className="post-search-status-clear" onClick={clearSearch}>
+              Clear search
+            </button>
+          </p>
+        )}
 
         <div className="post-filter" role="group" aria-label="Filter posts by topic">
           {topics.map((topic) => (
@@ -2878,7 +2954,9 @@ export default function News() {
         </div>
 
         {visiblePosts.length === 0 ? (
-          <p className="post-empty">No posts in this topic yet.</p>
+          <p className="post-empty">
+            {isSearching ? 'No posts match your search. Try a different term.' : 'No posts in this topic yet.'}
+          </p>
         ) : (
           <>
             {featuredPost && (
@@ -2910,7 +2988,7 @@ export default function News() {
 
             {remainingPosts.length > 0 && (
               <>
-                <h2 className="post-section-heading">All Posts</h2>
+                <h2 className="post-section-heading">{isSearching ? 'Search Results' : 'All Posts'}</h2>
                 <ul className="post-grid">
               {paginatedPosts.map((post) => (
                 <li
