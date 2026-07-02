@@ -22,9 +22,11 @@ export default function Syllabus() {
             <p>
               The Content Map is a unified framework divided into four core areas:
               <strong> Patient Presentations</strong>,
-              <strong> Clinical Conditions</strong> (covering approximately 430 conditions),
+              <strong> Clinical Conditions</strong>,
               <strong> Professional Behaviours</strong>, and
-              <strong> Practical Skills and Procedures</strong>.
+              <strong> Practical Skills and Procedures</strong>. The updated Content Map that applies to
+              MLA assessments from September 2026 expands the A–Z conditions index from 311 to 430
+              conditions and adds a Clinical Imaging area.
             </p>
 
             <figure className="content-figure">
@@ -121,7 +123,7 @@ export default function Syllabus() {
               We highly recommend downloading the official syllabus to track your revision. The GMC provides the full content map as a PDF document.
             </p>
             <div style={{ marginTop: '20px', marginBottom: '20px' }}>
-              <a href="https://www.gmc-uk.org/-/media/documents/mla-content-map_pdf-85707770.pdf" target="_blank" rel="noopener noreferrer" className="post-cta" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#005ea5', color: '#fff', textDecoration: 'none', borderRadius: '4px', fontWeight: 'bold' }}>
+              <a href="https://www.gmc-uk.org/cdn/documents/251015---mla-content-map--english-_pdf-112647970.pdf" target="_blank" rel="noopener noreferrer" className="post-cta" style={{ display: 'inline-block', padding: '10px 20px', backgroundColor: '#005ea5', color: '#fff', textDecoration: 'none', borderRadius: '4px', fontWeight: 'bold' }}>
                 UKMLA Syllabus PDF Download
               </a>
             </div>
@@ -130,7 +132,7 @@ export default function Syllabus() {
           <div className="callout info">
             <div className="callout-title">The Content Map is a Live Document</div>
             <p>
-              The General Medical Council periodically updates the MLA Content Map to align with modern clinical guidelines. For example, a content map revision applies to PLAB sittings from September 2026. Always review the latest version on the official GMC website.
+              The General Medical Council periodically updates the MLA Content Map to align with modern clinical guidelines. The original 2019 map is the reference up to and including August 2026; the updated Content Map (published October 2025) applies to all MLA exams and assessments taken from September 2026 onwards. Always review the latest version on the official GMC website.
             </p>
           </div>
 
@@ -143,7 +145,7 @@ export default function Syllabus() {
             </ul>
           </div>
 
-          <p className="last-reviewed">Last reviewed: 25 June 2026. Source: General Medical Council (GMC).</p>
+          <p className="last-reviewed">Last reviewed: 2 July 2026. Source: General Medical Council (GMC).</p>
         </article>
 
         <aside className="sidebar-container">

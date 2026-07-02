@@ -49,8 +49,8 @@ export default function KeyDates() {
                     <td>UK Medical Graduates</td>
                   </tr>
                   <tr>
-                    <td><strong>April 2026</strong></td>
-                    <td><strong>GMC Fee Adjustments:</strong> Periodic review of sitting costs for PLAB 1 and PLAB 2. Candidates must check the GMC Online portal for exact prices.</td>
+                    <td><strong>1 April 2026</strong></td>
+                    <td><strong>GMC Fee Increase (now in effect):</strong> PLAB 1 rose to £283 and PLAB 2 to £1,036; registration with a licence is £481. The next annual review is expected April 2027 — always check the GMC portal for exact prices.</td>
                     <td>International Medical Graduates (IMGs)</td>
                   </tr>
                   <tr>
@@ -78,7 +78,7 @@ export default function KeyDates() {
                 <strong>The Two-Year AKT-to-CPSA Window:</strong> You must sit and pass the CPSA (PLAB 2) within exactly <strong>2 years</strong> of passing the AKT (PLAB 1). If you exceed this window, your written result expires, and you must sit PLAB 1 again.
               </li>
               <li>
-                <strong>The Two-Year Registration Window:</strong> Once you have passed the CPSA (PLAB 2), you have exactly <strong>2 years</strong> to submit your formal application for GMC registration with a licence to practice. Missing this date means you will have to retake the clinical assessment.
+                <strong>The Two-Year Registration Window:</strong> Once you have passed the CPSA (PLAB 2), your formal application for GMC registration with a licence to practise must be <strong>approved within 2 years</strong> of the pass date. Missing this date means you will have to retake the clinical assessment.
               </li>
             </ul>
             <div className="callout warning">
@@ -105,7 +105,7 @@ export default function KeyDates() {
             </ul>
           </div>
 
-          <p className="last-reviewed">Last reviewed: 25 June 2026. Source: General Medical Council (GMC).</p>
+          <p className="last-reviewed">Last reviewed: 2 July 2026. Source: General Medical Council (GMC).</p>
         </article>
 
         <aside className="sidebar-container">

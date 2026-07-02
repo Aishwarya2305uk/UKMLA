@@ -226,13 +226,13 @@ const posts = [
     "title": "Mental Health Presentations in the UKMLA: What to Revise",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/how-to-read-akt-stem-featured.webp",
+    "image": "/images/mental-health-ukmla-revision-featured.webp",
     "summary": "Mental health is a significant domain in the MLA Content Map. Here is a focused guide to the presentations, conditions, and management principles most likely to appear.",
     "seoTitle": "Mental Health Presentations in the UKMLA: Revision Guide",
     "seoDescription": "Mental health is a core UKMLA domain. Our revision guide covers the key presentations, conditions, management principles, and legal frameworks you need to know.",
     "primaryKeyword": "mental health UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/how-to-read-akt-stem-featured.webp",
+    "featuredImageKeyword": "mental health psychiatry revision",
+    "featuredImageUrl": "/images/mental-health-ukmla-revision-featured.webp",
     "featuredImageTitle": "Mental Health Presentations in the UKMLA: Revision Guide Featured Image",
     "featuredImageAltText": "mental health UKMLA - Key Presentations and Revision Guide",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -242,13 +242,13 @@ const posts = [
     "title": "Paediatrics in the AKT and CPSA: A Focused Revision Guide",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/nice-guidelines-akt-revision-featured.webp",
+    "image": "/images/paediatrics-ukmla-revision-featured.webp",
     "summary": "Paediatric presentations appear across both UKMLA components. Here are the highest-yield conditions, red flags, and safeguarding principles to know.",
     "seoTitle": "Paediatrics in the UKMLA: AKT and CPSA Revision Guide",
     "seoDescription": "Paediatric presentations appear throughout the UKMLA. Our focused revision guide covers key conditions, red flags, developmental milestones, and safeguarding.",
     "primaryKeyword": "paediatrics UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/nice-guidelines-akt-revision-featured.webp",
+    "featuredImageKeyword": "paediatrics child health revision",
+    "featuredImageUrl": "/images/paediatrics-ukmla-revision-featured.webp",
     "featuredImageTitle": "Paediatrics in the AKT and CPSA: Revision Guide Featured Image",
     "featuredImageAltText": "paediatrics UKMLA - Key Conditions and Safeguarding for AKT and CPSA",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -290,13 +290,13 @@ const posts = [
     "title": "ECG Interpretation for the UKMLA: The Findings You Must Recognise",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/emergency-medicine-ukmla-revision-featured.webp",
+    "image": "/images/ecg-interpretation-ukmla-featured.webp",
     "summary": "ECG reading is a core UKMLA practical skill. Here is a systematic approach and the specific findings that appear most often in the AKT and CPSA.",
     "seoTitle": "ECG Interpretation for the UKMLA: Key Findings and How to Read Them",
     "seoDescription": "ECG interpretation is a core UKMLA skill. Learn the systematic approach and the specific ECG findings that appear in the AKT and CPSA stations.",
     "primaryKeyword": "ECG interpretation UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/emergency-medicine-ukmla-revision-featured.webp",
+    "featuredImageKeyword": "ECG interpretation cardiology",
+    "featuredImageUrl": "/images/ecg-interpretation-ukmla-featured.webp",
     "featuredImageTitle": "ECG Interpretation for the UKMLA Featured Image",
     "featuredImageAltText": "ECG interpretation UKMLA - Key Findings and Systematic Reading Approach",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -402,13 +402,13 @@ const posts = [
     "title": "Respiratory Medicine for the UKMLA: What to Focus On",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/radiology-imaging-akt-ukmla-featured.webp",
+    "image": "/images/respiratory-medicine-ukmla-revision-featured.webp",
     "summary": "Respiratory presentations are a core UKMLA domain. Here is a targeted guide to asthma, COPD, pneumonia, PE, and the investigations that discriminate between them.",
     "seoTitle": "Respiratory Medicine for the UKMLA: High-Yield Revision Guide",
     "seoDescription": "Respiratory presentations are heavily tested in the UKMLA. Our revision guide covers asthma, COPD, pneumonia, pulmonary embolism, and the investigations that matter.",
     "primaryKeyword": "respiratory medicine UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/radiology-imaging-akt-ukmla-featured.webp",
+    "featuredImageKeyword": "respiratory medicine lungs revision",
+    "featuredImageUrl": "/images/respiratory-medicine-ukmla-revision-featured.webp",
     "featuredImageTitle": "Respiratory Medicine for the UKMLA: Revision Guide Featured Image",
     "featuredImageAltText": "respiratory medicine UKMLA - Asthma COPD Pneumonia and PE Revision",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -482,13 +482,13 @@ const posts = [
     "title": "Dermatology in the UKMLA: Rashes, Lesions, and What to Know",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/safeguarding-ukmla-revision-featured.webp",
+    "image": "/images/dermatology-ukmla-revision-featured.webp",
     "summary": "Skin presentations appear across both UKMLA components. Here are the common rashes and lesions tested in the AKT, and the communication skills required for skin-related CPSA stations.",
     "seoTitle": "Dermatology in the UKMLA: Rashes and Lesions Revision Guide",
     "seoDescription": "Skin presentations are tested in the UKMLA AKT and CPSA. Our revision guide covers common rashes, skin lesion assessment, melanoma, and the ABCDE mole assessment.",
     "primaryKeyword": "dermatology UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/safeguarding-ukmla-revision-featured.webp",
+    "featuredImageKeyword": "dermatology skin lesions revision",
+    "featuredImageUrl": "/images/dermatology-ukmla-revision-featured.webp",
     "featuredImageTitle": "Dermatology in the UKMLA: Rashes and Lesions Revision Guide Featured Image",
     "featuredImageAltText": "dermatology UKMLA - Rashes Lesions and Skin Cancer Revision Guide",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -514,13 +514,13 @@ const posts = [
     "title": "Rheumatology in the UKMLA: Joints, Inflammation, and Autoimmunity",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/ukmla-revision-notes-strategy-featured.webp",
+    "image": "/images/rheumatology-ukmla-revision-featured.webp",
     "summary": "Rheumatological conditions appear regularly across both UKMLA components. Here are the key conditions, investigations, and the clinical examination findings you need.",
     "seoTitle": "Rheumatology in the UKMLA: Key Conditions and Revision Tips",
     "seoDescription": "Rheumatology features regularly in the UKMLA AKT and CPSA. Revise rheumatoid arthritis, gout, SLE, osteoporosis, and musculoskeletal examinations with this guide.",
     "primaryKeyword": "rheumatology UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/ukmla-revision-notes-strategy-featured.webp",
+    "featuredImageKeyword": "rheumatology joints revision",
+    "featuredImageUrl": "/images/rheumatology-ukmla-revision-featured.webp",
     "featuredImageTitle": "Rheumatology in the UKMLA: Key Conditions and Revision Tips Featured Image",
     "featuredImageAltText": "rheumatology UKMLA - RA Gout SLE Osteoporosis Revision Guide",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -530,13 +530,13 @@ const posts = [
     "title": "Nephrology in the UKMLA: AKI, CKD, and Electrolyte Disorders",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/mock-exams-ukmla-preparation-featured.webp",
+    "image": "/images/nephrology-ukmla-revision-featured.webp",
     "summary": "Renal presentations feature heavily in the UKMLA AKT. Here is a focused guide to AKI, CKD staging, electrolyte disorders, and the investigations that matter.",
     "seoTitle": "Nephrology in the UKMLA: AKI, CKD, and Electrolytes Revision",
     "seoDescription": "Renal conditions are heavily tested in the UKMLA AKT. Our revision guide covers AKI, CKD, electrolyte disorders, nephrotic syndrome, and urinalysis interpretation.",
     "primaryKeyword": "nephrology UKMLA AKI CKD",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/mock-exams-ukmla-preparation-featured.webp",
+    "featuredImageKeyword": "nephrology kidney renal revision",
+    "featuredImageUrl": "/images/nephrology-ukmla-revision-featured.webp",
     "featuredImageTitle": "Nephrology in the UKMLA: AKI, CKD, and Electrolyte Disorders Featured Image",
     "featuredImageAltText": "nephrology UKMLA - AKI CKD Electrolytes and Renal Revision Guide",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -546,13 +546,13 @@ const posts = [
     "title": "Haematology in the UKMLA: Anaemia, Clotting, and Blood Cancers",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/cardiology-ukmla-akt-revision-featured.webp",
+    "image": "/images/haematology-ukmla-revision-featured.webp",
     "summary": "Blood disorders are tested across both UKMLA components. Here is a targeted guide to anaemia workup, clotting disorders, and the haematological malignancies you need to know.",
     "seoTitle": "Haematology in the UKMLA: Anaemia, Clotting, and Blood Cancer",
     "seoDescription": "Haematological presentations are high-yield in the UKMLA AKT. Our guide covers anaemia workup, DVT/PE, coagulation disorders, leukaemia, and lymphoma.",
     "primaryKeyword": "haematology UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/cardiology-ukmla-akt-revision-featured.webp",
+    "featuredImageKeyword": "haematology blood revision",
+    "featuredImageUrl": "/images/haematology-ukmla-revision-featured.webp",
     "featuredImageTitle": "Haematology in the UKMLA: Anaemia, Clotting, and Blood Cancers Featured Image",
     "featuredImageAltText": "haematology UKMLA - Anaemia Clotting Disorders and Blood Cancer Revision",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -562,13 +562,13 @@ const posts = [
     "title": "Infection and Microbiology in the UKMLA: Antibiotic Stewardship and More",
     "date": "30 June 2026",
     "tag": "Preparation",
-    "image": "/images/gastroenterology-ukmla-akt-revision-featured.webp",
+    "image": "/images/infection-microbiology-ukmla-revision-featured.webp",
     "summary": "Infectious diseases are a major AKT topic. This guide covers common infections, empiric antibiotic choices, and the broader principles of antimicrobial stewardship.",
     "seoTitle": "Infection and Microbiology in the UKMLA: Antibiotics and Stewardship",
     "seoDescription": "Infection is a high-yield UKMLA domain. Our revision guide covers empiric antibiotics, sepsis, common organisms, resistance, and antimicrobial stewardship principles.",
     "primaryKeyword": "infection microbiology UKMLA",
-    "featuredImageKeyword": "Preparation",
-    "featuredImageUrl": "/images/gastroenterology-ukmla-akt-revision-featured.webp",
+    "featuredImageKeyword": "infection microbiology revision",
+    "featuredImageUrl": "/images/infection-microbiology-ukmla-revision-featured.webp",
     "featuredImageTitle": "Infection and Microbiology in the UKMLA: Revision Guide Featured Image",
     "featuredImageAltText": "infection microbiology UKMLA - Antibiotics Sepsis and Stewardship",
     "sourceFullUrl": "https://www.gmc-uk.org/education/medical-licensing-assessment/mla-content-map"
@@ -2598,6 +2598,20 @@ function enhancePost(html) {
         if (point) takeaways.push(point);
       }
     }
+  });
+
+  // Post authors write bare <table class="post-table"> elements, but a raw
+  // table cannot shrink below its own min-content width. On a phone that wide
+  // table pushes the whole layout wider than the viewport, so the page renders
+  // zoomed-out and clipped. Wrap every table in a .table-wrap scroll container
+  // (styled with overflow-x: auto) so it scrolls horizontally on its own
+  // instead of breaking the page. Covers every post from one place.
+  doc.querySelectorAll('table').forEach((table) => {
+    if (table.parentElement && table.parentElement.classList.contains('table-wrap')) return;
+    const wrap = doc.createElement('div');
+    wrap.className = 'table-wrap';
+    table.parentNode.insertBefore(wrap, table);
+    wrap.appendChild(table);
   });
 
   return { html: doc.body.innerHTML, toc, takeaways: takeaways.slice(0, 8) };

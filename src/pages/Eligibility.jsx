@@ -110,13 +110,13 @@ export default function Eligibility() {
             </p>
             <ul>
               <li>
-                <strong>PLAB 1 Attempt Limits:</strong> Candidates are allowed a maximum of <strong>four attempts</strong>. If a candidate fails four times, they must submit a special application demonstrating 12 months of clinical practice or clinical education before a fifth attempt can be authorized.
+                <strong>PLAB 1 Attempt Limits:</strong> Candidates are allowed a maximum of <strong>four attempts</strong>. After a fourth failed attempt you may apply for <strong>one further (fifth and final) attempt</strong>; if you fail that fifth attempt, you are no longer eligible to sit the exam. The same rule applies to PLAB 2.
               </li>
               <li>
                 <strong>PLAB 2 Timing Window:</strong> After passing PLAB 1 (equivalent to the AKT), candidates must pass PLAB 2 (CPSA equivalent) within <strong>two years</strong>. Failing to do so invalidates the PLAB 1 result, requiring a resit of PLAB 1.
               </li>
               <li>
-                <strong>GMC Registration Window:</strong> Once PLAB 2 is passed, candidates must submit their application for GMC registration within <strong>two years</strong>. If this window is missed, the exam results expire.
+                <strong>GMC Registration Window:</strong> Once PLAB 2 is passed, candidates must have their application for GMC registration <strong>approved within two years</strong> of the pass date. If this window is missed, the exam results expire.
               </li>
             </ul>
           </section>
@@ -130,7 +130,7 @@ export default function Eligibility() {
             </ul>
           </div>
 
-          <p className="last-reviewed">Last reviewed: 25 June 2026. Source: General Medical Council (GMC).</p>
+          <p className="last-reviewed">Last reviewed: 2 July 2026. Source: General Medical Council (GMC).</p>
         </article>
 
         <aside className="sidebar-container">

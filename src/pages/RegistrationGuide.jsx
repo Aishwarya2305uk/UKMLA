@@ -65,7 +65,7 @@ export default function RegistrationGuide() {
               Create an account on the GMC Online portal. Once your EPIC verification and English test details are linked, you can book a slot for PLAB 1.
             </p>
             <ul>
-              <li><strong>Cost:</strong> Subject to annual GMC updates (typically £240 - £290).</li>
+              <li><strong>Cost:</strong> £283 (as of the 1 April 2026 GMC fee review; the GMC updates fees each April).</li>
               <li><strong>Centers:</strong> Delivered globally in countries like India, Pakistan, Nigeria, Egypt, and Saudi Arabia, as well as multiple UK locations.</li>
             </ul>
           </section>
@@ -108,7 +108,7 @@ export default function RegistrationGuide() {
             </ul>
           </div>
 
-          <p className="last-reviewed">Last reviewed: 25 June 2026. Source: General Medical Council (GMC).</p>
+          <p className="last-reviewed">Last reviewed: 2 July 2026. Source: General Medical Council (GMC).</p>
         </article>
 
         <aside className="sidebar-container">

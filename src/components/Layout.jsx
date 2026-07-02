@@ -319,7 +319,7 @@ export default function Layout({ children }) {
       {/* Editorial notice ribbon */}
       <div className="gmc-alert-banner" role="alert">
         <strong>Important notice:</strong> Core exam dates, fees, and requirements shift. Verify details on the{' '}
-        <a href="https://www.gmc-uk.org/education/standards-guidance-and-curricula/projects/medical-licensing-assessment" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.gmc-uk.org/education/medical-licensing-assessment" target="_blank" rel="noopener noreferrer">
           Official GMC MLA Page
         </a>{' '}
         before registration.

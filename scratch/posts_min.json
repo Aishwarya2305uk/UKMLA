@@ -1068,5 +1068,505 @@
     "summary": "A calm, factual explainer for newly registered doctors on what GMC fitness to practise means, how concerns are handled, and the day-one habits that reduce risk.",
     "seoTitle": "GMC Fitness to Practise: A Guide for New Doctors",
     "seoDescription": "GMC fitness to practise explained for new doctors: how concerns are assessed, likely outcomes, and simple habits from day one that reduce professional risk."
+  },
+  {
+    "slug": "toxicology-and-poisoning-ukmla",
+    "title": "Toxicology and Poisoning in the UKMLA: High-Yield Overdose Management",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "toxicology UKMLA",
+    "summary": "Toxicology UKMLA questions sit at the intersection of pharmacology and emergency medicine, and they are tested precisely because a foundation doctor is expected to recognise a poisoned patient, start safe initial treatment, and know when to call for expert help without hesitating.",
+    "seoTitle": "Toxicology UKMLA: Overdoses & Antidotes Guide",
+    "seoDescription": "This toxicology UKMLA guide covers high-yield overdose recognition, key antidotes, ECG changes and safe initial treatment thresholds for the AKT and CPSA."
+  },
+  {
+    "slug": "sepsis-recognition-and-management-ukmla",
+    "title": "Sepsis Recognition and Management in the UKMLA: The Essential Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "sepsis UKMLA",
+    "summary": "Sepsis UKMLA revision is one of the highest-yield investments a candidate can make, because sepsis sits at the intersection of almost every clinical domain the exam tests — acute medicine, paediatrics, obstetrics, primary care, and professional decision-making all converge on a single question: has this patient recognised, and are they being treated fast enough?",
+    "seoTitle": "Sepsis UKMLA: Recognition & Management Guide",
+    "seoDescription": "This sepsis UKMLA guide explains red-flag recognition, the Sepsis Six and escalation across acute medicine, paediatrics and obstetrics for AKT revision."
+  },
+  {
+    "slug": "anaesthesia-and-perioperative-medicine-ukmla",
+    "title": "Anaesthesia and Perioperative Medicine in the UKMLA: A Foundation Doctor's Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "anaesthesia UKMLA",
+    "summary": "Anaesthesia UKMLA questions do not expect candidates to think like an anaesthetist — they expect a foundation doctor's working knowledge of what happens to a patient before, during, and after an operation.",
+    "seoTitle": "Anaesthesia UKMLA: Perioperative Medicine Guide",
+    "seoDescription": "This anaesthesia UKMLA guide covers pre-operative assessment, fluids, analgesia and post-operative complications a foundation doctor must know for the AKT."
+  },
+  {
+    "slug": "urology-ukmla-revision",
+    "title": "Urology in the UKMLA: High-Yield Topics for the AKT",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "urology UKMLA",
+    "summary": "Urology UKMLA questions turn up across the Applied Knowledge Test far more often than candidates expect, because urinary tract problems present in every setting from general practice to the emergency department.",
+    "seoTitle": "Urology UKMLA: High-Yield AKT Revision Guide",
+    "seoDescription": "This urology UKMLA guide covers UTIs, urinary retention, renal colic, BPH and catheterisation basics that recur across the Applied Knowledge Test."
+  },
+  {
+    "slug": "care-of-the-elderly-and-frailty-ukmla",
+    "title": "Care of the Elderly and Frailty in the UKMLA: What to Revise",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "care of the elderly UKMLA",
+    "summary": "Care of the elderly UKMLA questions sit at the intersection of clinical reasoning, communication skill, and pragmatic prescribing, and they appear far more often than candidates expect.",
+    "seoTitle": "Care of the Elderly UKMLA: Frailty Revision Guide",
+    "seoDescription": "This care of the elderly UKMLA guide covers frailty assessment, falls, polypharmacy and delirium, high-yield topics tested across the AKT and CPSA."
+  },
+  {
+    "slug": "medical-statistics-and-evidence-based-medicine-ukmla",
+    "title": "Medical Statistics and Evidence-Based Medicine in the UKMLA",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "medical statistics UKMLA",
+    "summary": "Medical statistics UKMLA questions rarely ask you to calculate anything from scratch — they ask you to recognise what a number means and apply it to a clinical decision in under 90 seconds.",
+    "seoTitle": "Medical Statistics UKMLA: EBM Revision Guide",
+    "seoDescription": "This medical statistics UKMLA guide explains sensitivity, specificity, relative risk and critical appraisal for fast, confident AKT decision-making."
+  },
+  {
+    "slug": "public-health-and-screening-ukmla",
+    "title": "Public Health and Screening in the UKMLA: What You Need to Know",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "public health UKMLA",
+    "summary": "Public health UKMLA questions sit at the intersection of population-level thinking and individual clinical decision-making, and they appear far more often in the Applied Knowledge Test than most candidates expect walking in.",
+    "seoTitle": "Public Health UKMLA: Screening & Prevention",
+    "seoDescription": "This public health UKMLA guide covers screening programmes, epidemiology and prevention, the population-level thinking tested across the AKT."
+  },
+  {
+    "slug": "immunology-and-allergy-ukmla",
+    "title": "Immunology and Allergy in the UKMLA: High-Yield Revision",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "immunology UKMLA",
+    "summary": "Immunology UKMLA questions punch above their weight in the Applied Knowledge Test: the topic is a small slice of the GMC content map by condition count, but it recurs constantly because anaphylaxis, drug allergy and hypersensitivity reasoning are woven into scenarios from every other system.",
+    "seoTitle": "Immunology UKMLA: Allergy & Anaphylaxis Guide",
+    "seoDescription": "This immunology UKMLA guide covers anaphylaxis, drug allergy and hypersensitivity reasoning that recur across AKT scenarios in every specialty."
+  },
+  {
+    "slug": "nutrition-and-metabolic-disorders-ukmla",
+    "title": "Nutrition and Metabolic Disorders in the UKMLA: What to Revise",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "nutrition UKMLA",
+    "summary": "Nutrition UKMLA questions turn up far more often than most candidates expect, threading through gastroenterology, endocrinology, care of the elderly, and general internal medicine stations on the Applied Knowledge Test.",
+    "seoTitle": "Nutrition UKMLA: Metabolic Disorders Revision",
+    "seoDescription": "This nutrition UKMLA guide covers metabolic disorders across gastroenterology, endocrinology and care of the elderly, high-yield for the AKT."
+  },
+  {
+    "slug": "chronic-pain-management-ukmla",
+    "title": "Chronic Pain Management in the UKMLA: What to Revise",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "chronic pain UKMLA",
+    "summary": "Chronic pain UKMLA questions catch out more candidates than almost any other prescribing topic, largely because the \"obvious\" answer — starting or escalating an opioid — is very often the wrong one.",
+    "seoTitle": "Chronic Pain UKMLA: Safe Prescribing Guide",
+    "seoDescription": "This chronic pain UKMLA guide explains why escalating opioids is often the wrong answer, covering safe prescribing principles tested across the AKT."
+  },
+  {
+    "slug": "critical-care-and-intensive-care-basics-ukmla",
+    "title": "Critical Care Basics in the UKMLA: Recognising the Deteriorating Patient",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "critical care UKMLA",
+    "summary": "Critical care UKMLA questions sit at the heart of the AKT because the GMC's overriding concern at the point of licensure is whether a newly qualified doctor can safely recognise a patient who is deteriorating on a general ward, begin the correct initial treatment, and escalate to more senior help at the right moment.",
+    "seoTitle": "Critical Care UKMLA: The Deteriorating Patient",
+    "seoDescription": "This critical care UKMLA guide covers recognising and escalating the deteriorating ward patient, a core GMC licensure concern tested across the AKT."
+  },
+  {
+    "slug": "consent-and-mental-capacity-ukmla",
+    "title": "Consent and Mental Capacity in the UKMLA: The Complete Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "consent and mental capacity UKMLA",
+    "summary": "Consent and mental capacity UKMLA questions sit at the heart of both exam components, testing not just whether you can recite the Mental Capacity Act 2005 but whether you can apply its logic to a patient in front of you under time pressure.",
+    "seoTitle": "Consent and Mental Capacity UKMLA Guide",
+    "seoDescription": "This consent and mental capacity UKMLA guide applies the Mental Capacity Act 2005 to real exam scenarios tested across both the AKT and CPSA."
+  },
+  {
+    "slug": "indemnity-insurance-for-doctors-explained",
+    "title": "Indemnity Insurance for Doctors, Explained",
+    "date": "02 July 2026",
+    "tag": "Fees & Funding",
+    "primaryKeyword": "indemnity insurance for doctors",
+    "summary": "Indemnity insurance for doctors is one of the most misunderstood parts of practising medicine in the UK, largely because two genuinely different systems get bundled together in most people's minds under a single phrase.",
+    "seoTitle": "Indemnity Insurance for Doctors, Explained",
+    "seoDescription": "Indemnity insurance for doctors explained: NHS Clinical Negligence Scheme cover, private practice gaps, and what new UK graduates and IMGs need."
+  },
+  {
+    "slug": "multi-specialty-recruitment-assessment-msra-explained",
+    "title": "The Multi-Specialty Recruitment Assessment (MSRA), Explained",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "Multi-Specialty Recruitment Assessment",
+    "summary": "The Multi-Specialty Recruitment Assessment is a computer-based selection test used as part of shortlisting for a number of UK postgraduate training programmes, sat well after the UKMLA and Foundation Programme are behind you.",
+    "seoTitle": "MSRA: Multi-Specialty Recruitment Assessment",
+    "seoDescription": "The Multi-Specialty Recruitment Assessment explained: what it tests, which specialties use it, and how it differs from the UKMLA and Foundation Programme."
+  },
+  {
+    "slug": "locum-vs-substantive-nhs-posts-explained",
+    "title": "Locum vs Substantive NHS Posts: Which Is Right for You?",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "locum vs substantive NHS posts",
+    "summary": "Weighing up locum vs substantive NHS posts is one of the most consequential practical decisions a doctor makes once GMC registration and a licence to practise are in place — and it is a decision that applies equally to UK medical graduates finishing Foundation Programme and to international medical graduates (IMGs) arriving for their first NHS role.",
+    "seoTitle": "Locum vs Substantive NHS Posts Explained",
+    "seoDescription": "Locum vs substantive NHS posts explained: pay, job security, pension access and career progression differences for UK graduates and IMGs alike."
+  },
+  {
+    "slug": "understanding-nhs-pay-scales-and-banding-for-doctors",
+    "title": "Understanding NHS Pay Scales and Banding for Doctors",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "NHS pay scales and banding",
+    "summary": "NHS pay scales and banding are the two mechanisms that together determine what any doctor working in the NHS actually earns, and confusing the two is one of the most common sources of pay surprise for both new UK graduates and internationally trained doctors starting their first NHS post.",
+    "seoTitle": "NHS Pay Scales and Banding for Doctors Guide",
+    "seoDescription": "NHS pay scales and banding explained: how basic pay nodal points combine with banding supplements to determine a doctor's actual take-home pay."
+  },
+  {
+    "slug": "ewtd-working-hours-and-rest-rules-for-doctors",
+    "title": "Working Hours and Rest Rules for Doctors: The EWTD Explained",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "working hours and rest rules for doctors",
+    "summary": "Understanding the working hours and rest rules for doctors in the NHS is one of the most practically important things any new resident doctor can do before their first shift — and yet it is routinely skipped over in induction sessions that focus instead on IT logins, ward layouts, and clinical handover paperwork.",
+    "seoTitle": "Working Hours and Rest Rules for Doctors: EWTD",
+    "seoDescription": "The working hours and rest rules for doctors explained: EWTD limits, mandatory rest breaks and how the Working Time Regulations protect new residents."
+  },
+  {
+    "slug": "gmc-annual-retention-fee-explained",
+    "title": "The GMC Annual Retention Fee, Explained",
+    "date": "02 July 2026",
+    "tag": "Fees & Funding",
+    "primaryKeyword": "GMC annual retention fee",
+    "summary": "The GMC annual retention fee is the yearly charge every doctor with a licence to practise in the UK must pay to remain on the medical register, and understanding it properly matters just as much once you are registered as passing the exams did to get there in the first place.",
+    "seoTitle": "The GMC Annual Retention Fee, Explained",
+    "seoDescription": "The GMC annual retention fee explained: how much it costs, when it's due, and what happens if a doctor with a licence to practise misses payment."
+  },
+  {
+    "slug": "arcp-annual-review-of-competence-progression-explained",
+    "title": "ARCP: The Annual Review of Competence Progression, Explained",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "Annual Review of Competence Progression",
+    "summary": "The Annual Review of Competence Progression — almost universally shortened to ARCP — is the formal, typically once-a-year process by which a doctor in a UK postgraduate training programme has their progress checked against the requirements of their curriculum for that stage.",
+    "seoTitle": "ARCP: Annual Review of Competence Progression",
+    "seoDescription": "The Annual Review of Competence Progression explained: what evidence panels expect, possible outcomes, and how ARCP affects postgraduate training."
+  },
+  {
+    "slug": "nhs-eportfolio-guide-for-doctors",
+    "title": "The NHS e-Portfolio: A Practical Guide for Doctors",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "NHS e-Portfolio guide",
+    "summary": "This NHS e-Portfolio guide is written for doctors who are about to encounter one of the most underestimated tools of their early career: the digital, ongoing record of training and practice that follows them from their first Foundation placement through specialty training and beyond.",
+    "seoTitle": "NHS e-Portfolio Guide for Doctors",
+    "seoDescription": "This NHS e-Portfolio guide explains the digital training record every doctor keeps from Foundation placement through specialty training, practically."
+  },
+  {
+    "slug": "substance-misuse-and-addiction-ukmla",
+    "title": "Substance Misuse and Addiction in the UKMLA: What to Revise",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "substance misuse UKMLA",
+    "summary": "Substance misuse UKMLA questions turn up far more often than candidates expect, because alcohol- and drug-related presentations cut across almost every rotation in UK medicine — the acute medical take, the emergency department, primary care, surgical wards managing unplanned withdrawal, and psychiatry liaison.",
+    "seoTitle": "Substance Misuse UKMLA: Addiction Revision",
+    "seoDescription": "This substance misuse UKMLA guide covers alcohol and drug-related presentations across acute medicine, A&E and primary care, high-yield for the AKT."
+  },
+  {
+    "slug": "returning-to-practise-in-gulf-countries-dataflow-guide",
+    "title": "Returning to Practise in Gulf Countries: The DataFlow Verification Guide",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "returning to practise in Gulf countries",
+    "summary": "Returning to practise in Gulf countries is a route a growing number of UK-qualified and GMC-registered doctors are actively exploring, whether they are Gulf-origin doctors who trained or worked in the UK and now want to move closer to family, or UK-trained doctors drawn by tax-free salaries, modern hospital infrastructure, and a genuinely international patient population across Saudi Arabia, the United Arab Emirates, and Qatar.",
+    "seoTitle": "Returning to Practise in Gulf Countries Guide",
+    "seoDescription": "Returning to practise in Gulf countries explained: DataFlow primary source verification, licensing exams and timelines for UK-qualified doctors."
+  },
+  {
+    "slug": "breaking-bad-news-in-the-cpsa",
+    "title": "Breaking Bad News in the CPSA: A Complete Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "breaking bad news CPSA",
+    "summary": "Breaking bad news CPSA stations are among the most consistently examined — and most consistently misjudged — communication scenarios in the entire UK Medical Licensing Assessment.",
+    "seoTitle": "Breaking Bad News in the CPSA: Complete Guide",
+    "seoDescription": "Breaking bad news CPSA stations explained: structure, empathy and common pitfalls for cancer diagnoses, abnormal scans and life-limiting news."
+  },
+  {
+    "slug": "genetics-and-genomics-in-the-ukmla",
+    "title": "Genetics and Genomics in the UKMLA: What You Need to Know",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "genetics UKMLA",
+    "summary": "A clinically grounded revision guide to genetics UKMLA content, covering inheritance patterns, high-yield single-gene and chromosomal disorders, genetic counselling, and UK screening programmes newly added to the GMC's September 2026 content map.",
+    "seoTitle": "Genetics UKMLA: The Complete AKT Revision Guide",
+    "seoDescription": "Genetics UKMLA revision guide covering inheritance patterns, cystic fibrosis, Down syndrome, genetic counselling, and screening for the 2026 content map."
+  },
+  {
+    "slug": "transgender-health-in-the-ukmla",
+    "title": "Transgender Health in the UKMLA: What the Content Map Covers",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "transgender health UKMLA",
+    "summary": "The GMC's updated MLA content map adds transgender health as an examinable topic from September 2026 - here is what UK medical students and IMGs actually need to know for the AKT and CPSA.",
+    "seoTitle": "Transgender Health UKMLA: What Candidates Must Know",
+    "seoDescription": "Transgender health UKMLA revision guide: respectful history-taking, hormone therapy awareness, NHS Gender Identity Clinic referral pathways, and CPSA skills."
+  },
+  {
+    "slug": "trauma-and-orthopaedics-ukmla",
+    "title": "Trauma and Orthopaedics in the UKMLA: High-Yield Fracture Management",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "trauma and orthopaedics UKMLA",
+    "summary": "A high-yield AKT revision guide to trauma and orthopaedics UKMLA topics — the ATLS primary survey, classic fracture patterns, compartment syndrome, open fracture management, NICE-guided hip fracture care, and fracture healing complications.",
+    "seoTitle": "Trauma and Orthopaedics UKMLA: High-Yield Fracture Guide",
+    "seoDescription": "Trauma and orthopaedics UKMLA revision: ATLS primary survey, hip, wrist and ankle fractures, compartment syndrome, open fractures, and NICE hip fracture care."
+  },
+  {
+    "slug": "menopause-management-ukmla",
+    "title": "Menopause Management in the UKMLA: What You Need to Know",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "menopause UKMLA",
+    "summary": "A deep-dive AKT revision guide on menopause management — why diagnosis is usually clinical without routine hormone testing after 45, HRT basics and NICE's real risk-benefit position, non-hormonal options, and premature ovarian insufficiency as a distinct diagnosis.",
+    "seoTitle": "Menopause UKMLA: HRT, Diagnosis and POI Revision Guide",
+    "seoDescription": "Menopause UKMLA revision guide covering NICE-based diagnosis without routine FSH testing after 45, HRT risks and benefits, non-hormonal options, and POI."
+  },
+  {
+    "slug": "contraception-counselling-ukmla",
+    "title": "Contraception Counselling in the UKMLA: A Complete Revision Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "contraception UKMLA",
+    "summary": "A dedicated AKT and CPSA revision guide to contraception counselling, covering the UKMEC framework, every contraceptive method category, emergency contraception timing windows, and how to structure the CPSA counselling conversation itself.",
+    "seoTitle": "Contraception UKMLA: UKMEC & CPSA Revision Guide",
+    "seoDescription": "Contraception UKMLA revision guide covering UKMEC categories, method comparisons, emergency contraception timing, and CPSA counselling structure for AKT and CPSA."
+  },
+  {
+    "slug": "early-pregnancy-complications-ukmla",
+    "title": "Early Pregnancy Complications in the UKMLA: The Essential Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "early pregnancy complications UKMLA",
+    "summary": "A compassionate, clinically thorough AKT revision guide to first-trimester miscarriage classification and management, ectopic pregnancy red flags, hyperemesis gravidarum, and molar pregnancy basics.",
+    "seoTitle": "Early Pregnancy Complications UKMLA: The Essential Guide",
+    "seoDescription": "Early pregnancy complications UKMLA guide covering miscarriage types, ectopic pregnancy red flags, beta-hCG, hyperemesis gravidarum, and molar pregnancy."
+  },
+  {
+    "slug": "gynaecological-cancers-ukmla",
+    "title": "Gynaecological Cancers in the UKMLA: Red Flags and Referral",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "gynaecological cancers UKMLA",
+    "summary": "An AKT-focused revision guide to gynaecological cancer red flags — postmenopausal bleeding in endometrial cancer, CA-125 and the Risk of Malignancy Index in ovarian cancer, HPV-driven cervical screening, and vulval cancer warning signs — mapped onto NICE NG12 referral pathways.",
+    "seoTitle": "Gynaecological Cancers UKMLA: Red Flags & Referral",
+    "seoDescription": "Gynaecological cancers UKMLA guide: endometrial, ovarian, cervical and vulval red flags, CA-125, RMI, HPV screening and NICE NG12 2WW referral pathways."
+  },
+  {
+    "slug": "medically-unexplained-symptoms-ukmla",
+    "title": "Medically Unexplained Symptoms in the UKMLA: What to Revise",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "medically unexplained symptoms UKMLA",
+    "summary": "A CPSA and AKT-focused revision guide to medically unexplained symptoms and functional disorders, covering somatisation, proportionate investigation, validating communication, chronic fatigue syndrome/ME, and multidisciplinary management.",
+    "seoTitle": "Medically Unexplained Symptoms UKMLA: Revision Guide",
+    "seoDescription": "Medically unexplained symptoms UKMLA revision: somatisation, functional disorders, safe investigation, CPSA communication skills, CFS/ME, and MDT management."
+  },
+  {
+    "slug": "domestic-abuse-and-safeguarding-adults-ukmla",
+    "title": "Domestic Abuse and Adult Safeguarding in the UKMLA",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "domestic abuse UKMLA",
+    "summary": "A focused AKT and CPSA revision guide on domestic abuse UKMLA content — sensitive enquiry technique, recognising coercive control and indirect presentation, documentation standards, and IDVA referral pathways.",
+    "seoTitle": "Domestic Abuse UKMLA: Recognition, Enquiry & Referral",
+    "seoDescription": "Domestic abuse UKMLA revision guide covering sensitive enquiry, coercive control, documentation standards, IDVA referral and helplines for AKT and CPSA."
+  },
+  {
+    "slug": "prescribing-in-renal-and-hepatic-impairment-ukmla",
+    "title": "Prescribing in Renal and Hepatic Impairment: A UKMLA Revision Guide",
+    "date": "02 July 2026",
+    "tag": "Preparation",
+    "primaryKeyword": "prescribing in renal impairment UKMLA",
+    "summary": "A focused AKT revision guide on dose adjustment for organ impairment, covering the eGFR-based renal framework, the Child-Pugh hepatic classification, and the classic drugs — metformin, NSAIDs, nitrofurantoin, digoxin, opioids — most often tested.",
+    "seoTitle": "Prescribing in Renal Impairment UKMLA: AKT Dose Guide",
+    "seoDescription": "Prescribing in renal impairment UKMLA guide: eGFR-based dose adjustment, Child-Pugh hepatic impairment, and classic AKT drug examples explained."
+  },
+  {
+    "slug": "nhs-pension-scheme-for-doctors-explained",
+    "title": "The NHS Pension Scheme for Doctors, Explained",
+    "date": "02 July 2026",
+    "tag": "Fees & Funding",
+    "primaryKeyword": "NHS Pension Scheme for doctors",
+    "summary": "A complete guide to how the NHS Pension Scheme works for doctors, covering contribution tiers, the employer top-up, and whether opting out early in a career is really worth it.",
+    "seoTitle": "NHS Pension Scheme for Doctors: Full Guide",
+    "seoDescription": "NHS Pension Scheme for doctors explained: contribution tiers, the employer top-up, automatic enrolment, and the opt-out decision for UK and IMG doctors."
+  },
+  {
+    "slug": "how-to-write-an-nhs-cv-and-application",
+    "title": "How to Write an NHS CV and Application That Gets Shortlisted",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "NHS CV and application",
+    "summary": "A practical, step-by-step guide to writing an NHS CV and application that actually gets shortlisted — covering the NHS Jobs and Trac Jobs system, mapping your experience to the person specification, and the common mistakes IMGs make.",
+    "seoTitle": "NHS CV and Application: How to Get Shortlisted",
+    "seoDescription": "A complete NHS CV and application guide: NHS Jobs/Trac Jobs structure, mapping the person specification, supporting statements, and IMG mistakes to avoid."
+  },
+  {
+    "slug": "nhs-job-interview-preparation-guide",
+    "title": "NHS Job Interview Preparation: A Complete Guide for IMGs and UK Graduates",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "NHS job interview preparation",
+    "summary": "A practical guide to NHS job interview preparation covering panel structure, the STAR technique, NHS Constitution values, clinical scenario answers, and IMG-specific and video-interview tips.",
+    "seoTitle": "NHS Job Interview Preparation: A Complete Guide",
+    "seoDescription": "NHS job interview preparation guide covering the STAR technique, NHS values, clinical scenario questions, and IMG-specific tips for UK interviews."
+  },
+  {
+    "slug": "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+    "title": "Relocating to the UK: A Practical Guide for IMG Doctors",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "relocating to the UK for IMG doctors",
+    "summary": "A practical logistics guide for IMG doctors who already have a visa or job offer, covering accommodation, UK banking, GP registration, National Insurance and driving licence rules for the first weeks after arrival.",
+    "seoTitle": "Relocating to the UK for IMG Doctors: Practical Guide",
+    "seoDescription": "Relocating to the UK for IMG doctors: housing, guarantors, UK banking, GP registration, National Insurance numbers and driving licence rules explained."
+  },
+  {
+    "slug": "bringing-family-to-uk-dependent-visa-guide",
+    "title": "Bringing Your Family to the UK: A Dependant Visa Guide for Doctors",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "dependent visa for doctors' families",
+    "summary": "A practical guide to the dependent visa for doctors' families on the Health and Care Worker route, covering eligibility, documents, the financial requirement, the Immigration Health Surcharge, and timing advice for bringing a spouse, partner, or children to the UK.",
+    "seoTitle": "Dependent Visa for Doctors' Families: Full UK Guide",
+    "seoDescription": "A dependent visa for doctors' families explained: who qualifies, documents needed, the financial requirement, IHS exemption, right to work, and timing tips."
+  },
+  {
+    "slug": "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
+    "title": "Joining a Royal College After the UKMLA: MRCP, MRCS and MRCGP Explained",
+    "date": "02 July 2026",
+    "tag": "Candidate Support",
+    "primaryKeyword": "joining a Royal College after UKMLA",
+    "summary": "An orientation guide to joining a Royal College after UKMLA success — what MRCP(UK), MRCS and MRCGP membership actually involve, and why the choice is tied directly to specialty selection.",
+    "seoTitle": "Joining a Royal College After UKMLA: MRCP, MRCS, MRCGP",
+    "seoDescription": "Joining a Royal College after UKMLA success explained: what MRCP(UK), MRCS and MRCGP membership mean, typical timing, and how they link to specialty choice."
+  },
+  {
+    "slug": "certificate-of-completion-of-training-cct-explained",
+    "title": "The Certificate of Completion of Training (CCT), Explained",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "Certificate of Completion of Training",
+    "summary": "An explainer on the Certificate of Completion of Training (CCT) — what it confirms, how it differs from the CESR/CEGPR portfolio route, ARCP's role in reaching it, and what it unlocks on the Specialist and GP Registers.",
+    "seoTitle": "Certificate of Completion of Training Explained",
+    "seoDescription": "Certificate of Completion of Training explained: what a CCT confirms, how it differs from CESR/CEGPR, ARCP's role, and Specialist/GP Register entry."
+  },
+  {
+    "slug": "scotland-wales-northern-ireland-registration-differences",
+    "title": "Practising Medicine in Scotland, Wales and Northern Ireland: What's Different?",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "practising medicine in Scotland Wales Northern Ireland",
+    "summary": "GMC registration and licensing is identical across all four UK nations, so doctors don't need separate registration to work in Scotland, Wales, or Northern Ireland — this guide explains what genuinely differs instead: NHS employer structure, postgraduate training bodies, and devolved clinical guidance.",
+    "seoTitle": "Practising Medicine in Scotland, Wales, NI Explained",
+    "seoDescription": "Practising medicine in Scotland Wales Northern Ireland: GMC registration is UK-wide, but NHS employers, training bodies and guidance rules genuinely differ."
+  },
+  {
+    "slug": "ukmla-for-jordanian-and-iraqi-doctors",
+    "title": "UKMLA for Jordanian and Iraqi Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "UKMLA for Jordanian and Iraqi doctors",
+    "summary": "A complete guide to the UKMLA pathway for doctors trained in Jordan or Iraq, covering GMC eligibility, credential verification, realistic USD/GBP fees, regional AKT test centre access, and a step-by-step timeline to NHS registration.",
+    "seoTitle": "UKMLA for Jordanian and Iraqi Doctors: Full Route Guide",
+    "seoDescription": "UKMLA for Jordanian and Iraqi doctors explained: GMC eligibility, EPIC verification, AKT test centres in the region, USD/GBP fees, and the full registration timeline."
+  },
+  {
+    "slug": "ukmla-for-chinese-doctors",
+    "title": "UKMLA for Chinese Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "UKMLA for Chinese doctors",
+    "summary": "A step-by-step guide to the UKMLA for Chinese doctors, covering World Directory of Medical Schools verification, the mandatory English language requirement for standard Mandarin-medium graduates, East Asia AKT test centre access, RMB/GBP fees, and a realistic registration timeline.",
+    "seoTitle": "UKMLA for Chinese Doctors: Eligibility & Fees Guide",
+    "seoDescription": "UKMLA for Chinese doctors explained: eligibility, EPIC verification, IELTS/OET rules, AKT test centres in East Asia, RMB/GBP fees, and a realistic GMC registration timeline."
+  },
+  {
+    "slug": "ukmla-for-vietnamese-and-indonesian-doctors",
+    "title": "UKMLA for Vietnamese and Indonesian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "UKMLA for Vietnamese and Indonesian doctors",
+    "summary": "A step-by-step guide to the UKMLA for Vietnamese and Indonesian doctors, covering eligibility, EPIC verification, English testing, AKT test centre access in Southeast Asia, and realistic USD/GBP fee budgeting.",
+    "seoTitle": "UKMLA for Vietnamese and Indonesian Doctors: Full Guide",
+    "seoDescription": "UKMLA for Vietnamese and Indonesian doctors explained: eligibility, EPIC verification, IELTS/OET, AKT test centres in Southeast Asia, and fees in USD/GBP."
+  },
+  {
+    "slug": "ukmla-for-jamaican-and-trinidadian-doctors",
+    "title": "UKMLA for Jamaican and Trinidadian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "UKMLA for Jamaican and Trinidadian doctors",
+    "summary": "A complete guide to the UKMLA for Jamaican and Trinidadian doctors, covering UWI degree recognition, the English language exemption angle, AKT test centre access across the Caribbean, realistic USD/GBP costs, and a step-by-step timeline to GMC registration.",
+    "seoTitle": "UKMLA for Jamaican and Trinidadian Doctors: Full Guide",
+    "seoDescription": "UKMLA for Jamaican and Trinidadian doctors explained: UWI degree recognition, English exemption route, AKT test centres, USD/GBP fees, and the GMC registration timeline."
+  },
+  {
+    "slug": "gmc-registration-for-eu-and-irish-doctors",
+    "title": "GMC Registration for EU and Irish Doctors: What Changed After Brexit",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "GMC registration for EU and Irish doctors",
+    "summary": "A clear breakdown of how Brexit ended automatic recognition for most EU/EEA-qualified doctors, why Ireland's position remains distinctly more favourable, and the current registration process for each group.",
+    "seoTitle": "GMC Registration for EU and Irish Doctors: Post-Brexit Guide",
+    "seoDescription": "GMC registration for EU and Irish doctors explained: what changed after Brexit, the REQ list, transitional rules, and why Ireland is treated differently."
+  },
+  {
+    "slug": "ukmla-for-kenyan-and-east-african-doctors",
+    "title": "UKMLA for Kenyan and East African Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "date": "02 July 2026",
+    "tag": "IMG Pathway",
+    "primaryKeyword": "UKMLA for Kenyan and East African doctors",
+    "summary": "A complete guide to the UKMLA pathway for Kenyan-trained doctors, with context for Uganda and Tanzania, covering KMPDC eligibility, the English language exemption, regional AKT test centres, fees, and a realistic registration timeline.",
+    "seoTitle": "UKMLA for Kenyan and East African Doctors: Full Guide",
+    "seoDescription": "UKMLA for Kenyan and East African doctors: KMPDC eligibility, EPIC verification, English exemption, AKT test centres, fees in GBP/USD, and GMC registration steps."
+  },
+  {
+    "slug": "history-of-ukmla-plab-transition-explained",
+    "title": "The History of the UKMLA and PLAB Transition, Explained",
+    "date": "02 July 2026",
+    "tag": "Exam Comparisons",
+    "primaryKeyword": "history of UKMLA and PLAB transition",
+    "summary": "Trace the real history of UKMLA and PLAB transition — from decades of separate UK medical school finals and IMG-only PLAB testing to the GMC's single MLA standard, phased in from 2024 and converging fully in September 2026.",
+    "seoTitle": "History of UKMLA and PLAB Transition Explained",
+    "seoDescription": "The history of UKMLA and PLAB transition: why the GMC replaced separate UK finals and PLAB with one MLA standard, phased in 2024, converging in 2026."
+  },
+  {
+    "slug": "ukmla-exam-day-what-to-expect",
+    "title": "UKMLA Exam Day: What to Expect at the AKT and CPSA",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "UKMLA exam day what to expect",
+    "summary": "A practical, reassuring walkthrough of what actually happens on UKMLA exam day — from Pearson VUE check-in and security for the AKT to the circuit of role-player stations at the GMC's CPSA centre in Manchester.",
+    "seoTitle": "UKMLA Exam Day What to Expect: AKT & CPSA Guide",
+    "seoDescription": "UKMLA exam day what to expect: arrival, ID checks, security, lockers, AKT proctoring, and the CPSA station circuit for UK students and IMGs alike."
+  },
+  {
+    "slug": "ukmla-special-circumstances-and-accommodations",
+    "title": "UKMLA Special Circumstances: Accommodations Beyond Disability Access",
+    "date": "02 July 2026",
+    "tag": "Registration & Eligibility",
+    "primaryKeyword": "UKMLA special circumstances",
+    "summary": "Pregnancy and breastfeeding needs, religious observance, and bereavement all fall under UKMLA special circumstances, separate from disability access adjustments — here is how to request support from the GMC, your medical school, or Pearson VUE.",
+    "seoTitle": "UKMLA Special Circumstances: Non-Disability Accommodations",
+    "seoDescription": "UKMLA special circumstances explained: pregnancy, breastfeeding, religious observance, and bereavement accommodations, and how to request them from the GMC."
   }
 ]

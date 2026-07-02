@@ -27,7 +27,7 @@ export default function Fees() {
               For IMGs, the UKMLA is delivered via the updated PLAB framework. Therefore, the <strong>UKMLA exam fees for international students</strong> are effectively the PLAB 1 and PLAB 2 booking fees. The GMC updates these fees annually every April. 
             </p>
             <p>
-              Below is the estimated <strong>cost of UKMLA exam for IMG 2026</strong> based on the current GMC fee structure:
+              Below is the <strong>cost of UKMLA exam for IMG 2026</strong> based on the current GMC fee structure (fees increased at the last review on 1 April 2026):
             </p>
             <div className="table-responsive">
               <table className="content-table">
@@ -41,18 +41,18 @@ export default function Fees() {
                 <tbody>
                   <tr>
                     <td><strong>UKMLA AKT (PLAB 1)</strong></td>
-                    <td>£268</td>
+                    <td>£283</td>
                     <td>Computer-based test. Can be taken at various test centres globally.</td>
                   </tr>
                   <tr>
                     <td><strong>UKMLA CPSA (PLAB 2)</strong></td>
-                    <td>£984</td>
+                    <td>£1,036</td>
                     <td>In-person OSCE. Must be taken at the GMC clinical assessment centre in Manchester, UK.</td>
                   </tr>
                   <tr>
                     <td><strong>GMC Registration Fee</strong></td>
-                    <td>£175 - £466</td>
-                    <td>Tiered depending on your experience and age. Paid upon successful completion of the exams.</td>
+                    <td>£184 - £481</td>
+                    <td>Full registration with a licence to practise is £481 (£184 discounted, low-income rate). Paid upon successful completion of the exams.</td>
                   </tr>
                 </tbody>
               </table>
@@ -92,7 +92,7 @@ export default function Fees() {
             </ul>
           </div>
 
-          <p className="last-reviewed">Last reviewed: 30 June 2026. Source: General Medical Council (GMC) fee schedule.</p>
+          <p className="last-reviewed">Last reviewed: 2 July 2026. Source: General Medical Council (GMC) fee schedule (Registration Fee Regulations effective 1 April 2026).</p>
         </article>
 
         <aside className="sidebar-container">

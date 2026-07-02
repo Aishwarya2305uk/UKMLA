@@ -130,7 +130,7 @@
     "url": "/exam-pattern/akt",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 75,
+    "incomingCount": 74,
     "outgoingCount": 0,
     "linkedFrom": [
       "anaesthesia-and-perioperative-medicine-ukmla",
@@ -186,7 +186,6 @@
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-exam-booking-process-gmc-online",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
@@ -218,7 +217,7 @@
     "url": "/exam-pattern/cpsa",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 50,
+    "incomingCount": 49,
     "outgoingCount": 0,
     "linkedFrom": [
       "arcp-annual-review-of-competence-progression-explained",
@@ -252,7 +251,6 @@
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
       "ukmla-exam-booking-process-gmc-online",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
@@ -320,7 +318,7 @@
     "url": "/key-dates",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 13,
+    "incomingCount": 12,
     "outgoingCount": 0,
     "linkedFrom": [
       "foundation-programme-2026-recruitment-changes",
@@ -329,7 +327,6 @@
       "how-to-register-plab-1",
       "ukmla-akt-test-centres-guide",
       "ukmla-exam-booking-process-gmc-online",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-nigerian-doctors",
@@ -388,7 +385,7 @@
     "url": "/preparation",
     "cluster": "Exam Preparation",
     "pillarPage": "",
-    "incomingCount": 76,
+    "incomingCount": 75,
     "outgoingCount": 0,
     "linkedFrom": [
       "anaesthesia-and-perioperative-medicine-ukmla",
@@ -449,7 +446,6 @@
       "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-cpsa-what-it-tests",
       "ukmla-crash-course-for-doctors",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-kenyan-and-east-african-doctors",
@@ -477,7 +473,7 @@
     "url": "/registration-guide",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 70,
+    "incomingCount": 69,
     "outgoingCount": 0,
     "linkedFrom": [
       "arcp-annual-review-of-competence-progression-explained",
@@ -523,7 +519,6 @@
       "ukmla-and-academic-foundation-programme",
       "ukmla-eligibility-who-can-sit",
       "ukmla-exam-booking-process-gmc-online",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
@@ -1195,7 +1190,7 @@
     "url": "/news#disability-access-ukmla-guide",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/appeals-and-resits",
-    "incomingCount": 13,
+    "incomingCount": 12,
     "outgoingCount": 17,
     "linkedFrom": [
       "good-medical-practice-ukmla",
@@ -1207,7 +1202,6 @@
       "social-determinants-health-ukmla",
       "time-management-akt-ukmla",
       "ukmla-eligibility-who-can-sit",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report",
       "ukmla-special-circumstances-and-accommodations"
@@ -2557,12 +2551,11 @@
     "url": "/news#is-ukmla-replacing-plab-explained",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 4,
+    "incomingCount": 3,
     "outgoingCount": 10,
     "linkedFrom": [
       "history-of-ukmla-plab-transition-explained",
       "ukmla-exam-booking-process-gmc-online",
-      "ukmla-exam-day-what-to-expect",
       "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
     "linksTo": [
@@ -2661,7 +2654,7 @@
     "url": "/news#managing-ukmla-exam-anxiety",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 10,
+    "incomingCount": 9,
     "outgoingCount": 8,
     "linkedFrom": [
       "breaking-bad-news-in-the-cpsa",
@@ -2671,7 +2664,6 @@
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-pass-ukmla-on-first-attempt",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-special-circumstances-and-accommodations",
       "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
@@ -4649,12 +4641,11 @@
     "url": "/news#ukmla-exam-booking-process-gmc-online",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/registration-guide",
-    "incomingCount": 4,
+    "incomingCount": 3,
     "outgoingCount": 9,
     "linkedFrom": [
       "gmc-welcome-to-uk-practice-induction-guide",
       "is-ukmla-replacing-plab-explained",
-      "ukmla-exam-day-what-to-expect",
       "ukmla-special-circumstances-and-accommodations"
     ],
     "linksTo": [
@@ -4677,22 +4668,12 @@
     "cluster": "Registration & Eligibility",
     "pillarPage": "/registration-guide",
     "incomingCount": 2,
-    "outgoingCount": 9,
+    "outgoingCount": 0,
     "linkedFrom": [
       "history-of-ukmla-plab-transition-explained",
       "ukmla-special-circumstances-and-accommodations"
     ],
-    "linksTo": [
-      "/exam-pattern/akt",
-      "/exam-pattern/cpsa",
-      "/key-dates",
-      "/preparation",
-      "/registration-guide",
-      "disability-access-ukmla-guide",
-      "is-ukmla-replacing-plab-explained",
-      "managing-ukmla-exam-anxiety",
-      "ukmla-exam-booking-process-gmc-online"
-    ]
+    "linksTo": []
   },
   {
     "key": "ukmla-exemptions-for-specialist-and-gp-doctors",

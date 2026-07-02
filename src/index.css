@@ -555,6 +555,18 @@ a:hover {
   padding: 40px 24px 64px;
 }
 
+/* Mobile safety net: clip any stray horizontal overflow (a wide table, a long
+   unbreakable token) so a single wide element can never widen the layout and
+   zoom the whole page out on a phone. `clip` (not `hidden`) does NOT create a
+   scroll container, and the sticky site header lives outside .main-content, so
+   sticky positioning is unaffected. Real overflow is still handled at the
+   source (tables scroll inside .table-wrap); this is the last line of defence. */
+@media (max-width: 900px) {
+  .main-content {
+    overflow-x: clip;
+  }
+}
+
 .breadcrumbs {
   display: flex;
   align-items: center;
@@ -1617,6 +1629,8 @@ tr:hover td {
 .pagination-pages {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 4px;
   list-style: none;
   margin: 0;
@@ -1847,7 +1861,10 @@ tr:hover td {
 
 @media (max-width: 900px) {
   .post-layout {
-    grid-template-columns: 1fr;
+    /* minmax(0, 1fr) — not plain 1fr — so the column can shrink below the
+       min-content width of wide children (e.g. tables) instead of forcing the
+       whole page wider than a phone viewport. */
+    grid-template-columns: minmax(0, 1fr);
     gap: 32px;
   }
   .post-layout .post-full {
@@ -1899,6 +1916,9 @@ tr:hover td {
 .post-html-content {
   font-family: var(--font-sans);
   line-height: 1.8;
+  /* Break long unbreakable tokens (URLs, codes) rather than let them push the
+     column past the viewport on small screens. */
+  overflow-wrap: break-word;
 }
 
 .post-html-content p {

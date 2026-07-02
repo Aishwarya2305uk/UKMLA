@@ -22,13 +22,13 @@ export default function OfficialResources() {
             <ul>
               <li style={{ marginBottom: '12px' }}>
                 <strong>GMC Medical Licensing Assessment (MLA) Hub:</strong> The master resource portal detailing the framework structure and safety regulations.<br />
-                <a href="https://www.gmc-uk.org/education/standards-guidance-and-curricula/projects/medical-licensing-assessment" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.gmc-uk.org/education/medical-licensing-assessment" target="_blank" rel="noopener noreferrer">
                   Visit the GMC MLA Hub →
                 </a>
               </li>
               <li style={{ marginBottom: '12px' }}>
                 <strong>GMC MLA Content Map Document:</strong> The official, downloadable PDF blueprint containing the patient presentations and clinical conditions index.<br />
-                <a href="https://www.gmc-uk.org/education/standards-guidance-and-curricula/projects/medical-licensing-assessment/mla-content-map" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.gmc-uk.org/cdn/documents/251015---mla-content-map--english-_pdf-112647970.pdf" target="_blank" rel="noopener noreferrer">
                   Download the MLA Content Map PDF →
                 </a>
               </li>
@@ -40,7 +40,7 @@ export default function OfficialResources() {
               </li>
               <li style={{ marginBottom: '12px' }}>
                 <strong>GMC PLAB Fees Page:</strong> The single source of truth for updated registration and booking costs for PLAB 1 and PLAB 2.<br />
-                <a href="https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab/fees-for-plab" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.gmc-uk.org/registration-and-licensing/managing-your-registration/fees-and-funding/fees-for-doctors" target="_blank" rel="noopener noreferrer">
                   Check Current GMC Exam Fees →
                 </a>
               </li>
@@ -61,13 +61,13 @@ export default function OfficialResources() {
               </li>
               <li style={{ marginBottom: '12px' }}>
                 <strong>GMC PLAB 1 Practice Test:</strong> A mock paper of SBA questions created directly by the GMC to test candidate knowledge.<br />
-                <a href="https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab/plab-1-guide/plab-1-practice-questions" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-1-guide" target="_blank" rel="noopener noreferrer">
                   Practice GMC PLAB 1 Mock →
                 </a>
               </li>
               <li style={{ marginBottom: '12px' }}>
                 <strong>GMC PLAB 2 OSCE Blueprint:</strong> Explanatory resources outlining how Manchester clinical stations are run and graded.<br />
-                <a href="https://www.gmc-uk.org/registration-and-licensing/join-the-register/plab/plab-2-guide/plab-2-blueprint" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab/plab-2-guide" target="_blank" rel="noopener noreferrer">
                   Read the PLAB 2 Blueprint →
                 </a>
               </li>
@@ -90,7 +90,7 @@ export default function OfficialResources() {
             </ul>
           </div>
 
-          <p className="last-reviewed">Last reviewed: 25 June 2026. Source: General Medical Council (GMC).</p>
+          <p className="last-reviewed">Last reviewed: 2 July 2026. Source: General Medical Council (GMC).</p>
         </article>
 
         <aside className="sidebar-container">
