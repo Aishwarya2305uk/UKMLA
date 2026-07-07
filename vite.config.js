@@ -9,8 +9,8 @@ function seoFilesPlugin() {
   return {
     name: 'generate-seo-files',
     buildStart() {
-      const { count } = generateSeoFiles()
-      this.info?.(`generated sitemap.xml (${count} URLs) and robots.txt`)
+      const { total, pageCount, postCount } = generateSeoFiles()
+      this.info?.(`generated sitemap.xml (${total} URLs: ${pageCount} pages + ${postCount} posts) and robots.txt`)
     },
   }
 }

@@ -2722,7 +2722,16 @@ const posts = [
 ];
 const topics = ['All', ...Array.from(new Set(posts.map((p) => p.tag)))];
 
-function getSlugFromHash() {
+// Resolve the active post slug from the URL. Posts are crawlable at
+// /news/<slug>; older in-content links still point at /news#<slug>, so both the
+// pathname and the hash are accepted. Returns null on the plain /news index.
+function getSlugFromLocation() {
+  const path = window.location.pathname.replace(/\/+$/, '');
+  const prefix = '/news/';
+  if (path.startsWith(prefix)) {
+    const slug = decodeURIComponent(path.slice(prefix.length));
+    if (posts.some((p) => p.slug === slug)) return slug;
+  }
   const h = (window.location.hash || '').replace('#', '');
   return posts.some((p) => p.slug === h) ? h : null;
 }
@@ -2810,7 +2819,7 @@ function enhancePost(html) {
 }
 
 export default function News() {
-  const [activeSlug, setActiveSlug] = useState(getSlugFromHash);
+  const [activeSlug, setActiveSlug] = useState(getSlugFromLocation);
   const [activeTopic, setActiveTopic] = useState('All');
   const [activeSection, setActiveSection] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
@@ -2833,6 +2842,28 @@ export default function News() {
 
   // Run SEO Head and Title updates on active post load
   useEffect(() => {
+    const ORIGIN = 'https://gmcukmla.com';
+
+    // Point the canonical + og:url at the current post (or the /news index) so
+    // each crawlable /news/<slug> self-references and matches the sitemap.
+    const setCanonical = (url) => {
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.rel = 'canonical';
+        document.head.appendChild(canonical);
+      }
+      canonical.href = url;
+
+      let ogUrl = document.querySelector('meta[property="og:url"]');
+      if (!ogUrl) {
+        ogUrl = document.createElement('meta');
+        ogUrl.setAttribute('property', 'og:url');
+        document.head.appendChild(ogUrl);
+      }
+      ogUrl.setAttribute('content', url);
+    };
+
     if (activePost) {
       document.title = activePost.seoTitle || (activePost.title + ' | UKMLA');
 
@@ -2840,6 +2871,7 @@ export default function News() {
       if (metaDesc) {
         metaDesc.content = activePost.seoDescription || activePost.summary;
       }
+      setCanonical(`${ORIGIN}/news/${activePost.slug}`);
     } else {
       // Revert to list page defaults
       document.title = 'UKMLA News & Updates: Latest Changes | UKMLA';
@@ -2847,13 +2879,14 @@ export default function News() {
       if (metaDesc) {
         metaDesc.content = 'Stay updated with the latest announcements, updates, and structural adjustments for the UKMLA from the GMC and Medical Schools Council.';
       }
+      setCanonical(`${ORIGIN}/news`);
     }
   }, [activePost]);
 
   // Keep the view in sync with the URL hash so the browser back button works
   // and individual posts are deep-linkable (e.g. /news#gmc-fee-revisions-2026).
   useEffect(() => {
-    const sync = () => setActiveSlug(getSlugFromHash());
+    const sync = () => setActiveSlug(getSlugFromLocation());
     window.addEventListener('hashchange', sync);
     window.addEventListener('popstate', sync);
     return () => {
@@ -2894,16 +2927,22 @@ export default function News() {
       const href = link.getAttribute('href');
       if (!href) return;
 
-      // Check if it's a link to another post within the news section
-      // Supports formats like: #slug, /news#slug, or anything with #slug pattern
+      // Legacy fragment links to another post: #slug or /news#slug.
       const hashIndex = href.indexOf('#');
       if (hashIndex !== -1) {
         const slug = href.substring(hashIndex + 1);
-        // Check if this slug exists in our posts
         if (posts.some((p) => p.slug === slug)) {
           e.preventDefault();
           openPost(slug);
+          return;
         }
+      }
+
+      // Crawlable path links to another post: /news/slug.
+      const pathMatch = href.match(/^\/news\/([^/?#]+)\/?$/);
+      if (pathMatch && posts.some((p) => p.slug === pathMatch[1])) {
+        e.preventDefault();
+        openPost(pathMatch[1]);
       }
     };
 
@@ -2958,13 +2997,14 @@ export default function News() {
   // which runs after the new view renders — so it is intentionally not called
   // here (calling it now would fire before the new post's DOM is committed).
   const openPost = useCallback((slug) => {
-    window.history.pushState(null, '', `#${slug}`);
+    // Crawlable, canonical post URL: /news/<slug>.
+    window.history.pushState(null, '', `/news/${slug}`);
     setActiveSlug(slug);
     setActiveSection(null);
   }, []);
 
   const closePost = useCallback(() => {
-    window.history.pushState(null, '', window.location.pathname);
+    window.history.pushState(null, '', '/news');
     setActiveSlug(null);
     setActiveSection(null);
   }, []);

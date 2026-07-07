@@ -75,7 +75,7 @@ export const routes = [
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "UKMLA Informational Website",
-      "url": "https://ukmla-info.org.uk/"
+      "url": "https://gmcukmla.com/"
     }
   },
   {
@@ -272,7 +272,18 @@ export function Router() {
 
   // Match the route
   const currentRoute = useMemo(() => {
-    return routes.find(r => r.path === normalizedPath) || {
+    const exact = routes.find(r => r.path === normalizedPath);
+    if (exact) return exact;
+
+    // Individual news posts are deep-linked as /news/<slug>. They are rendered
+    // by the News page (which reads the slug from the URL), so map any such
+    // path to the News route rather than falling through to the 404.
+    if (normalizedPath.startsWith('/news/')) {
+      const newsRoute = routes.find(r => r.path === '/news');
+      if (newsRoute) return newsRoute;
+    }
+
+    return {
       component: NotFound,
       title: 'Page Not Found (404) | UKMLA',
       description: 'The page you are looking for does not exist. Return to the homepage for the full UKMLA guide.',
@@ -282,7 +293,7 @@ export function Router() {
 
   // Run SEO Head and Schema updates on route change
   useEffect(() => {
-    const origin = 'https://ukmla-info.org.uk';
+    const origin = 'https://gmcukmla.com';
     const canonicalUrl = `${origin}${normalizedPath === '/' ? '/' : normalizedPath}`;
 
     // 1. Update document title
@@ -336,13 +347,13 @@ export function Router() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://ukmla-info.org.uk/"
+          "item": "https://gmcukmla.com/"
         },
         ...currentRoute.breadcrumbs.map((bc, idx) => ({
           "@type": "ListItem",
           "position": idx + 2,
           "name": bc.name,
-          "item": `https://ukmla-info.org.uk${bc.path}`
+          "item": `https://gmcukmla.com${bc.path}`
         }))
       ]
     } : null;
