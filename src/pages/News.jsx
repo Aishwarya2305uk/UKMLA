@@ -2816,6 +2816,9 @@ export default function News() {
   const [currentPage, setCurrentPage] = useState(1);
   const [searchInput, setSearchInput] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
+  // Brief skeleton on first load of the posts index, giving the card images a
+  // moment to fetch so the grid paints in one go instead of popping in.
+  const [isLoading, setIsLoading] = useState(true);
 
   const POSTS_PER_PAGE = 12;
   const contentRef = useRef(null);
@@ -2872,6 +2875,12 @@ export default function News() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   }, [activeSlug]);
+
+  // Hold the posts index behind a skeleton for 2s on first mount.
+  useEffect(() => {
+    const timer = setTimeout(() => setIsLoading(false), 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
   // Intercept internal links in post content to navigate via openPost
   useEffect(() => {
@@ -3062,6 +3071,48 @@ export default function News() {
               </ul>
             </div>
           </aside>
+        </div>
+      </Layout>
+    );
+  }
+
+  // ---- Skeleton (first load of the index) ----
+  if (isLoading) {
+    return (
+      <Layout>
+        <div className="posts-index">
+          <header className="page-header">
+            <h1 className="page-title">Posts</h1>
+            <p className="page-summary">
+              News, regulatory updates, and analysis on the UKMLA. Select a post to read it in full.
+            </p>
+          </header>
+
+          <div className="post-skeleton" aria-hidden="true">
+            <div className="post-featured skeleton-featured">
+              <div className="skeleton-box skeleton-featured-media" />
+              <div className="post-featured-body">
+                <div className="skeleton-line skeleton-line-sm" />
+                <div className="skeleton-line skeleton-line-lg" />
+                <div className="skeleton-line" />
+                <div className="skeleton-line skeleton-line-wide" />
+              </div>
+            </div>
+
+            <ul className="post-grid">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <li key={i} className="post-card skeleton-card">
+                  <div className="skeleton-box skeleton-card-media" />
+                  <div className="post-card-body">
+                    <div className="skeleton-line skeleton-line-sm" />
+                    <div className="skeleton-line skeleton-line-lg" />
+                    <div className="skeleton-line" />
+                    <div className="skeleton-line skeleton-line-wide" />
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </Layout>
     );

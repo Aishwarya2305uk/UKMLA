@@ -1394,6 +1394,89 @@ tr:hover td {
   width: 100%;
 }
 
+/* ---- Skeleton loading (first load of the posts index) ---- */
+.post-skeleton .skeleton-featured {
+  cursor: default;
+  margin-bottom: 48px;
+}
+
+.skeleton-card {
+  cursor: default;
+}
+
+.skeleton-box {
+  background-color: var(--bg-accent);
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-featured-media {
+  min-height: 320px;
+}
+
+.skeleton-card-media {
+  aspect-ratio: 16 / 10;
+}
+
+.skeleton-line {
+  height: 14px;
+  border-radius: 6px;
+  background-color: var(--bg-accent);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.skeleton-line-sm {
+  width: 35%;
+  height: 11px;
+}
+
+.skeleton-line-lg {
+  width: 85%;
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.skeleton-line-wide {
+  width: 60%;
+}
+
+/* Shimmer sweep shared by every skeleton surface. */
+.skeleton-box::after,
+.skeleton-line::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.45),
+    transparent
+  );
+  animation: skeleton-shimmer 1.4s ease-in-out infinite;
+}
+
+@keyframes skeleton-shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skeleton-box::after,
+  .skeleton-line::after {
+    animation: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .skeleton-featured-media {
+    min-height: 220px;
+  }
+}
+
 .post-grid {
   list-style: none;
   display: grid;
