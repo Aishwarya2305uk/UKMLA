@@ -47,9 +47,10 @@
     "url": "/eligibility",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 70,
+    "incomingCount": 80,
     "outgoingCount": 0,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "breaking-bad-news-in-the-cpsa",
       "bringing-family-to-uk-dependent-visa-guide",
       "disability-access-ukmla-guide",
@@ -58,6 +59,7 @@
       "foundation-programme-2026-recruitment-changes",
       "foundation-year-vs-specialty-training-for-imgs",
       "gmc-english-language-exemption-for-imgs",
+      "gmc-epic-verification-process-explained",
       "gmc-recognised-primary-medical-qualifications",
       "gmc-registration-and-epic-verification-india",
       "gmc-registration-for-eu-and-irish-doctors",
@@ -85,6 +87,7 @@
       "uk-doctor-salary-guide-for-indian-doctors",
       "uk-visa-guide-for-international-doctors",
       "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-after-mbbs-in-india",
       "ukmla-and-academic-foundation-programme",
       "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-cpsa-what-it-tests",
@@ -95,18 +98,25 @@
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-chinese-doctors",
       "ukmla-for-egyptian-doctors",
+      "ukmla-for-ethiopian-doctors",
       "ukmla-for-filipino-doctors",
+      "ukmla-for-ghanaian-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
       "ukmla-for-jamaican-and-trinidadian-doctors",
       "ukmla-for-jordanian-and-iraqi-doctors",
       "ukmla-for-kenyan-and-east-african-doctors",
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-nepali-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-refugee-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-sudanese-doctors",
       "ukmla-for-vietnamese-and-indonesian-doctors",
+      "ukmla-for-zimbabwean-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
@@ -130,11 +140,12 @@
     "url": "/exam-pattern/akt",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 74,
+    "incomingCount": 76,
     "outgoingCount": 0,
     "linkedFrom": [
       "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
+      "best-ukmla-question-banks-compared",
       "blood-tests-data-interpretation-akt",
       "cardiology-ukmla-akt-revision",
       "care-of-the-elderly-and-frailty-ukmla",
@@ -198,6 +209,7 @@
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy",
@@ -217,7 +229,7 @@
     "url": "/exam-pattern/cpsa",
     "cluster": "Exam Format",
     "pillarPage": "",
-    "incomingCount": 50,
+    "incomingCount": 51,
     "outgoingCount": 0,
     "linkedFrom": [
       "arcp-annual-review-of-competence-progression-explained",
@@ -263,6 +275,7 @@
       "ukmla-for-pakistani-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-revision-notes-strategy",
       "ukmla-special-circumstances-and-accommodations",
       "ukmla-vs-neet-pg",
@@ -280,9 +293,11 @@
     "url": "/fees",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 26,
+    "incomingCount": 35,
     "outgoingCount": 0,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
+      "cost-of-gmc-registration-2026",
       "gmc-annual-retention-fee-explained",
       "gmc-registration-refund-policy",
       "how-to-become-a-doctor-in-uk-from-india",
@@ -295,11 +310,18 @@
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
       "ukmla-for-egyptian-doctors",
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-ghanaian-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-jordanian-and-iraqi-doctors",
       "ukmla-for-kenyan-and-east-african-doctors",
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-nepali-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-refugee-doctors",
+      "ukmla-for-sudanese-doctors",
+      "ukmla-for-zimbabwean-doctors",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
       "ukmla-question-bank-and-mock-tests",
@@ -319,7 +341,7 @@
     "url": "/key-dates",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 12,
+    "incomingCount": 13,
     "outgoingCount": 0,
     "linkedFrom": [
       "foundation-programme-2026-recruitment-changes",
@@ -333,6 +355,7 @@
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-preparation-for-imgs",
+      "ukmla-preparation-for-uk-final-year-students",
       "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
     "linksTo": []
@@ -344,7 +367,7 @@
     "url": "/official-resources",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 29,
+    "incomingCount": 30,
     "outgoingCount": 0,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -352,6 +375,7 @@
       "english-language-requirement-for-ukmla-india",
       "ewtd-working-hours-and-rest-rules-for-doctors",
       "genetics-and-genomics-in-the-ukmla",
+      "gmc-epic-verification-process-explained",
       "gmc-registration-and-epic-verification-india",
       "how-to-become-a-doctor-in-uk-from-india",
       "how-to-register-plab-1",
@@ -386,11 +410,12 @@
     "url": "/preparation",
     "cluster": "Exam Preparation",
     "pillarPage": "",
-    "incomingCount": 75,
+    "incomingCount": 81,
     "outgoingCount": 0,
     "linkedFrom": [
       "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
+      "best-ukmla-question-banks-compared",
       "blood-tests-data-interpretation-akt",
       "breaking-bad-news-in-the-cpsa",
       "cardiology-ukmla-akt-revision",
@@ -443,19 +468,24 @@
       "transgender-health-in-the-ukmla",
       "trauma-and-orthopaedics-ukmla",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-after-mbbs-in-india",
       "ukmla-akt-format-preparation",
       "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-cpsa-what-it-tests",
       "ukmla-crash-course-for-doctors",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-indian-doctors",
       "ukmla-for-kenyan-and-east-african-doctors",
+      "ukmla-for-nepali-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-zimbabwean-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-results-feedback-report",
@@ -474,17 +504,19 @@
     "url": "/registration-guide",
     "cluster": "Registration & Eligibility",
     "pillarPage": "",
-    "incomingCount": 69,
+    "incomingCount": 72,
     "outgoingCount": 0,
     "linkedFrom": [
       "arcp-annual-review-of-competence-progression-explained",
       "certificate-of-completion-of-training-cct-explained",
+      "cost-of-gmc-registration-2026",
       "disability-access-ukmla-guide",
       "english-language-requirement-for-ukmla-india",
       "ewtd-working-hours-and-rest-rules-for-doctors",
       "foundation-programme-2026-recruitment-changes",
       "foundation-programme-after-ukmla",
       "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-epic-verification-process-explained",
       "gmc-fitness-to-practise-explained-for-new-doctors",
       "gmc-order-reform-2026-protected-medical-titles",
       "gmc-registration-and-epic-verification-india",
@@ -537,6 +569,7 @@
       "ukmla-for-refugee-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
+      "ukmla-for-sudanese-doctors",
       "ukmla-for-vietnamese-and-indonesian-doctors",
       "ukmla-preparation-for-imgs",
       "ukmla-special-circumstances-and-accommodations",
@@ -595,11 +628,12 @@
     "url": "/syllabus",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "",
-    "incomingCount": 69,
+    "incomingCount": 70,
     "outgoingCount": 0,
     "linkedFrom": [
       "anaesthesia-and-perioperative-medicine-ukmla",
       "angoff-standard-setting-explained",
+      "best-ukmla-question-banks-compared",
       "blood-tests-data-interpretation-akt",
       "breaking-bad-news-in-the-cpsa",
       "cardiology-ukmla-akt-revision",
@@ -836,6 +870,37 @@
     ]
   },
   {
+    "key": "best-ukmla-question-banks-compared",
+    "type": "post",
+    "title": "Best Question Bank for UKMLA: The 2026 Head-to-Head Comparison",
+    "url": "/news#best-ukmla-question-banks-compared",
+    "cluster": "Exam Preparation",
+    "pillarPage": "/preparation",
+    "incomingCount": 2,
+    "outgoingCount": 15,
+    "linkedFrom": [
+      "ukmla-preparation-for-uk-final-year-students",
+      "ukmla-question-bank-and-mock-tests"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/exam-pattern/akt",
+      "/fees",
+      "/preparation",
+      "/syllabus",
+      "group-study-vs-solo-ukmla",
+      "managing-ukmla-exam-anxiety",
+      "mla-content-map-explained",
+      "three-months-ukmla-akt-countdown",
+      "ukmla-akt-format-preparation",
+      "ukmla-akt-pass-mark-and-pass-rate-explained",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-preparation-for-uk-final-year-students",
+      "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
     "key": "blood-tests-data-interpretation-akt",
     "type": "post",
     "title": "Blood Tests and Investigations in the AKT: Data Interpretation Guide",
@@ -1051,7 +1116,7 @@
     "url": "/news#clinical-examination-cpsa-guide",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 16,
+    "incomingCount": 17,
     "outgoingCount": 13,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1063,6 +1128,7 @@
       "plab-2-preparation-guide",
       "uk-medical-schools-ukmla-implementation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-indian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
       "ukmla-results-feedback-report",
@@ -1131,6 +1197,33 @@
       "menopause-management-ukmla",
       "obstetrics-gynaecology-ukmla-revision",
       "psychiatry-communication-cpsa-stations"
+    ]
+  },
+  {
+    "key": "cost-of-gmc-registration-2026",
+    "type": "post",
+    "title": "Cost of GMC Registration 2026: Full Fee Breakdown",
+    "url": "/news#cost-of-gmc-registration-2026",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/fees",
+    "incomingCount": 2,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "gmc-epic-verification-process-explained",
+      "ukmla-fees-for-img-2026"
+    ],
+    "linksTo": [
+      "/fees",
+      "/registration-guide",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-and-epic-verification-india",
+      "gmc-registration-for-eu-and-irish-doctors",
+      "gmc-registration-requirements-for-international-doctors",
+      "how-long-does-gmc-registration-take",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "types-of-gmc-registration-explained",
+      "ukmla-fees-for-img-2026",
+      "ukmla-for-refugee-doctors"
     ]
   },
   {
@@ -1415,17 +1508,20 @@
     "url": "/news#english-language-requirement-for-ukmla-india",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 10,
+    "incomingCount": 13,
     "outgoingCount": 9,
     "linkedFrom": [
       "gmc-english-language-exemption-for-imgs",
       "gmc-registration-and-epic-verification-india",
       "gmc-registration-requirements-for-international-doctors",
       "oet-vs-ielts-for-gmc-registration-comparison",
+      "ukmla-after-mbbs-in-india",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-nepali-doctors",
       "ukmla-for-refugee-doctors",
       "ukmla-for-sri-lankan-doctors"
     ],
@@ -1503,7 +1599,7 @@
     "url": "/news#foundation-programme-after-ukmla",
     "cluster": "Uncategorised",
     "pillarPage": "",
-    "incomingCount": 30,
+    "incomingCount": 32,
     "outgoingCount": 20,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -1523,12 +1619,14 @@
       "ukmla-akt-format-preparation",
       "ukmla-and-academic-foundation-programme",
       "ukmla-eligibility-who-can-sit",
+      "ukmla-for-indian-doctors",
       "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-key-dates-sitting-schedule",
       "ukmla-preparation-for-imgs",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-results-feedback-report",
       "ukmla-to-nhs-job-pathway",
       "ukmla-vs-neet-pg",
@@ -1567,7 +1665,7 @@
     "url": "/news#foundation-year-vs-specialty-training-for-imgs",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 8,
+    "incomingCount": 10,
     "outgoingCount": 10,
     "linkedFrom": [
       "certificate-of-completion-of-training-cct-explained",
@@ -1577,7 +1675,9 @@
       "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
       "locally-employed-doctors-route-to-gmc-registration",
       "medical-training-prioritisation-act-2026-imgs",
-      "multi-specialty-recruitment-assessment-msra-explained"
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "ukmla-for-indian-doctors",
+      "ukmla-preparation-for-uk-final-year-students"
     ],
     "linksTo": [
       "/eligibility",
@@ -1697,6 +1797,39 @@
     ]
   },
   {
+    "key": "gmc-epic-verification-process-explained",
+    "type": "post",
+    "title": "GMC EPIC/MyIntealth Verification Process Explained",
+    "url": "/news#gmc-epic-verification-process-explained",
+    "cluster": "Registration & Eligibility",
+    "pillarPage": "/registration-guide",
+    "incomingCount": 7,
+    "outgoingCount": 12,
+    "linkedFrom": [
+      "cost-of-gmc-registration-2026",
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-ghanaian-doctors",
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-nepali-doctors",
+      "ukmla-for-sudanese-doctors",
+      "ukmla-for-zimbabwean-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/official-resources",
+      "/registration-guide",
+      "cost-of-gmc-registration-2026",
+      "gmc-registration-and-epic-verification-india",
+      "gmc-registration-requirements-for-international-doctors",
+      "how-long-does-gmc-registration-take",
+      "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
+      "types-of-gmc-registration-explained",
+      "ukmla-for-indian-doctors",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-pakistani-doctors"
+    ]
+  },
+  {
     "key": "gmc-fitness-to-practise-explained-for-new-doctors",
     "type": "post",
     "title": "GMC Fitness to Practise Explained: What New Doctors Need to Know",
@@ -1784,21 +1917,25 @@
     "url": "/news#gmc-registration-and-epic-verification-india",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/registration-guide",
-    "incomingCount": 15,
+    "incomingCount": 19,
     "outgoingCount": 9,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
       "english-language-requirement-for-ukmla-india",
       "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-epic-verification-process-explained",
       "gmc-recognised-primary-medical-qualifications",
       "gmc-registration-refund-policy",
       "gmc-registration-requirements-for-international-doctors",
       "how-long-does-gmc-registration-take",
       "internship-requirement-for-gmc-registration",
+      "ukmla-after-mbbs-in-india",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-south-african-doctors",
       "ukmla-for-sri-lankan-doctors",
       "ukmla-to-nhs-job-pathway"
@@ -1822,9 +1959,10 @@
     "url": "/news#gmc-registration-for-eu-and-irish-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 6,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
       "ukmla-for-jamaican-and-trinidadian-doctors",
       "ukmla-for-kenyan-and-east-african-doctors"
     ],
@@ -1872,10 +2010,12 @@
     "url": "/news#gmc-registration-requirements-for-international-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/registration-guide",
-    "incomingCount": 17,
+    "incomingCount": 25,
     "outgoingCount": 10,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
       "gmc-english-language-exemption-for-imgs",
+      "gmc-epic-verification-process-explained",
       "gmc-order-reform-2026-protected-medical-titles",
       "gmc-recognised-primary-medical-qualifications",
       "gmc-welcome-to-uk-practice-induction-guide",
@@ -1889,9 +2029,15 @@
       "types-of-gmc-registration-explained",
       "uk-visa-guide-for-international-doctors",
       "ukmla-exemptions-for-specialist-and-gp-doctors",
+      "ukmla-for-ethiopian-doctors",
       "ukmla-for-filipino-doctors",
+      "ukmla-for-ghanaian-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
-      "ukmla-for-refugee-doctors"
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-nepali-doctors",
+      "ukmla-for-refugee-doctors",
+      "ukmla-for-sudanese-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -1992,7 +2138,7 @@
     "url": "/news#good-medical-practice-ukmla",
     "cluster": "Professional Practice & Safety",
     "pillarPage": "",
-    "incomingCount": 18,
+    "incomingCount": 19,
     "outgoingCount": 11,
     "linkedFrom": [
       "consent-and-mental-capacity-ukmla",
@@ -2010,6 +2156,7 @@
       "three-months-ukmla-akt-countdown",
       "transgender-health-in-the-ukmla",
       "ukmla-akt-format-preparation",
+      "ukmla-for-indian-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-results-feedback-report",
       "ukmla-revision-notes-strategy"
@@ -2035,13 +2182,15 @@
     "url": "/news#group-study-vs-solo-ukmla",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 5,
+    "incomingCount": 7,
     "outgoingCount": 13,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "disability-access-ukmla-guide",
       "how-to-pass-ukmla-on-first-attempt",
       "managing-ukmla-exam-anxiety",
       "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-revision-notes-strategy"
     ],
     "linksTo": [
@@ -2147,13 +2296,16 @@
     "url": "/news#how-long-does-gmc-registration-take",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/registration-guide",
-    "incomingCount": 4,
+    "incomingCount": 7,
     "outgoingCount": 7,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
+      "gmc-epic-verification-process-explained",
       "gmc-registration-for-eu-and-irish-doctors",
       "internship-requirement-for-gmc-registration",
       "locally-employed-doctors-route-to-gmc-registration",
-      "returning-to-practise-in-gulf-countries-dataflow-guide"
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-for-indian-doctors"
     ],
     "linksTo": [
       "/registration-guide",
@@ -2172,9 +2324,11 @@
     "url": "/news#how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 11,
+    "incomingCount": 13,
     "outgoingCount": 18,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
+      "gmc-epic-verification-process-explained",
       "gmc-order-reform-2026-protected-medical-titles",
       "gmc-registration-refund-policy",
       "gmc-registration-requirements-for-international-doctors",
@@ -2215,8 +2369,8 @@
     "url": "/news#how-to-become-a-doctor-in-uk-from-india",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 23,
-    "outgoingCount": 21,
+    "incomingCount": 24,
+    "outgoingCount": 22,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
       "gmc-registration-and-epic-verification-india",
@@ -2226,6 +2380,7 @@
       "mbbs-in-uk-for-indian-students",
       "uk-doctor-salary-guide-for-indian-doctors",
       "uk-visa-guide-for-international-doctors",
+      "ukmla-after-mbbs-in-india",
       "ukmla-akt-test-centres-guide",
       "ukmla-fees-for-img-2026",
       "ukmla-for-bangladeshi-doctors",
@@ -2255,6 +2410,7 @@
       "how-to-register-plab-1",
       "plab-2-preparation-guide",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-after-mbbs-in-india",
       "ukmla-akt-format-preparation",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
@@ -2500,11 +2656,12 @@
     "url": "/news#internship-requirement-for-gmc-registration",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 9,
     "linkedFrom": [
       "gmc-recognised-primary-medical-qualifications",
-      "how-long-does-gmc-registration-take"
+      "how-long-does-gmc-registration-take",
+      "ukmla-for-indian-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -2525,7 +2682,7 @@
     "url": "/news#is-indian-mbbs-valid-in-uk",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 7,
+    "incomingCount": 8,
     "outgoingCount": 11,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
@@ -2534,6 +2691,7 @@
       "mbbs-in-uk-for-indian-students",
       "uk-doctor-salary-guide-for-indian-doctors",
       "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-sri-lankan-doctors"
     ],
     "linksTo": [
@@ -2660,9 +2818,10 @@
     "url": "/news#managing-ukmla-exam-anxiety",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 9,
+    "incomingCount": 11,
     "outgoingCount": 8,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "breaking-bad-news-in-the-cpsa",
       "early-pregnancy-complications-ukmla",
       "ewtd-working-hours-and-rest-rules-for-doctors",
@@ -2670,6 +2829,7 @@
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "how-to-pass-ukmla-on-first-attempt",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-special-circumstances-and-accommodations",
       "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
@@ -2691,11 +2851,12 @@
     "url": "/news#mbbs-in-uk-for-indian-students",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 4,
     "outgoingCount": 13,
     "linkedFrom": [
       "is-indian-mbbs-valid-in-uk",
       "uk-doctor-salary-guide-for-indian-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-to-nhs-job-pathway"
     ],
     "linksTo": [
@@ -2888,17 +3049,21 @@
     "url": "/news#mla-content-map-explained",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/syllabus",
-    "incomingCount": 10,
+    "incomingCount": 14,
     "outgoingCount": 27,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "genetics-and-genomics-in-the-ukmla",
       "mental-health-ukmla-revision",
       "paediatrics-ukmla-revision",
       "pharmacology-prescribing-safety-ukmla",
+      "ukmla-after-mbbs-in-india",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
       "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-for-indian-doctors",
       "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-syllabus-2026-changes",
       "ukmla-vs-neet-pg"
     ],
@@ -2991,11 +3156,12 @@
     "url": "/news#multi-specialty-recruitment-assessment-msra-explained",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/registration-guide",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 10,
     "linkedFrom": [
       "arcp-annual-review-of-competence-progression-explained",
-      "certificate-of-completion-of-training-cct-explained"
+      "certificate-of-completion-of-training-cct-explained",
+      "ukmla-for-indian-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -3108,11 +3274,12 @@
     "url": "/news#nhs-job-interview-preparation-guide",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 6,
     "linkedFrom": [
       "how-to-write-an-nhs-cv-and-application",
-      "relocating-to-the-uk-a-practical-guide-for-img-doctors"
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "ukmla-for-indian-doctors"
     ],
     "linksTo": [
       "/registration-guide",
@@ -3551,7 +3718,7 @@
     "url": "/news#psychiatry-communication-cpsa-stations",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 23,
+    "incomingCount": 24,
     "outgoingCount": 13,
     "linkedFrom": [
       "angoff-standard-setting-explained",
@@ -3571,6 +3738,7 @@
       "plab-2-preparation-guide",
       "ukmla-akt-format-preparation",
       "ukmla-cpsa-what-it-tests",
+      "ukmla-for-indian-doctors",
       "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-graduate-entry-medical-students",
@@ -3668,13 +3836,17 @@
     "url": "/news#relocating-to-the-uk-a-practical-guide-for-img-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 4,
+    "incomingCount": 8,
     "outgoingCount": 10,
     "linkedFrom": [
       "bringing-family-to-uk-dependent-visa-guide",
       "how-to-write-an-nhs-cv-and-application",
       "nhs-job-interview-preparation-guide",
-      "scotland-wales-northern-ireland-registration-differences"
+      "scotland-wales-northern-ireland-registration-differences",
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-ghanaian-doctors",
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -3749,9 +3921,10 @@
     "url": "/news#returning-to-practise-in-gulf-countries-dataflow-guide",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 8,
     "linkedFrom": [
+      "ukmla-after-mbbs-in-india",
       "ukmla-for-jordanian-and-iraqi-doctors",
       "ukmla-for-kenyan-and-east-african-doctors"
     ],
@@ -4006,9 +4179,10 @@
     "url": "/news#three-months-ukmla-akt-countdown",
     "cluster": "Exam Preparation",
     "pillarPage": "/preparation",
-    "incomingCount": 10,
+    "incomingCount": 13,
     "outgoingCount": 24,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "how-to-pass-ukmla-on-first-attempt",
       "managing-ukmla-exam-anxiety",
       "mental-health-ukmla-revision",
@@ -4016,8 +4190,10 @@
       "ukmla-and-academic-foundation-programme",
       "ukmla-anki-deck-and-flashcard-revision-guide",
       "ukmla-crash-course-for-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-preparation-for-imgs",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-vs-usmle-comparison"
     ],
     "linksTo": [
@@ -4178,15 +4354,18 @@
     "url": "/news#types-of-gmc-registration-explained",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/registration-guide",
-    "incomingCount": 6,
+    "incomingCount": 9,
     "outgoingCount": 7,
     "linkedFrom": [
       "certificate-of-completion-of-training-cct-explained",
+      "cost-of-gmc-registration-2026",
       "gmc-annual-retention-fee-explained",
+      "gmc-epic-verification-process-explained",
       "gmc-revalidation-process-explained",
       "gmc-welcome-to-uk-practice-induction-guide",
       "returning-to-practise-in-gulf-countries-dataflow-guide",
-      "scotland-wales-northern-ireland-registration-differences"
+      "scotland-wales-northern-ireland-registration-differences",
+      "ukmla-for-indian-doctors"
     ],
     "linksTo": [
       "/registration-guide",
@@ -4205,7 +4384,7 @@
     "url": "/news#uk-doctor-salary-guide-for-indian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 9,
+    "incomingCount": 11,
     "outgoingCount": 11,
     "linkedFrom": [
       "is-indian-mbbs-valid-in-uk",
@@ -4214,7 +4393,9 @@
       "nhs-pension-scheme-for-doctors-explained",
       "relocating-to-the-uk-a-practical-guide-for-img-doctors",
       "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-south-african-doctors",
+      "ukmla-for-zimbabwean-doctors",
       "ukmla-to-nhs-job-pathway",
       "understanding-nhs-pay-scales-and-banding-for-doctors"
     ],
@@ -4306,7 +4487,7 @@
     "url": "/news#uk-visa-guide-for-international-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 8,
+    "incomingCount": 13,
     "outgoingCount": 8,
     "linkedFrom": [
       "bringing-family-to-uk-dependent-visa-guide",
@@ -4316,7 +4497,12 @@
       "medical-training-initiative-scheme-closure-2026",
       "relocating-to-the-uk-a-practical-guide-for-img-doctors",
       "uk-visa-salary-threshold-changes-2026-for-doctors",
-      "ukmla-for-refugee-doctors"
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-ghanaian-doctors",
+      "ukmla-for-indian-doctors",
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-refugee-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -4358,15 +4544,47 @@
     ]
   },
   {
+    "key": "ukmla-after-mbbs-in-india",
+    "type": "post",
+    "title": "UKMLA After MBBS in India: What to Do Next",
+    "url": "/news#ukmla-after-mbbs-in-india",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 15,
+    "linkedFrom": [
+      "how-to-become-a-doctor-in-uk-from-india",
+      "ukmla-for-indian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/preparation",
+      "english-language-requirement-for-ukmla-india",
+      "gmc-registration-and-epic-verification-india",
+      "how-to-become-a-doctor-in-uk-from-india",
+      "mla-content-map-explained",
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-exemptions-for-specialist-and-gp-doctors",
+      "ukmla-for-indian-doctors",
+      "ukmla-preparation-for-imgs",
+      "ukmla-resits-rules-limits",
+      "ukmla-to-nhs-job-pathway",
+      "ukmla-vs-amc-and-mccqe-comparison",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ]
+  },
+  {
     "key": "ukmla-akt-format-preparation",
     "type": "post",
     "title": "UKMLA AKT: Format, Question Types, and How to Prepare",
     "url": "/news#ukmla-akt-format-preparation",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/akt",
-    "incomingCount": 12,
+    "incomingCount": 14,
     "outgoingCount": 31,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "how-to-become-a-doctor-in-uk-from-india",
       "mla-content-map-explained",
       "mock-exams-ukmla-preparation",
@@ -4374,6 +4592,7 @@
       "uk-medical-schools-ukmla-implementation",
       "ukmla-akt-pass-mark-and-pass-rate-explained",
       "ukmla-akt-test-centres-guide",
+      "ukmla-for-indian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-question-bank-and-mock-tests",
@@ -4421,9 +4640,10 @@
     "url": "/news#ukmla-akt-pass-mark-and-pass-rate-explained",
     "cluster": "Results & Scoring",
     "pillarPage": "/results-and-scoring",
-    "incomingCount": 3,
+    "incomingCount": 4,
     "outgoingCount": 9,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "how-to-pass-ukmla-on-first-attempt",
       "pharmacology-prescribing-safety-ukmla",
       "ukmla-vs-amc-and-mccqe-comparison"
@@ -4447,7 +4667,7 @@
     "url": "/news#ukmla-akt-test-centres-guide",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/exam-pattern/akt",
-    "incomingCount": 10,
+    "incomingCount": 11,
     "outgoingCount": 13,
     "linkedFrom": [
       "ukmla-exam-booking-process-gmc-online",
@@ -4455,6 +4675,7 @@
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
       "ukmla-for-jordanian-and-iraqi-doctors",
       "ukmla-for-south-african-doctors",
@@ -4484,10 +4705,11 @@
     "url": "/news#ukmla-and-academic-foundation-programme",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 9,
     "linkedFrom": [
       "foundation-programme-2026-recruitment-changes",
+      "ukmla-preparation-for-uk-final-year-students",
       "what-happens-if-you-fail-ukmla-foundation-year-impact"
     ],
     "linksTo": [
@@ -4538,13 +4760,14 @@
     "url": "/news#ukmla-cpsa-what-it-tests",
     "cluster": "Exam Format",
     "pillarPage": "/exam-pattern/cpsa",
-    "incomingCount": 8,
+    "incomingCount": 9,
     "outgoingCount": 21,
     "linkedFrom": [
       "breaking-bad-news-in-the-cpsa",
       "mental-health-ukmla-revision",
       "neurology-ukmla-revision",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-for-indian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-graduate-entry-medical-students",
       "ukmla-preparation-for-imgs",
@@ -4581,12 +4804,14 @@
     "url": "/news#ukmla-crash-course-for-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/preparation",
-    "incomingCount": 4,
+    "incomingCount": 6,
     "outgoingCount": 11,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "gmc-registration-refund-policy",
       "how-to-pass-ukmla-on-first-attempt",
       "ukmla-anki-deck-and-flashcard-revision-guide",
+      "ukmla-for-indian-doctors",
       "ukmla-syllabus-2026-changes"
     ],
     "linksTo": [
@@ -4690,7 +4915,7 @@
     "url": "/news#ukmla-exemptions-for-specialist-and-gp-doctors",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/eligibility",
-    "incomingCount": 9,
+    "incomingCount": 10,
     "outgoingCount": 8,
     "linkedFrom": [
       "foundation-year-vs-specialty-training-for-imgs",
@@ -4701,7 +4926,8 @@
       "joining-a-royal-college-mrcp-mrcs-mrcgp-overview",
       "locally-employed-doctors-route-to-gmc-registration",
       "pharmacology-prescribing-safety-ukmla",
-      "types-of-gmc-registration-explained"
+      "types-of-gmc-registration-explained",
+      "ukmla-after-mbbs-in-india"
     ],
     "linksTo": [
       "/eligibility",
@@ -4756,9 +4982,10 @@
     "url": "/news#ukmla-fees-for-img-2026",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/fees",
-    "incomingCount": 21,
-    "outgoingCount": 23,
+    "incomingCount": 23,
+    "outgoingCount": 24,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
       "gmc-annual-retention-fee-explained",
       "gmc-registration-refund-policy",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
@@ -4770,6 +4997,7 @@
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
       "ukmla-for-gulf-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
@@ -4793,6 +5021,7 @@
       "/registration-guide",
       "/syllabus",
       "/ukmla-vs-plab",
+      "cost-of-gmc-registration-2026",
       "how-to-become-a-doctor-in-uk-from-india",
       "mock-exams-ukmla-preparation",
       "uk-medical-schools-ukmla-implementation",
@@ -4814,11 +5043,12 @@
     "url": "/news#ukmla-for-bangladeshi-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
-    "outgoingCount": 15,
+    "incomingCount": 4,
+    "outgoingCount": 16,
     "linkedFrom": [
       "is-indian-mbbs-valid-in-uk",
       "ukmla-akt-test-centres-guide",
+      "ukmla-for-nepali-doctors",
       "ukmla-for-sri-lankan-doctors"
     ],
     "linksTo": [
@@ -4833,6 +5063,7 @@
       "is-indian-mbbs-valid-in-uk",
       "ukmla-akt-test-centres-guide",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-nepali-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-for-pakistani-doctors",
       "ukmla-for-sri-lankan-doctors",
@@ -4868,12 +5099,13 @@
     "url": "/news#ukmla-for-egyptian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 4,
     "outgoingCount": 16,
     "linkedFrom": [
       "ukmla-akt-test-centres-guide",
       "ukmla-for-gulf-doctors",
-      "ukmla-for-jordanian-and-iraqi-doctors"
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-sudanese-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -4895,19 +5127,46 @@
     ]
   },
   {
+    "key": "ukmla-for-ethiopian-doctors",
+    "type": "post",
+    "title": "UKMLA for Ethiopian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-ethiopian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-sudanese-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-kenyan-and-east-african-doctors",
+      "ukmla-for-refugee-doctors",
+      "ukmla-for-sudanese-doctors"
+    ]
+  },
+  {
     "key": "ukmla-for-filipino-doctors",
     "type": "post",
     "title": "UKMLA for Filipino Doctors: Eligibility, Fees and the Route to GMC Registration",
     "url": "/news#ukmla-for-filipino-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 5,
-    "outgoingCount": 11,
+    "incomingCount": 6,
+    "outgoingCount": 12,
     "linkedFrom": [
       "gmc-english-language-exemption-for-imgs",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "ukmla-for-chinese-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-malaysian-doctors",
       "ukmla-for-vietnamese-and-indonesian-doctors"
     ],
     "linksTo": [
@@ -4920,8 +5179,35 @@
       "ukmla-akt-test-centres-guide",
       "ukmla-fees-for-img-2026",
       "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-malaysian-doctors",
       "ukmla-for-nigerian-doctors",
       "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
+    "key": "ukmla-for-ghanaian-doctors",
+    "type": "post",
+    "title": "UKMLA for Ghanaian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-ghanaian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-nigerian-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-sudanese-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ]
   },
   {
@@ -4931,14 +5217,15 @@
     "url": "/news#ukmla-for-gulf-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 5,
+    "incomingCount": 6,
     "outgoingCount": 13,
     "linkedFrom": [
       "returning-to-practise-in-gulf-countries-dataflow-guide",
       "ukmla-akt-test-centres-guide",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
-      "ukmla-for-jordanian-and-iraqi-doctors"
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-sudanese-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -4957,21 +5244,75 @@
     ]
   },
   {
+    "key": "ukmla-for-indian-doctors",
+    "type": "post",
+    "title": "UKMLA for Indian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-indian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 3,
+    "outgoingCount": 31,
+    "linkedFrom": [
+      "gmc-epic-verification-process-explained",
+      "ukmla-after-mbbs-in-india",
+      "ukmla-for-nepali-doctors"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/preparation",
+      "clinical-examination-cpsa-guide",
+      "english-language-requirement-for-ukmla-india",
+      "foundation-programme-after-ukmla",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "gmc-registration-and-epic-verification-india",
+      "good-medical-practice-ukmla",
+      "how-long-does-gmc-registration-take",
+      "internship-requirement-for-gmc-registration",
+      "is-indian-mbbs-valid-in-uk",
+      "mbbs-in-uk-for-indian-students",
+      "mla-content-map-explained",
+      "multi-specialty-recruitment-assessment-msra-explained",
+      "nhs-job-interview-preparation-guide",
+      "psychiatry-communication-cpsa-stations",
+      "three-months-ukmla-akt-countdown",
+      "types-of-gmc-registration-explained",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-after-mbbs-in-india",
+      "ukmla-akt-format-preparation",
+      "ukmla-akt-test-centres-guide",
+      "ukmla-cpsa-what-it-tests",
+      "ukmla-crash-course-for-doctors",
+      "ukmla-fees-for-img-2026",
+      "ukmla-preparation-for-imgs",
+      "ukmla-to-nhs-job-pathway",
+      "ukmla-vs-neet-pg",
+      "ukmla-vs-usmle-comparison"
+    ]
+  },
+  {
     "key": "ukmla-for-international-medical-graduates-country-routes",
     "type": "post",
     "title": "UKMLA for International Medical Graduates: Country-by-Country Quick Reference",
     "url": "/news#ukmla-for-international-medical-graduates-country-routes",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 6,
-    "outgoingCount": 10,
+    "incomingCount": 12,
+    "outgoingCount": 16,
     "linkedFrom": [
       "gmc-recognised-primary-medical-qualifications",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "medical-training-prioritisation-act-2026-imgs",
+      "ukmla-for-ethiopian-doctors",
       "ukmla-for-filipino-doctors",
+      "ukmla-for-ghanaian-doctors",
       "ukmla-for-jamaican-and-trinidadian-doctors",
-      "ukmla-for-kenyan-and-east-african-doctors"
+      "ukmla-for-kenyan-and-east-african-doctors",
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-nepali-doctors",
+      "ukmla-for-sudanese-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -4981,9 +5322,15 @@
       "how-to-become-a-doctor-in-uk-from-india",
       "ukmla-akt-test-centres-guide",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-ethiopian-doctors",
       "ukmla-for-filipino-doctors",
+      "ukmla-for-ghanaian-doctors",
       "ukmla-for-gulf-doctors",
-      "ukmla-for-nigerian-doctors"
+      "ukmla-for-malaysian-doctors",
+      "ukmla-for-nepali-doctors",
+      "ukmla-for-nigerian-doctors",
+      "ukmla-for-sudanese-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ]
   },
   {
@@ -5019,10 +5366,11 @@
     "url": "/news#ukmla-for-jordanian-and-iraqi-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 1,
+    "incomingCount": 2,
     "outgoingCount": 10,
     "linkedFrom": [
-      "returning-to-practise-in-gulf-countries-dataflow-guide"
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-for-sudanese-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -5044,11 +5392,13 @@
     "url": "/news#ukmla-for-kenyan-and-east-african-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 22,
     "linkedFrom": [
       "gmc-registration-for-eu-and-irish-doctors",
-      "returning-to-practise-in-gulf-countries-dataflow-guide"
+      "returning-to-practise-in-gulf-countries-dataflow-guide",
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-zimbabwean-doctors"
     ],
     "linksTo": [
       "/appeals-and-resits",
@@ -5076,16 +5426,70 @@
     ]
   },
   {
+    "key": "ukmla-for-malaysian-doctors",
+    "type": "post",
+    "title": "UKMLA for Malaysian Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-malaysian-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 10,
+    "linkedFrom": [
+      "ukmla-for-filipino-doctors",
+      "ukmla-for-international-medical-graduates-country-routes"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-for-filipino-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-vietnamese-and-indonesian-doctors",
+      "ukmla-vs-amc-and-mccqe-comparison"
+    ]
+  },
+  {
+    "key": "ukmla-for-nepali-doctors",
+    "type": "post",
+    "title": "UKMLA for Nepali Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-nepali-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-international-medical-graduates-country-routes"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/preparation",
+      "english-language-requirement-for-ukmla-india",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-indian-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-sri-lankan-doctors",
+      "ukmla-vs-neet-pg"
+    ]
+  },
+  {
     "key": "ukmla-for-nigerian-doctors",
     "type": "post",
     "title": "UKMLA for Nigerian Doctors: Eligibility, Fees and How to Register with the GMC",
     "url": "/news#ukmla-for-nigerian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 17,
-    "outgoingCount": 24,
+    "incomingCount": 19,
+    "outgoingCount": 25,
     "linkedFrom": [
       "english-language-requirement-for-ukmla-india",
+      "gmc-epic-verification-process-explained",
       "gmc-registration-and-epic-verification-india",
       "gmc-registration-requirements-for-international-doctors",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
@@ -5097,6 +5501,7 @@
       "ukmla-for-bangladeshi-doctors",
       "ukmla-for-egyptian-doctors",
       "ukmla-for-filipino-doctors",
+      "ukmla-for-ghanaian-doctors",
       "ukmla-for-international-medical-graduates-country-routes",
       "ukmla-for-kenyan-and-east-african-doctors",
       "ukmla-for-south-african-doctors",
@@ -5127,6 +5532,7 @@
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-ghanaian-doctors",
       "ukmla-question-bank-and-mock-tests"
     ]
   },
@@ -5137,9 +5543,10 @@
     "url": "/news#ukmla-for-pakistani-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 8,
+    "incomingCount": 9,
     "outgoingCount": 29,
     "linkedFrom": [
+      "gmc-epic-verification-process-explained",
       "uk-doctor-salary-guide-for-indian-doctors",
       "ukmla-akt-test-centres-guide",
       "ukmla-fees-for-img-2026",
@@ -5188,12 +5595,15 @@
     "url": "/news#ukmla-for-refugee-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 6,
     "outgoingCount": 8,
     "linkedFrom": [
+      "cost-of-gmc-registration-2026",
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
       "medical-training-initiative-scheme-closure-2026",
-      "uk-visa-guide-for-international-doctors"
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-sudanese-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -5213,11 +5623,12 @@
     "url": "/news#ukmla-for-south-african-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 4,
     "outgoingCount": 14,
     "linkedFrom": [
       "ukmla-akt-test-centres-guide",
       "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-zimbabwean-doctors",
       "ukmla-to-nhs-job-pathway"
     ],
     "linksTo": [
@@ -5244,12 +5655,13 @@
     "url": "/news#ukmla-for-sri-lankan-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 3,
+    "incomingCount": 4,
     "outgoingCount": 14,
     "linkedFrom": [
       "is-indian-mbbs-valid-in-uk",
       "ukmla-akt-test-centres-guide",
-      "ukmla-for-bangladeshi-doctors"
+      "ukmla-for-bangladeshi-doctors",
+      "ukmla-for-nepali-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -5269,17 +5681,46 @@
     ]
   },
   {
+    "key": "ukmla-for-sudanese-doctors",
+    "type": "post",
+    "title": "UKMLA for Sudanese Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-sudanese-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 3,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-ghanaian-doctors",
+      "ukmla-for-international-medical-graduates-country-routes"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/registration-guide",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "ukmla-for-egyptian-doctors",
+      "ukmla-for-ethiopian-doctors",
+      "ukmla-for-gulf-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-jordanian-and-iraqi-doctors",
+      "ukmla-for-refugee-doctors"
+    ]
+  },
+  {
     "key": "ukmla-for-vietnamese-and-indonesian-doctors",
     "type": "post",
     "title": "UKMLA for Vietnamese and Indonesian Doctors: Eligibility, Fees and the Route to GMC Registration",
     "url": "/news#ukmla-for-vietnamese-and-indonesian-doctors",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 2,
+    "incomingCount": 3,
     "outgoingCount": 10,
     "linkedFrom": [
       "ukmla-for-chinese-doctors",
-      "ukmla-for-jamaican-and-trinidadian-doctors"
+      "ukmla-for-jamaican-and-trinidadian-doctors",
+      "ukmla-for-malaysian-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -5292,6 +5733,33 @@
       "ukmla-for-filipino-doctors",
       "ukmla-for-jamaican-and-trinidadian-doctors",
       "ukmla-question-bank-and-mock-tests"
+    ]
+  },
+  {
+    "key": "ukmla-for-zimbabwean-doctors",
+    "type": "post",
+    "title": "UKMLA for Zimbabwean Doctors: Eligibility, Fees and the Route to GMC Registration",
+    "url": "/news#ukmla-for-zimbabwean-doctors",
+    "cluster": "IMG Country Routes & Global Comparisons",
+    "pillarPage": "/eligibility",
+    "incomingCount": 2,
+    "outgoingCount": 11,
+    "linkedFrom": [
+      "ukmla-for-ghanaian-doctors",
+      "ukmla-for-international-medical-graduates-country-routes"
+    ],
+    "linksTo": [
+      "/eligibility",
+      "/fees",
+      "/preparation",
+      "gmc-epic-verification-process-explained",
+      "gmc-registration-requirements-for-international-doctors",
+      "relocating-to-the-uk-a-practical-guide-for-img-doctors",
+      "uk-doctor-salary-guide-for-indian-doctors",
+      "uk-visa-guide-for-international-doctors",
+      "ukmla-for-international-medical-graduates-country-routes",
+      "ukmla-for-kenyan-and-east-african-doctors",
+      "ukmla-for-south-african-doctors"
     ]
   },
   {
@@ -5384,9 +5852,10 @@
     "url": "/news#ukmla-preparation-for-imgs",
     "cluster": "Core UKMLA Overview",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 25,
-    "outgoingCount": 25,
+    "incomingCount": 29,
+    "outgoingCount": 26,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "breaking-bad-news-in-the-cpsa",
       "english-language-requirement-for-ukmla-india",
       "foundation-year-vs-specialty-training-for-imgs",
@@ -5402,11 +5871,14 @@
       "relocating-to-the-uk-a-practical-guide-for-img-doctors",
       "time-management-akt-ukmla",
       "uk-medical-schools-ukmla-implementation",
+      "ukmla-after-mbbs-in-india",
       "ukmla-cpsa-what-it-tests",
       "ukmla-crash-course-for-doctors",
       "ukmla-eligibility-who-can-sit",
       "ukmla-fees-explained",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-indian-doctors",
+      "ukmla-preparation-for-uk-final-year-students",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-resits-rules-limits",
       "ukmla-vs-plab-difference",
@@ -5438,7 +5910,37 @@
       "uk-medical-schools-ukmla-implementation",
       "ukmla-cpsa-what-it-tests",
       "ukmla-eligibility-who-can-sit",
-      "ukmla-fees-explained"
+      "ukmla-fees-explained",
+      "ukmla-preparation-for-uk-final-year-students"
+    ]
+  },
+  {
+    "key": "ukmla-preparation-for-uk-final-year-students",
+    "type": "post",
+    "title": "How to Prepare for the UKMLA as a UK Final-Year Student",
+    "url": "/news#ukmla-preparation-for-uk-final-year-students",
+    "cluster": "Exam Preparation",
+    "pillarPage": "/preparation",
+    "incomingCount": 2,
+    "outgoingCount": 13,
+    "linkedFrom": [
+      "best-ukmla-question-banks-compared",
+      "ukmla-preparation-for-imgs"
+    ],
+    "linksTo": [
+      "/exam-pattern/akt",
+      "/exam-pattern/cpsa",
+      "/key-dates",
+      "/preparation",
+      "best-ukmla-question-banks-compared",
+      "foundation-programme-after-ukmla",
+      "foundation-year-vs-specialty-training-for-imgs",
+      "group-study-vs-solo-ukmla",
+      "managing-ukmla-exam-anxiety",
+      "mla-content-map-explained",
+      "three-months-ukmla-akt-countdown",
+      "ukmla-and-academic-foundation-programme",
+      "ukmla-preparation-for-imgs"
     ]
   },
   {
@@ -5448,9 +5950,10 @@
     "url": "/news#ukmla-question-bank-and-mock-tests",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/preparation",
-    "incomingCount": 16,
-    "outgoingCount": 27,
+    "incomingCount": 17,
+    "outgoingCount": 28,
     "linkedFrom": [
+      "best-ukmla-question-banks-compared",
       "english-language-requirement-for-ukmla-india",
       "how-to-become-a-doctor-in-uk-from-india",
       "indemnity-insurance-for-doctors-explained",
@@ -5476,6 +5979,7 @@
       "/preparation",
       "/results-and-scoring",
       "/syllabus",
+      "best-ukmla-question-banks-compared",
       "cardiology-ukmla-akt-revision",
       "dermatology-ukmla-revision",
       "endocrinology-diabetes-ukmla-revision",
@@ -5505,13 +6009,14 @@
     "url": "/news#ukmla-resits-rules-limits",
     "cluster": "Registration & Eligibility",
     "pillarPage": "/appeals-and-resits",
-    "incomingCount": 8,
+    "incomingCount": 9,
     "outgoingCount": 12,
     "linkedFrom": [
       "breaking-bad-news-in-the-cpsa",
       "gmc-registration-refund-policy",
       "how-to-pass-ukmla-on-first-attempt",
       "plab-2-preparation-guide",
+      "ukmla-after-mbbs-in-india",
       "ukmla-fees-for-img-2026",
       "ukmla-for-pakistani-doctors",
       "ukmla-results-feedback-report",
@@ -5685,7 +6190,7 @@
     "url": "/news#ukmla-to-nhs-job-pathway",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/eligibility",
-    "incomingCount": 23,
+    "incomingCount": 25,
     "outgoingCount": 11,
     "linkedFrom": [
       "ewtd-working-hours-and-rest-rules-for-doctors",
@@ -5709,6 +6214,8 @@
       "uk-doctor-salary-guide-for-indian-doctors",
       "uk-visa-guide-for-international-doctors",
       "uk-visa-salary-threshold-changes-2026-for-doctors",
+      "ukmla-after-mbbs-in-india",
+      "ukmla-for-indian-doctors",
       "ukmla-for-south-african-doctors",
       "understanding-nhs-pay-scales-and-banding-for-doctors"
     ],
@@ -5733,11 +6240,13 @@
     "url": "/news#ukmla-vs-amc-and-mccqe-comparison",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 2,
+    "incomingCount": 4,
     "outgoingCount": 8,
     "linkedFrom": [
       "how-to-become-a-doctor-in-the-uk-gmc-registration-guide",
-      "ukmla-akt-pass-mark-and-pass-rate-explained"
+      "ukmla-after-mbbs-in-india",
+      "ukmla-akt-pass-mark-and-pass-rate-explained",
+      "ukmla-for-malaysian-doctors"
     ],
     "linksTo": [
       "/eligibility",
@@ -5757,12 +6266,15 @@
     "url": "/news#ukmla-vs-neet-pg",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 5,
+    "incomingCount": 8,
     "outgoingCount": 23,
     "linkedFrom": [
       "how-to-become-a-doctor-in-uk-from-india",
       "mbbs-in-uk-for-indian-students",
+      "ukmla-after-mbbs-in-india",
       "ukmla-fees-for-img-2026",
+      "ukmla-for-indian-doctors",
+      "ukmla-for-nepali-doctors",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-vs-amc-and-mccqe-comparison"
     ],
@@ -5835,13 +6347,15 @@
     "url": "/news#ukmla-vs-usmle-comparison",
     "cluster": "IMG Country Routes & Global Comparisons",
     "pillarPage": "/ukmla-vs-plab",
-    "incomingCount": 8,
+    "incomingCount": 10,
     "outgoingCount": 24,
     "linkedFrom": [
       "how-to-become-a-doctor-in-uk-from-india",
       "is-indian-mbbs-valid-in-uk",
+      "ukmla-after-mbbs-in-india",
       "ukmla-fees-for-img-2026",
       "ukmla-for-egyptian-doctors",
+      "ukmla-for-indian-doctors",
       "ukmla-for-sri-lankan-doctors",
       "ukmla-question-bank-and-mock-tests",
       "ukmla-vs-amc-and-mccqe-comparison",
