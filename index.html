@@ -4,7 +4,50 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ukmla</title>
+
+    <!-- ============================================================
+         Google Search Console site verification
+         Replace CONTENT below with the token Google gives you in
+         Search Console > Settings > Ownership verification > HTML tag.
+         This proves you own the site so Google will crawl & index it.
+         ============================================================ -->
+    <meta name="google-site-verification" content="REPLACE_WITH_SEARCH_CONSOLE_TOKEN" />
+
+    <!-- ============================================================
+         Google tag (gtag.js) — Google Analytics 4
+         Replace G-XXXXXXXXXX (both places) with your GA4 Measurement ID
+         from Google Analytics > Admin > Data streams > Web.
+         SPA route changes are tracked in src/router.jsx.
+         ============================================================ -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // send_page_view:false — the router sends page_view on each SPA navigation
+      gtag('config', 'G-XXXXXXXXXX', { send_page_view: false });
+    </script>
+
+    <!-- Crawlability / SEO defaults (per-page values are set in src/router.jsx) -->
+    <title>UKMLA - UK Medical Licensing Assessment Guide</title>
+    <meta name="description" content="An independent educational resource providing detailed, up-to-date guides, eligibility details, and exam format breakdowns for the UK Medical Licensing Assessment (UKMLA / MLA)." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="theme-color" content="#0d2b4e" />
+    <link rel="canonical" href="https://ukmla-info.org.uk/" />
+
+    <!-- Open Graph (Facebook / LinkedIn / WhatsApp previews) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="UKMLA Informational Website" />
+    <meta property="og:title" content="UKMLA - UK Medical Licensing Assessment Guide" />
+    <meta property="og:description" content="Independent, up-to-date guides on the UK Medical Licensing Assessment (UKMLA / MLA): eligibility, exam format, syllabus, fees and preparation." />
+    <meta property="og:url" content="https://ukmla-info.org.uk/" />
+    <meta property="og:image" content="https://ukmla-info.org.uk/logo.png" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="UKMLA - UK Medical Licensing Assessment Guide" />
+    <meta name="twitter:description" content="Independent, up-to-date guides on the UK Medical Licensing Assessment (UKMLA / MLA): eligibility, exam format, syllabus, fees and preparation." />
+    <meta name="twitter:image" content="https://ukmla-info.org.uk/logo.png" />
   </head>
   <body>
     <div id="root"></div>

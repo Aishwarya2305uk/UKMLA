@@ -282,6 +282,9 @@ export function Router() {
 
   // Run SEO Head and Schema updates on route change
   useEffect(() => {
+    const origin = 'https://ukmla-info.org.uk';
+    const canonicalUrl = `${origin}${normalizedPath === '/' ? '/' : normalizedPath}`;
+
     // 1. Update document title
     document.title = currentRoute.title;
 
@@ -293,6 +296,31 @@ export function Router() {
       document.head.appendChild(metaDescription);
     }
     metaDescription.content = currentRoute.description;
+
+    // 2a. Keep canonical URL in sync with the current route
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = canonicalUrl;
+
+    // 2b. Keep Open Graph / Twitter tags in sync for social + crawler previews
+    const setMeta = (selector, attr, key, value) => {
+      let el = document.querySelector(selector);
+      if (!el) {
+        el = document.createElement('meta');
+        el.setAttribute(attr, key);
+        document.head.appendChild(el);
+      }
+      el.setAttribute('content', value);
+    };
+    setMeta('meta[property="og:title"]', 'property', 'og:title', currentRoute.title);
+    setMeta('meta[property="og:description"]', 'property', 'og:description', currentRoute.description);
+    setMeta('meta[property="og:url"]', 'property', 'og:url', canonicalUrl);
+    setMeta('meta[name="twitter:title"]', 'name', 'twitter:title', currentRoute.title);
+    setMeta('meta[name="twitter:description"]', 'name', 'twitter:description', currentRoute.description);
 
     // 3. Inject Structured Schema JSON-LD
     let schemaScript = document.getElementById('seo-schema');
@@ -329,7 +357,16 @@ export function Router() {
       document.head.appendChild(schemaScript);
     }
 
-    // 4. Scroll to top
+    // 4. Send a Google Analytics (GA4) page_view for this SPA navigation
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'page_view', {
+        page_title: currentRoute.title,
+        page_location: canonicalUrl,
+        page_path: normalizedPath,
+      });
+    }
+
+    // 5. Scroll to top
     window.scrollTo(0, 0);
 
   }, [normalizedPath, currentRoute]);

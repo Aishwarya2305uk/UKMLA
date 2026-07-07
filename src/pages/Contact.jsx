@@ -114,17 +114,6 @@ export default function Contact() {
             </div>
           )}
 
-          <section style={{ marginTop: '48px', textAlign: 'center' }}>
-            <h2>Direct Communications</h2>
-            <p>
-              For direct administrative queries regarding our content database, you may email us directly at:{' '}
-              <a href="mailto:contact@ukmla-info.org.uk"><strong>contact@ukmla-info.org.uk</strong></a>
-            </p>
-            <p style={{ fontSize: '14px', color: 'var(--text-muted)', marginTop: '8px' }}>
-              Note: We cannot provide registration approvals, visa advice, or book GMC test slots on your behalf.
-            </p>
-          </section>
-
           <p className="last-reviewed" style={{ textAlign: 'center', marginTop: '48px' }}>
             Last reviewed: 25 June 2026. Source: General Medical Council (GMC).
           </p>
