@@ -2319,7 +2319,8 @@ tr:hover td {
 }
 
 .form-input,
-.form-textarea {
+.form-textarea,
+.form-select {
   width: 100%;
   padding: 14px 16px;
   border: none;
@@ -2333,9 +2334,111 @@ tr:hover td {
   box-shadow: var(--clay-pressed);
 }
 
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%236b7280' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+
 .form-input:focus,
-.form-textarea:focus {
+.form-textarea:focus,
+.form-select:focus {
   box-shadow: var(--clay-pressed), 0 0 0 3px var(--c-lavender);
+}
+
+.form-phone-row {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: 12px;
+}
+
+/* Searchable dropdown */
+.searchable-select {
+  position: relative;
+}
+
+.searchable-select-trigger {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.searchable-select-placeholder {
+  color: var(--text-secondary);
+}
+
+.searchable-select-panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background-color: var(--bg-primary);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--clay);
+  padding: 8px;
+  overflow: hidden;
+}
+
+.searchable-select-search {
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  outline: none;
+  box-shadow: var(--clay-pressed);
+  margin-bottom: 8px;
+}
+
+.searchable-select-search:focus {
+  box-shadow: var(--clay-pressed), 0 0 0 3px var(--c-lavender);
+}
+
+.searchable-select-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.searchable-select-option {
+  width: 100%;
+  text-align: left;
+  padding: 10px 12px;
+  border: none;
+  background: none;
+  border-radius: var(--border-radius-sm);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  font-size: 15px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.searchable-select-option:hover {
+  background-color: var(--bg-secondary);
+}
+
+.searchable-select-option.selected {
+  background-color: var(--c-lavender);
+  font-weight: 600;
+}
+
+.searchable-select-empty {
+  padding: 12px;
+  text-align: center;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  font-size: 14px;
 }
 
 .form-textarea {

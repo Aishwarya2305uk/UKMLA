@@ -12,7 +12,8 @@ An independent, brand-neutral educational resource for the **UK Medical Licensin
 - **Editorial → claymorphism UI** with a frosted‑glass navigation bar and a professional deep‑blue / medical‑teal / amber palette (fully token‑driven via CSS variables).
 - **Expandable sidebar drawer** ("The Index") holding the full section tree, with a minimal top nav (Home · Syllabus · FAQ · Posts).
 - **Auto‑scrolling hero carousel** with arrows, dots, captions, pause‑on‑hover, and reduced‑motion support.
-- **Posts / blog** — list view (title + summary) that opens a full‑page article with a hero image and "Posted on" date, deep‑linkable via URL hash, with a **topic filter**.
+- **Posts / blog** — a growing library of **169 long‑form articles**. Post metadata lives in `src/pages/News.jsx`; each article body is a standalone HTML file under `posts-html/<slug>.html`, bundled at build time. Posts open as full‑page articles (hero image + publish date), are deep‑linkable at `/news/<slug>`, and are filterable by topic.
+- **Auto‑generated SEO files** — `public/sitemap.xml` and `public/robots.txt` are regenerated from the app's routes and posts on every build (and dev start), so they never drift from the site.
 - **Scroll‑reveal animations** and subtle micro‑interactions, all gated behind `prefers-reduced-motion`.
 - **Accessible & responsive** — WCAG‑minded contrast, keyboard‑navigable controls, and layouts from mobile to wide desktop.
 - **Client‑side search** across all pages.
@@ -53,6 +54,10 @@ npm run preview
 
 # lint
 npm run lint
+
+# manually regenerate public/sitemap.xml + robots.txt
+# (also runs automatically on every build)
+npm run generate:sitemap
 ```
 
 ---
@@ -62,21 +67,26 @@ npm run lint
 ```
 UKMLA/
 ├─ public/
-│  ├─ images/           # AI‑generated medical photos used across the site
-│  ├─ gallery/          # additional photography
+│  ├─ images/           # per‑post featured images (.webp) + hero/portrait photos
 │  ├─ logo.png          # navbar logo
-│  ├─ favicon.svg, icons.svg, robots.txt, sitemap.xml
+│  ├─ favicon.svg, icons.svg, motion.gif
+│  └─ robots.txt, sitemap.xml   # auto‑generated on build (do not hand‑edit)
+├─ posts-html/          # one <slug>.html body file per blog post (169 total)
+├─ scripts/
+│  ├─ generate-sitemap.mjs   # builds sitemap.xml + robots.txt from routes/posts
+│  └─ …                       # post‑sync, internal‑linking & keyword tooling
 ├─ src/
 │  ├─ components/
 │  │  ├─ Layout.jsx     # header, glass navbar, drawer, footer, scroll‑reveal
 │  │  └─ Carousel.jsx   # auto‑scrolling hero gallery
-│  ├─ pages/            # one component per route (Home, Syllabus, FAQs, News, …)
+│  ├─ pages/            # one component per route (Home, WhatIsUKMLA, AKT, CPSA,
+│  │                    #   Eligibility, Fees, Syllabus, FAQs, News, …)
 │  ├─ router.jsx        # routes table + <Router>, <Link>, navigate(), SEO head
 │  ├─ App.jsx           # mounts the router
 │  ├─ main.jsx          # React entry point
 │  └─ index.css         # design tokens + all component styles
 ├─ index.html
-├─ vite.config.js
+├─ vite.config.js       # React plugin + SEO‑file generator plugin
 └─ package.json
 ```
 
@@ -104,22 +114,34 @@ Key token groups: brand colours (`--brand-*`), surfaces (`--bg-*`), text (`--tex
 
 ## ✍️ Adding a Post
 
-Posts live in the `posts` array in [`src/pages/News.jsx`](src/pages/News.jsx). Add an object with:
+Each post has two parts:
 
-```js
-{
-  slug: 'unique-url-slug',          // becomes /news#unique-url-slug
-  title: 'Post title',
-  date: '12 June 2026',
-  tag: 'Preparation',               // also feeds the topic filter
-  image: '/images/your-image.webp',
-  summary: 'Shown in the list view.',
-  body: ['Paragraph one…', 'Paragraph two…'],
-  link: { to: '/syllabus', label: 'Related page →' } // or { href: 'https://…' }
-}
-```
+1. **Metadata** — an object in the `posts` array in [`src/pages/News.jsx`](src/pages/News.jsx):
 
-Place newer posts higher in the array (the list renders in array order). New `tag` values automatically appear as filter chips.
+   ```js
+   {
+     slug: 'unique-url-slug',          // becomes /news/unique-url-slug
+     title: 'Post title',
+     date: '12 June 2026',
+     tag: 'Preparation',               // also feeds the topic filter
+     image: '/images/your-image-featured.webp',
+     summary: 'Shown in the list view.',
+     // plus SEO fields: seoTitle, seoDescription, primaryKeyword,
+     // featuredImage* and sourceFullUrl (see existing entries).
+   }
+   ```
+
+2. **Body** — a matching HTML file at `posts-html/<slug>.html`. These are bundled at
+   build time via `import.meta.glob` and rendered when the post is opened.
+
+Place newer posts higher in the array (the list renders in array order), drop the
+featured image in `public/images/`, and new `tag` values automatically appear as
+filter chips. After adding a post, `sitemap.xml`/`robots.txt` refresh on the next
+build (or run `npm run generate:sitemap`).
+
+> The post library is generated and kept in sync through the `scripts/` tooling and
+> the authoring workflow described in the project's SEO skill (`SKILL.md`); adding
+> posts by hand as above works too.
 
 ---
 
@@ -133,7 +155,13 @@ Place newer posts higher in the array (the list renders in array order). New `ta
 
 ## 📦 Deployment
 
-`npm run build` outputs a static site to `dist/`, deployable to any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages, etc.). For client‑side routing, configure the host to fall back to `index.html` for unknown paths.
+`npm run build` outputs a static site to `dist/`, deployable to any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages, etc.). For client‑side routing, configure the host to fall back to `index.html` for unknown paths so deep links like `/news/<slug>` resolve.
+
+The build regenerates `sitemap.xml`/`robots.txt` using the canonical origin `https://gmcukmla.com`. Override it for a different domain with the `SITE_URL` environment variable, e.g.:
+
+```bash
+SITE_URL=https://your-domain.com npm run build
+```
 
 ---
 

@@ -51,7 +51,7 @@ export default function Privacy() {
             <ul>
               <li>Request copies of any contact form queries you sent to us.</li>
               <li>Request immediate deletion of your name and email logs from our systems.</li>
-              <li>File queries regarding our privacy policy by emailing us at <a href="mailto:contact@ukmla-info.org.uk"><strong>contact@ukmla-info.org.uk</strong></a>.</li>
+              <li>File queries regarding our privacy policy by emailing us at <a href="mailto:contact@gmcukmla.com"><strong>contact@gmcukmla.com</strong></a>.</li>
             </ul>
           </section>
 

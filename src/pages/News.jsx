@@ -2864,6 +2864,50 @@ export default function News() {
       ogUrl.setAttribute('content', url);
     };
 
+    // Inject/replace a BlogPosting JSON-LD schema for the open post (helps
+    // Google index each /news/<slug> as an article). Removed on the index view.
+    const setArticleSchema = (post) => {
+      const existing = document.getElementById('post-schema');
+      if (existing) existing.remove();
+      if (!post) return;
+      const image = post.featuredImageUrl
+        ? (post.featuredImageUrl.startsWith('http') ? post.featuredImageUrl : `${ORIGIN}${post.featuredImageUrl}`)
+        : `${ORIGIN}/logo.png`;
+      const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        headline: post.seoTitle || post.title,
+        description: post.seoDescription || post.summary,
+        image,
+        datePublished: post.date,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': `${ORIGIN}/news/${post.slug}` },
+        author: { '@type': 'Organization', name: 'UKMLA Informational Website', url: ORIGIN },
+        publisher: {
+          '@type': 'Organization',
+          name: 'UKMLA Informational Website',
+          logo: { '@type': 'ImageObject', url: `${ORIGIN}/logo.png` },
+        },
+      };
+      const script = document.createElement('script');
+      script.id = 'post-schema';
+      script.type = 'application/ld+json';
+      script.innerHTML = JSON.stringify(schema);
+      document.head.appendChild(script);
+    };
+
+    // Fire a Google Analytics (GA4) page_view. Posts open via history.pushState
+    // without the router's navigation event, so GA must be told here or post
+    // views would never be counted.
+    const trackPageView = (title, path) => {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'page_view', {
+          page_title: title,
+          page_location: `${ORIGIN}${path}`,
+          page_path: path,
+        });
+      }
+    };
+
     if (activePost) {
       document.title = activePost.seoTitle || (activePost.title + ' | UKMLA');
 
@@ -2872,6 +2916,8 @@ export default function News() {
         metaDesc.content = activePost.seoDescription || activePost.summary;
       }
       setCanonical(`${ORIGIN}/news/${activePost.slug}`);
+      setArticleSchema(activePost);
+      trackPageView(document.title, `/news/${activePost.slug}`);
     } else {
       // Revert to list page defaults
       document.title = 'UKMLA News & Updates: Latest Changes | UKMLA';
@@ -2880,6 +2926,8 @@ export default function News() {
         metaDesc.content = 'Stay updated with the latest announcements, updates, and structural adjustments for the UKMLA from the GMC and Medical Schools Council.';
       }
       setCanonical(`${ORIGIN}/news`);
+      setArticleSchema(null);
+      trackPageView(document.title, '/news');
     }
   }, [activePost]);
 
