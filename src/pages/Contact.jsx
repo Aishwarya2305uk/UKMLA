@@ -283,6 +283,60 @@ function SearchableSelect({ id, options, value, onChange, placeholder }) {
   );
 }
 
+// Capture first-touch UTM / referrer once per session so attribution
+// survives internal navigation before the user reaches the form.
+function captureFirstTouch() {
+  try {
+    if (sessionStorage.getItem('ukmla_first_touch')) return;
+    const params = new URLSearchParams(window.location.search);
+    const utm = {};
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'].forEach((k) => {
+      const v = params.get(k);
+      if (v) utm[k] = v;
+    });
+    sessionStorage.setItem(
+      'ukmla_first_touch',
+      JSON.stringify({ utm, referrer: document.referrer || 'direct', landing: window.location.href })
+    );
+  } catch {
+    /* sessionStorage unavailable — non-fatal */
+  }
+}
+
+// Gather everything the browser can legally expose at submit time.
+function collectClientMeta() {
+  const meta = {
+    userAgent: '',
+    language: '',
+    timezone: '',
+    screen: '',
+    viewport: '',
+    page: '',
+    referrer: 'direct',
+    utm: {},
+    clientTimestamp: '',
+  };
+  try {
+    const nav = window.navigator;
+    const scr = window.screen;
+    const dpr = window.devicePixelRatio;
+    meta.userAgent = nav.userAgent || '';
+    meta.language = nav.language || (nav.languages && nav.languages[0]) || '';
+    meta.timezone = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+    meta.screen = `${scr.width}×${scr.height}${dpr && dpr !== 1 ? ` @${dpr}x` : ''}`;
+    meta.viewport = `${window.innerWidth}×${window.innerHeight}`;
+    meta.page = window.location.href;
+    meta.clientTimestamp = new Date().toISOString();
+    const firstTouch = JSON.parse(sessionStorage.getItem('ukmla_first_touch') || '{}');
+    meta.utm = firstTouch.utm || {};
+    meta.referrer = firstTouch.referrer || document.referrer || 'direct';
+    meta.landing = firstTouch.landing || '';
+  } catch {
+    /* best effort */
+  }
+  return meta;
+}
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: '',
@@ -294,6 +348,13 @@ export default function Contact() {
   });
   const [errors, setErrors] = useState({});
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState('');
+  const honeypotRef = useRef('');
+
+  useEffect(() => {
+    captureFirstTouch();
+  }, []);
 
   const validate = () => {
     const tempErrors = {};
@@ -321,13 +382,34 @@ export default function Contact() {
     return Object.keys(tempErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (validate()) {
-      // Simulate form submission
-      setIsSubmitted(true);
-      setFormData({ name: '', email: '', dialCode: '', whatsapp: '', country: '', message: '' });
-      setErrors({});
+    setSubmitError('');
+    if (!validate()) return;
+
+    setIsSubmitting(true);
+    try {
+      const res = await fetch('/api/submit-lead', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...formData,
+          website: honeypotRef.current, // honeypot
+          clientMeta: collectClientMeta(),
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.ok) {
+        setIsSubmitted(true);
+        setFormData({ name: '', email: '', dialCode: '', whatsapp: '', country: '', message: '' });
+        setErrors({});
+      } else {
+        setSubmitError(data.error || 'Something went wrong. Please try again or email us directly.');
+      }
+    } catch {
+      setSubmitError('Network error. Please check your connection and try again.');
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
@@ -364,6 +446,16 @@ export default function Contact() {
           ) : (
             <div className="contact-form-container">
               <form onSubmit={handleSubmit} noValidate>
+                {/* Honeypot: hidden from users, catches bots. */}
+                <input
+                  type="text"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  onChange={(e) => { honeypotRef.current = e.target.value; }}
+                  style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }}
+                />
                 <div className="form-group">
                   <label className="form-label" htmlFor="contact-name">Full Name</label>
                   <input
@@ -451,8 +543,19 @@ export default function Contact() {
                   {errors.message && <div className="form-error">{errors.message}</div>}
                 </div>
 
-                <button type="submit" className="btn btn-primary" style={{ width: '100%' }}>
-                  Submit Inquiry
+                {submitError && (
+                  <div className="form-error" role="alert" style={{ marginBottom: '12px' }}>
+                    {submitError}
+                  </div>
+                )}
+
+                <button
+                  type="submit"
+                  className="btn btn-primary"
+                  style={{ width: '100%' }}
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Submitting…' : 'Submit Inquiry'}
                 </button>
               </form>
             </div>
