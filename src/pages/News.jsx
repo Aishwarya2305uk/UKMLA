@@ -3,12 +3,14 @@ import Layout from '../components/Layout';
 import { Link } from '../router';
 
 // Post bodies live as standalone files under /posts-html/{slug}.html (see
-// SKILL.md §0/§12) — bundled at build time as raw strings, keyed by slug.
-const postHtmlModules = import.meta.glob('../../posts-html/*.html', { eager: true, query: '?raw', import: 'default' });
-const postHtmlBySlug = Object.fromEntries(
-  Object.entries(postHtmlModules).map(([filePath, content]) => [
+// SKILL.md §0/§12). They total ~6 MB, so they are code-split: each is a lazy
+// chunk fetched only when its post is opened, keyed by slug. This keeps the
+// initial JS bundle small (bundling them eagerly added ~2 MB to first load).
+const postHtmlLoaders = import.meta.glob('../../posts-html/*.html', { query: '?raw', import: 'default' });
+const postLoaderBySlug = Object.fromEntries(
+  Object.entries(postHtmlLoaders).map(([filePath, loader]) => [
     filePath.split('/').pop().replace(/\.html$/, ''),
-    content,
+    loader,
   ])
 );
 
@@ -2834,10 +2836,24 @@ export default function News() {
 
   const activePost = posts.find((p) => p.slug === activeSlug);
 
-  // Parse the post HTML once: id-tag the <h2>s, build the navigator and takeaways.
+  // Lazily fetch the open post's HTML chunk (see postLoaderBySlug above). Held
+  // in state so the view fills in as soon as the chunk resolves; SEO/title
+  // effects key on activePost and so run immediately, not on this.
+  const [rawPostHtml, setRawPostHtml] = useState('');
+  useEffect(() => {
+    if (!activePost) { setRawPostHtml(''); return undefined; }
+    const loader = postLoaderBySlug[activePost.slug];
+    if (!loader) { setRawPostHtml(''); return undefined; }
+    let cancelled = false;
+    setRawPostHtml(''); // clear stale body while the new chunk loads
+    loader().then((html) => { if (!cancelled) setRawPostHtml(html || ''); });
+    return () => { cancelled = true; };
+  }, [activePost]);
+
+  // Parse the post HTML: id-tag the <h2>s, build the navigator and takeaways.
   const enhanced = useMemo(
-    () => (activePost ? enhancePost(postHtmlBySlug[activePost.slug] || '') : { html: '', toc: [], takeaways: [] }),
-    [activePost]
+    () => (activePost && rawPostHtml ? enhancePost(rawPostHtml) : { html: '', toc: [], takeaways: [] }),
+    [activePost, rawPostHtml]
   );
 
   // Run SEO Head and Title updates on active post load
@@ -2862,6 +2878,27 @@ export default function News() {
         document.head.appendChild(ogUrl);
       }
       ogUrl.setAttribute('content', url);
+    };
+
+    // Keep the social preview tags (OG + Twitter) in sync with the open post.
+    // The router yields these to us for /news/<slug>, so if we don't set them
+    // they would stay on the generic site defaults from index.html.
+    const setSocialMeta = (title, description) => {
+      const pairs = [
+        ['meta[property="og:title"]', 'property', 'og:title', title],
+        ['meta[property="og:description"]', 'property', 'og:description', description],
+        ['meta[name="twitter:title"]', 'name', 'twitter:title', title],
+        ['meta[name="twitter:description"]', 'name', 'twitter:description', description],
+      ];
+      for (const [selector, attr, key, value] of pairs) {
+        let el = document.querySelector(selector);
+        if (!el) {
+          el = document.createElement('meta');
+          el.setAttribute(attr, key);
+          document.head.appendChild(el);
+        }
+        el.setAttribute('content', value);
+      }
     };
 
     // Inject/replace a BlogPosting JSON-LD schema for the open post (helps
@@ -2916,16 +2953,19 @@ export default function News() {
         metaDesc.content = activePost.seoDescription || activePost.summary;
       }
       setCanonical(`${ORIGIN}/news/${activePost.slug}`);
+      setSocialMeta(document.title, activePost.seoDescription || activePost.summary);
       setArticleSchema(activePost);
       trackPageView(document.title, `/news/${activePost.slug}`);
     } else {
       // Revert to list page defaults
       document.title = 'UKMLA News & Updates: Latest Changes | UKMLA';
+      const listDescription = 'Stay updated with the latest announcements, updates, and structural adjustments for the UKMLA from the GMC and Medical Schools Council.';
       let metaDesc = document.querySelector('meta[name="description"]');
       if (metaDesc) {
-        metaDesc.content = 'Stay updated with the latest announcements, updates, and structural adjustments for the UKMLA from the GMC and Medical Schools Council.';
+        metaDesc.content = listDescription;
       }
       setCanonical(`${ORIGIN}/news`);
+      setSocialMeta(document.title, listDescription);
       setArticleSchema(null);
       trackPageView(document.title, '/news');
     }

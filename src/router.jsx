@@ -296,6 +296,27 @@ export function Router() {
     const origin = 'https://www.gmcukmla.com';
     const canonicalUrl = `${origin}${normalizedPath === '/' ? '/' : normalizedPath}`;
 
+    const ensureCanonical = (href) => {
+      let canonical = document.querySelector('link[rel="canonical"]');
+      if (!canonical) {
+        canonical = document.createElement('link');
+        canonical.rel = 'canonical';
+        document.head.appendChild(canonical);
+      }
+      canonical.href = href;
+    };
+
+    // Individual posts (/news/<slug>) map to the News route, but the News page
+    // owns their per-post title, description, OG tags, BlogPosting schema and
+    // page_view. This effect belongs to the parent, so it runs AFTER the News
+    // page's effect — writing the generic News-route values here would clobber
+    // them. Keep only the canonical in sync and let the News page own the rest.
+    if (normalizedPath.startsWith('/news/')) {
+      ensureCanonical(canonicalUrl);
+      window.scrollTo(0, 0);
+      return;
+    }
+
     // 1. Update document title
     document.title = currentRoute.title;
 
