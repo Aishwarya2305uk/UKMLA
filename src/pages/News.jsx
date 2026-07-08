@@ -2842,7 +2842,7 @@ export default function News() {
 
   // Run SEO Head and Title updates on active post load
   useEffect(() => {
-    const ORIGIN = 'https://gmcukmla.com';
+    const ORIGIN = 'https://www.gmcukmla.com';
 
     // Point the canonical + og:url at the current post (or the /news index) so
     // each crawlable /news/<slug> self-references and matches the sitemap.

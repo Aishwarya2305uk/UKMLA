@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gmcukmla.com/sitemap.xml
+Sitemap: https://www.gmcukmla.com/sitemap.xml

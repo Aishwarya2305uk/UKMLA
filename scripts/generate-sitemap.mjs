@@ -18,7 +18,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = resolve(__dirname, '..');
 
 // Canonical production origin. Override with SITE_URL=... if the domain changes.
-const BASE_URL = (process.env.SITE_URL || 'https://gmcukmla.com').replace(/\/$/, '');
+const BASE_URL = (process.env.SITE_URL || 'https://www.gmcukmla.com').replace(/\/$/, '');
 
 const ROUTER_FILE = resolve(projectRoot, 'src/router.jsx');
 const NEWS_FILE = resolve(projectRoot, 'src/pages/News.jsx');

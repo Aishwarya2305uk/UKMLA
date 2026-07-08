@@ -157,7 +157,7 @@ build (or run `npm run generate:sitemap`).
 
 `npm run build` outputs a static site to `dist/`, deployable to any static host (Vercel, Netlify, GitHub Pages, Cloudflare Pages, etc.). For client‑side routing, configure the host to fall back to `index.html` for unknown paths so deep links like `/news/<slug>` resolve.
 
-The build regenerates `sitemap.xml`/`robots.txt` using the canonical origin `https://gmcukmla.com`. Override it for a different domain with the `SITE_URL` environment variable, e.g.:
+The build regenerates `sitemap.xml`/`robots.txt` using the canonical origin `https://www.gmcukmla.com`. Override it for a different domain with the `SITE_URL` environment variable, e.g.:
 
 ```bash
 SITE_URL=https://your-domain.com npm run build

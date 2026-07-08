@@ -75,7 +75,7 @@ export const routes = [
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "UKMLA Informational Website",
-      "url": "https://gmcukmla.com/"
+      "url": "https://www.gmcukmla.com/"
     }
   },
   {
@@ -293,7 +293,7 @@ export function Router() {
 
   // Run SEO Head and Schema updates on route change
   useEffect(() => {
-    const origin = 'https://gmcukmla.com';
+    const origin = 'https://www.gmcukmla.com';
     const canonicalUrl = `${origin}${normalizedPath === '/' ? '/' : normalizedPath}`;
 
     // 1. Update document title
@@ -347,13 +347,13 @@ export function Router() {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://gmcukmla.com/"
+          "item": "https://www.gmcukmla.com/"
         },
         ...currentRoute.breadcrumbs.map((bc, idx) => ({
           "@type": "ListItem",
           "position": idx + 2,
           "name": bc.name,
-          "item": `https://gmcukmla.com${bc.path}`
+          "item": `https://www.gmcukmla.com${bc.path}`
         }))
       ]
     } : null;
