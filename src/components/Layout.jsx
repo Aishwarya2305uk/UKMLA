@@ -30,7 +30,8 @@ const primaryNav = [
   { path: '/', label: 'Home' },
   { path: '/syllabus', label: 'Syllabus' },
   { path: '/faqs', label: 'FAQ' },
-  { path: '/news', label: 'Posts' }
+  { path: '/news', label: 'Posts' },
+  { path: '/contact', label: 'Contact Us' }
 ];
 
 // Everything else lives in the expandable sidebar drawer, grouped into sections.
