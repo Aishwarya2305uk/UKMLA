@@ -1,6 +1,9 @@
 // Team-notification email: builds the "Form details / Technical details"
-// message and sends it via the Resend REST API. Dormant until RESEND_API_KEY
-// is set — in that case it no-ops and reports { sent: false }.
+// message and sends it over SMTP using Nodemailer. Dormant until the SMTP
+// credentials are set — in that case it no-ops and reports { sent: false }
+// so a missing/misconfigured mailbox never blocks the form.
+
+import nodemailer from 'nodemailer';
 
 function esc(v) {
   if (v === undefined || v === null || v === '') return '—';
@@ -73,39 +76,66 @@ export function buildLeadEmailHtml({ form, meta }) {
   </body></html>`;
 }
 
+// Reuse a single transporter across warm serverless invocations — creating
+// one per request would needlessly re-open the SMTP handshake each time.
+let transporter = null;
+
+function getTransporter() {
+  if (transporter) return transporter;
+
+  const host = process.env.SMTP_HOST;
+  const user = process.env.EMAIL_USER;
+  const pass = process.env.EMAIL_PASS;
+  // Dormant unless the essentials are present.
+  if (!host || !user || !pass) return null;
+
+  // Port 465 = implicit TLS (secure); 587/25 = STARTTLS (secure:false).
+  // SMTP_SECURE overrides the port-based default when explicitly set.
+  const port = Number(process.env.SMTP_PORT) || 587;
+  const secure =
+    process.env.SMTP_SECURE !== undefined
+      ? process.env.SMTP_SECURE === 'true'
+      : port === 465;
+
+  transporter = nodemailer.createTransport({
+    host, // e.g. smtp.gmail.com, smtp.zoho.com, smtp.sendgrid.net
+    port,
+    secure,
+    auth: { user, pass },
+  });
+  return transporter;
+}
+
 /**
- * Sends the notification via Resend. Returns a status object instead of
- * throwing so a mail outage never blocks the submission response.
+ * Sends the notification over SMTP (Nodemailer). Returns a status object
+ * instead of throwing so a mail outage never blocks the submission response.
+ *
+ * @param {object}  args
+ * @param {string}  args.subject  Email subject line.
+ * @param {string}  args.html     Pre-built HTML body (see buildLeadEmailHtml).
+ * @param {string} [args.replyTo] Enquirer's address, so "Reply" reaches them.
  */
 export async function sendLeadEmail({ subject, html, replyTo }) {
-  const key = process.env.RESEND_API_KEY;
-  const to = process.env.TEAM_INBOX || 'leads-test@trulaoverseas.com';
-  const from = process.env.MAIL_FROM || 'UKMLA Leads <onboarding@resend.dev>';
+  const user = process.env.EMAIL_USER;
+  // From header — many SMTP servers require this to match the authed user.
+  const from = process.env.MAIL_FROM || `UKMLA Website <${user}>`;
+  // Where the notification lands. Defaults to the sending mailbox itself.
+  const to = process.env.TEAM_INBOX || user;
 
-  if (!key) {
-    return { sent: false, reason: 'RESEND_API_KEY not set (pipeline dormant)' };
+  const tx = getTransporter();
+  if (!tx) {
+    return { sent: false, reason: 'SMTP not configured (SMTP_HOST / EMAIL_USER / EMAIL_PASS missing)' };
   }
 
   try {
-    const res = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${key}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        from,
-        to,
-        subject,
-        html,
-        ...(replyTo ? { reply_to: replyTo } : {}),
-      }),
+    const info = await tx.sendMail({
+      from,
+      to,
+      subject,
+      html,
+      ...(replyTo ? { replyTo } : {}),
     });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok) {
-      return { sent: false, reason: data?.message || `Resend HTTP ${res.status}` };
-    }
-    return { sent: true, id: data?.id };
+    return { sent: true, id: info.messageId };
   } catch (err) {
     return { sent: false, reason: String(err?.message || err) };
   }
