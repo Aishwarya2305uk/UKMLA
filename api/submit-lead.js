@@ -99,6 +99,16 @@ export default async function handler(req, res) {
     createHubSpotLead({ form, meta }),
   ]);
 
+  // Surface any unexpected rejection in the server logs. Expected "dormant"
+  // states (SMTP/HubSpot not configured) resolve with { sent/created: false }
+  // and are logged closer to the source; this catches genuine throws.
+  if (emailResult.status === 'rejected') {
+    console.error('[submit-lead] email task rejected:', emailResult.reason);
+  }
+  if (hubspotResult.status === 'rejected') {
+    console.error('[submit-lead] hubspot task rejected:', hubspotResult.reason);
+  }
+
   res.status(200).json({
     ok: true,
     email:

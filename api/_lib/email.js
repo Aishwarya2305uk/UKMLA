@@ -124,6 +124,7 @@ export async function sendLeadEmail({ subject, html, replyTo }) {
 
   const tx = getTransporter();
   if (!tx) {
+    console.warn('[submit-lead] SMTP not configured (SMTP_HOST / EMAIL_USER / EMAIL_PASS missing) — email not sent.');
     return { sent: false, reason: 'SMTP not configured (SMTP_HOST / EMAIL_USER / EMAIL_PASS missing)' };
   }
 
@@ -137,6 +138,7 @@ export async function sendLeadEmail({ subject, html, replyTo }) {
     });
     return { sent: true, id: info.messageId };
   } catch (err) {
+    console.error('[submit-lead] SMTP send failed:', err?.message || err);
     return { sent: false, reason: String(err?.message || err) };
   }
 }
